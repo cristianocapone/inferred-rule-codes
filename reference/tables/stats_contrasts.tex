@@ -1,0 +1,48 @@
+\begin{tabular}{lcccccc}\toprule
+contrast & runs & means & difference [95\% CI] & $p_\mathrm{boot}$ & $p_\mathrm{Welch}$ & $p_\mathrm{perm}$ (min) \\ \midrule
+\multicolumn{7}{l}{\emph{Primary contrasts}} \\
+\quad reward: staged $-$ joint & 8 / 6 & 15.8 / 2.3 & 13.5 [9.1, 18.4] & $<$0.001 & $<$0.001 & $<$0.001 ($<$0.001) \\
+\quad reward: joint + information term $-$ joint & 8 / 6 & 15.0 / 2.3 & 12.7 [8.4, 17.5] & $<$0.001 & $<$0.001 & $<$0.001 ($<$0.001) \\
+\quad interaction: (staged $-$ joint), reward $-$ gradient & 8 / 6 / 4 / 3 & -- & 13.8 [9.0, 18.7] & $<$0.001 & -- & -- \\
+\multicolumn{7}{l}{\emph{Exploratory: discreteness and perception (staged experience)}} \\
+\quad gradient $-$ continuous & 4 / 4 & 19.1 / 19.2 & $-$0.1 [$-$1.5, 1.4] & 0.89 & 0.83 & 0.86 (0.03) \\
+\quad reward $-$ continuous & 8 / 4 & 15.8 / 19.2 & $-$3.4 [$-$5.6, $-$1.4] & $<$0.001 & $<$0.001 & 0.002 (0.002) \\
+\quad reward $-$ gradient & 8 / 4 & 15.8 / 19.1 & $-$3.3 [$-$5.5, $-$1.3] & 0.001 & $<$0.001 & 0.002 (0.002) \\
+\quad reward: self-supervised $-$ end-to-end perception & 8 / 2 & 15.8 / 1.7 & 14.1 [9.7, 19.1] & $<$0.001 & $<$0.001 & 0.02 (0.02) \\
+\quad gradient: self-supervised $-$ end-to-end perception & 4 / 2 & 19.1 / 7.7 & 11.3 [6.8, 16.6] & $<$0.001 & 0.09 & 0.07 (0.07) \\
+\quad reward: self-supervised $-$ solver perception & 8 / 6 & 15.8 / 11.0 & 4.8 [1.7, 8.5] & 0.001 & 0.002 & $<$0.001 ($<$0.001) \\
+\multicolumn{7}{l}{\emph{Exploratory: order of experience}} \\
+\quad reward: staged $-$ reversed & 8 / 3 & 15.8 / 3.2 & 12.6 [8.0, 17.4] & $<$0.001 & $<$0.001 & 0.006 (0.006) \\
+\quad gradient: staged $-$ joint & 4 / 3 & 19.1 / 19.3 & $-$0.3 [$-$1.8, 1.4] & 0.70 & 0.71 & 0.66 (0.03) \\
+\quad gradient: staged $-$ reversed & 4 / 2 & 19.1 / 18.4 & 0.7 [$-$0.6, 2.2] & 0.33 & 0.08 & 0.20 (0.07) \\
+\multicolumn{7}{l}{\emph{Exploratory: information term and changed-cell reward (reward channel)}} \\
+\quad joint + information term (weight 0.1 only) $-$ joint & 6 / 6 & 14.8 / 2.3 & 12.5 [8.2, 17.4] & $<$0.001 & $<$0.001 & 0.002 (0.002) \\
+\quad joint + information term $-$ staged & 8 / 8 & 15.0 / 15.8 & $-$0.8 [$-$2.9, 1.2] & 0.44 & 0.14 & 0.15 ($<$0.001) \\
+\quad joint, changed-cell reward $-$ joint & 2 / 6 & 1.9 / 2.3 & $-$0.3 [$-$2.0, 1.4] & 0.66 & 0.20 & 0.14 (0.04) \\
+\quad joint + information term $-$ joint, changed-cell reward & 8 / 2 & 15.0 / 1.9 & 13.0 [9.0, 17.3] & $<$0.001 & $<$0.001 & 0.02 (0.02) \\
+\quad staged, changed-cell reward $-$ staged & 2 / 8 & 3.2 / 15.8 & $-$12.5 [$-$17.3, $-$8.1] & $<$0.001 & 0.03 & 0.02 (0.02) \\
+\multicolumn{7}{l}{\emph{Exploratory: other libraries (reward channel)}} \\
+\quad A, random 17: staged $-$ joint & 2 / 2 & 10.6 / 8.9 & 1.6 [$-$0.1, 3.8] & 0.06 & 0.17 & 0.33 (0.33) \\
+\quad A without confusable operations: staged $-$ joint & 2 / 2 & 8.7 / 3.1 & 5.6 [2.4, 9.3] & $<$0.001 & 0.03 & 0.33 (0.33) \\
+\quad A, first 24: staged $-$ joint & 2 / 2 & 8.2 / 5.7 & 2.6 [$-$1.4, 8.1] & 0.33 & 0.53 & 0.67 (0.33) \\
+\quad A, first 17: staged $-$ joint & 2 / 2 & 7.9 / 2.3 & 5.5 [$-$0.2, 12.9] & 0.07 & 0.38 & 0.33 (0.33) \\
+\quad B: staged $-$ joint & 2 / 2 & 6.7 / 7.2 & $-$0.5 [$-$1.2, 0.0] & 0.08 & 0.09 & 0.33 (0.33) \\
+\quad B: joint + information term $-$ joint & 2 / 2 & 7.3 / 7.2 & 0.1 [$-$0.5, 0.6] & 0.86 & 0.50 & 1.00 (0.33) \\
+\quad B with near-duplicates: staged $-$ joint & 2 / 2 & 7.3 / 7.6 & $-$0.3 [$-$0.8, 0.0] & 0.07 & 0.24 & 0.33 (0.33) \\
+\multicolumn{7}{l}{\emph{Exploratory: collapse diagnostic, distinct messages per held-out rule (run level)}} \\
+\quad staged $-$ joint & 8 / 6 & 0.33 / 0.09 & 0.25 [0.20, 0.29] & -- & $<$0.001 & $<$0.001 ($<$0.001) \\
+\quad reversed $-$ joint & 3 / 6 & 0.12 / 0.09 & 0.03 [$-$0.04, 0.10] & -- & 0.24 & 0.10 (0.01) \\
+\quad joint + information term $-$ joint & 7 / 6 & 0.29 / 0.09 & 0.20 [0.16, 0.25] & -- & $<$0.001 & $<$0.001 ($<$0.001) \\
+\quad joint, changed-cell reward $-$ joint & 2 / 6 & 0.11 / 0.09 & 0.02 [$-$0.01, 0.05] & -- & 0.09 & 0.14 (0.04) \\
+\multicolumn{7}{l}{\emph{Exploratory: decoding the rule family from the message, 239 families}} \\
+\quad gradient $-$ reward, nearest neighbour & 2 / 2 & 42.5 / 9.1 & 33.4 [30.2, 36.6] & $<$0.001 & 0.002 & 0.33 (0.33) \\
+\quad gradient: nearest neighbour $-$ exact lookup & 2 / 2 & 42.5 / 21.9 & 20.5 [17.6, 23.4] & $<$0.001 & 0.02 & -- \\
+\quad reward: nearest neighbour $-$ exact lookup & 2 / 2 & 9.1 / 8.9 & 0.1 [$-$1.9, 2.0] & 0.85 & 0.82 & -- \\
+\quad reward: length 16 $-$ baseline, nearest & 2 / 2 & 9.3 / 9.1 & 0.2 [$-$1.8, 2.3] & 0.82 & 0.70 & 1.00 (0.33) \\
+\quad reward: vocabulary 128 $-$ baseline, nearest & 2 / 2 & 6.0 / 9.1 & $-$3.1 [$-$6.5, 0.4] & 0.10 & 0.38 & 0.33 (0.33) \\
+\quad reward: information term 0.1 $-$ baseline, nearest & 2 / 2 & 9.0 / 9.1 & $-$0.1 [$-$2.4, 2.1] & 0.90 & 0.84 & 1.00 (0.33) \\
+\quad reward: information term 0.3 $-$ baseline, nearest & 1 / 2 & 13.6 / 9.1 & 4.5 [2.0, 7.0] & $<$0.001 & -- & -- \\
+\multicolumn{7}{l}{\emph{Exploratory: human iterated learning (chain level)}} \\
+\quad final generation, distinct signals per meaning: pressure $-$ none & 4 / 4 & 0.59 / 0.14 & 0.45 [0.17, 0.74] & -- & 0.01 & 0.03 (0.03) \\
+\bottomrule
+\end{tabular}

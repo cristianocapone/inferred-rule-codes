@@ -1,0 +1,31 @@
+{
+ "ckpt": "/qst0/home1/homedirs/caponec/r049_scale_20260826/emlang_runs/Aclean_joint_rl_s0/latest.pt",
+ "arm": "rl",
+ "step": 32000,
+ "singles": {
+  "n_rules": 23,
+  "n_episodes": 460,
+  "distinct_msgs": 15,
+  "names": 8,
+  "names_per_rule": 0.34782608695652173,
+  "largest_group": 16,
+  "purity": 0.9347826086956522,
+  "decode_lookup": 0.3239130434782609,
+  "decode_nearest": 0.34347826086956523,
+  "decode_chance": 0.043478260869565216,
+  "decode_null_p95": 0.06999999999999998
+ },
+ "novel_pairs": {
+  "n_rules": 48,
+  "n_episodes": 480,
+  "distinct_msgs": 40,
+  "names": 14,
+  "names_per_rule": 0.2916666666666667,
+  "largest_group": 21,
+  "purity": 0.8312499999999999,
+  "decode_lookup": 0.21458333333333335,
+  "decode_nearest": 0.2,
+  "decode_chance": 0.020833333333333332,
+  "decode_null_p95": 0.03333333333333333
+ }
+}

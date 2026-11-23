@@ -1,0 +1,1220 @@
+[
+ {
+  "section": "Primary contrasts",
+  "label": "reward: staged $-$ joint",
+  "key": "triples_audited",
+  "runs": [
+   [
+    "cur_rl_sslpercept_nomdl_s0",
+    "cur_rl_sslpercept_nomdl_s1",
+    "cur_rl_sslpercept_nomdl_s2",
+    "cur_rl_sslpercept_nomdl_s3",
+    "cur_rl_sslpercept_nomdl_s4",
+    "cur_rl_sslpercept_nomdl_s5",
+    "cur_rl_sslpercept_nomdl_s6",
+    "cur_rl_sslpercept_nomdl_s7"
+   ],
+   [
+    "joint_rl_sslpercept_nomdl_s0",
+    "joint_rl_sslpercept_nomdl_s1",
+    "joint_rl_sslpercept_nomdl_s2",
+    "joint_rl_sslpercept_nomdl_s3",
+    "joint_rl_sslpercept_nomdl_s4",
+    "joint_rl_sslpercept_nomdl_s5"
+   ]
+  ],
+  "diff": 0.13487500000000002,
+  "ci": [
+   0.09062499999999998,
+   0.18375
+  ],
+  "p_boot": 0.0001,
+  "n": [
+   8,
+   6
+  ],
+  "mean": [
+   0.15787500000000002,
+   0.023000000000000003
+  ],
+  "p_welch": 2.571505581008076e-09,
+  "hedges_g": 13.7981505264114,
+  "p_perm": 0.000333000333000333,
+  "p_perm_min": 0.000333000333000333,
+  "n_programs": 100
+ },
+ {
+  "section": null,
+  "label": "reward: joint + information term $-$ joint",
+  "key": "triples_audited",
+  "runs": [
+   [
+    "joint_rl_sslpercept_div3_s0",
+    "joint_rl_sslpercept_div3_s1",
+    "joint_rl_sslpercept_div_s0",
+    "joint_rl_sslpercept_div_s1",
+    "joint_rl_sslpercept_div_s2",
+    "joint_rl_sslpercept_div_s3",
+    "joint_rl_sslpercept_div_s4",
+    "joint_rl_sslpercept_div_s5"
+   ],
+   [
+    "joint_rl_sslpercept_nomdl_s0",
+    "joint_rl_sslpercept_nomdl_s1",
+    "joint_rl_sslpercept_nomdl_s2",
+    "joint_rl_sslpercept_nomdl_s3",
+    "joint_rl_sslpercept_nomdl_s4",
+    "joint_rl_sslpercept_nomdl_s5"
+   ]
+  ],
+  "diff": 0.12687500000000002,
+  "ci": [
+   0.08391666666666667,
+   0.17504374999999994
+  ],
+  "p_boot": 0.0001,
+  "n": [
+   8,
+   6
+  ],
+  "mean": [
+   0.14987499999999998,
+   0.023000000000000003
+  ],
+  "p_welch": 9.509216468583572e-11,
+  "hedges_g": 18.203888697473264,
+  "p_perm": 0.000333000333000333,
+  "p_perm_min": 0.000333000333000333,
+  "n_programs": 100
+ },
+ {
+  "section": null,
+  "label": "interaction: (staged $-$ joint), reward $-$ gradient",
+  "key": "triples_audited",
+  "runs": [
+   [
+    "cur_rl_sslpercept_nomdl_s0",
+    "cur_rl_sslpercept_nomdl_s1",
+    "cur_rl_sslpercept_nomdl_s2",
+    "cur_rl_sslpercept_nomdl_s3",
+    "cur_rl_sslpercept_nomdl_s4",
+    "cur_rl_sslpercept_nomdl_s5",
+    "cur_rl_sslpercept_nomdl_s6",
+    "cur_rl_sslpercept_nomdl_s7"
+   ],
+   [
+    "joint_rl_sslpercept_nomdl_s0",
+    "joint_rl_sslpercept_nomdl_s1",
+    "joint_rl_sslpercept_nomdl_s2",
+    "joint_rl_sslpercept_nomdl_s3",
+    "joint_rl_sslpercept_nomdl_s4",
+    "joint_rl_sslpercept_nomdl_s5"
+   ],
+   [
+    "cur_gumbel_sslpercept_nomdl_s0",
+    "cur_gumbel_sslpercept_nomdl_s1",
+    "cur_gumbel_sslpercept_nomdl_s2",
+    "cur_gumbel_sslpercept_nomdl_s3"
+   ],
+   [
+    "joint_gumbel_sslpercept_nomdl_s0",
+    "joint_gumbel_sslpercept_nomdl_s1",
+    "joint_gumbel_sslpercept_nomdl_s2"
+   ]
+  ],
+  "diff": 0.13770833333333335,
+  "ci": [
+   0.09008229166666666,
+   0.18716666666666662
+  ],
+  "p_boot": 0.0001,
+  "n": [
+   8,
+   6,
+   4,
+   3
+  ],
+  "mean": [
+   0.15787500000000002,
+   0.023,
+   0.1905,
+   0.19333333333333333
+  ],
+  "n_programs": 100
+ },
+ {
+  "section": "Exploratory: discreteness and perception (staged experience)",
+  "label": "gradient $-$ continuous",
+  "key": "triples_audited",
+  "runs": [
+   [
+    "cur_gumbel_sslpercept_nomdl_s0",
+    "cur_gumbel_sslpercept_nomdl_s1",
+    "cur_gumbel_sslpercept_nomdl_s2",
+    "cur_gumbel_sslpercept_nomdl_s3"
+   ],
+   [
+    "cur_cont_s0",
+    "cur_cont_s1",
+    "cur_cont_s2",
+    "cur_cont_s3"
+   ]
+  ],
+  "diff": -0.0009999999999999731,
+  "ci": [
+   -0.015000000000000041,
+   0.013500000000000012
+  ],
+  "p_boot": 0.8886,
+  "n": [
+   4,
+   4
+  ],
+  "mean": [
+   0.19050000000000003,
+   0.19150000000000003
+  ],
+  "p_welch": 0.826165775301292,
+  "hedges_g": -0.14168489911136573,
+  "p_perm": 0.8571428571428571,
+  "p_perm_min": 0.02857142857142857,
+  "n_programs": 100
+ },
+ {
+  "section": null,
+  "label": "reward $-$ continuous",
+  "key": "triples_audited",
+  "runs": [
+   [
+    "cur_rl_sslpercept_nomdl_s0",
+    "cur_rl_sslpercept_nomdl_s1",
+    "cur_rl_sslpercept_nomdl_s2",
+    "cur_rl_sslpercept_nomdl_s3",
+    "cur_rl_sslpercept_nomdl_s4",
+    "cur_rl_sslpercept_nomdl_s5",
+    "cur_rl_sslpercept_nomdl_s6",
+    "cur_rl_sslpercept_nomdl_s7"
+   ],
+   [
+    "cur_cont_s0",
+    "cur_cont_s1",
+    "cur_cont_s2",
+    "cur_cont_s3"
+   ]
+  ],
+  "diff": -0.03362499999999996,
+  "ci": [
+   -0.05612812500000001,
+   -0.014249999999999985
+  ],
+  "p_boot": 0.0002,
+  "n": [
+   8,
+   4
+  ],
+  "mean": [
+   0.15787500000000002,
+   0.19150000000000003
+  ],
+  "p_welch": 0.000141131348367173,
+  "hedges_g": -2.9174334153810886,
+  "p_perm": 0.00202020202020202,
+  "p_perm_min": 0.00202020202020202,
+  "n_programs": 100
+ },
+ {
+  "section": null,
+  "label": "reward $-$ gradient",
+  "key": "triples_audited",
+  "runs": [
+   [
+    "cur_rl_sslpercept_nomdl_s0",
+    "cur_rl_sslpercept_nomdl_s1",
+    "cur_rl_sslpercept_nomdl_s2",
+    "cur_rl_sslpercept_nomdl_s3",
+    "cur_rl_sslpercept_nomdl_s4",
+    "cur_rl_sslpercept_nomdl_s5",
+    "cur_rl_sslpercept_nomdl_s6",
+    "cur_rl_sslpercept_nomdl_s7"
+   ],
+   [
+    "cur_gumbel_sslpercept_nomdl_s0",
+    "cur_gumbel_sslpercept_nomdl_s1",
+    "cur_gumbel_sslpercept_nomdl_s2",
+    "cur_gumbel_sslpercept_nomdl_s3"
+   ]
+  ],
+  "diff": -0.03262499999999999,
+  "ci": [
+   -0.05462500000000001,
+   -0.013124999999999998
+  ],
+  "p_boot": 0.0014,
+  "n": [
+   8,
+   4
+  ],
+  "mean": [
+   0.15787500000000002,
+   0.19050000000000003
+  ],
+  "p_welch": 5.7446259568222004e-05,
+  "hedges_g": -2.925237215332013,
+  "p_perm": 0.00202020202020202,
+  "p_perm_min": 0.00202020202020202,
+  "n_programs": 100
+ },
+ {
+  "section": null,
+  "label": "reward: self-supervised $-$ end-to-end perception",
+  "key": "triples_audited",
+  "runs": [
+   [
+    "cur_rl_sslpercept_nomdl_s0",
+    "cur_rl_sslpercept_nomdl_s1",
+    "cur_rl_sslpercept_nomdl_s2",
+    "cur_rl_sslpercept_nomdl_s3",
+    "cur_rl_sslpercept_nomdl_s4",
+    "cur_rl_sslpercept_nomdl_s5",
+    "cur_rl_sslpercept_nomdl_s6",
+    "cur_rl_sslpercept_nomdl_s7"
+   ],
+   [
+    "cur_rl_nomdl_s0",
+    "cur_rl_nomdl_s1"
+   ]
+  ],
+  "diff": 0.14087500000000003,
+  "ci": [
+   0.09687499999999999,
+   0.1905
+  ],
+  "p_boot": 0.0001,
+  "n": [
+   8,
+   2
+  ],
+  "mean": [
+   0.15787500000000002,
+   0.017
+  ],
+  "p_welch": 1.703311512995084e-09,
+  "hedges_g": 11.467921284902864,
+  "p_perm": 0.022222222222222223,
+  "p_perm_min": 0.022222222222222223,
+  "n_programs": 100
+ },
+ {
+  "section": null,
+  "label": "gradient: self-supervised $-$ end-to-end perception",
+  "key": "triples_audited",
+  "runs": [
+   [
+    "cur_gumbel_sslpercept_nomdl_s0",
+    "cur_gumbel_sslpercept_nomdl_s1",
+    "cur_gumbel_sslpercept_nomdl_s2",
+    "cur_gumbel_sslpercept_nomdl_s3"
+   ],
+   [
+    "cur_gumbel_nomdl_s0",
+    "cur_gumbel_nomdl_s1"
+   ]
+  ],
+  "diff": 0.11349999999999999,
+  "ci": [
+   0.06799374999999998,
+   0.16550624999999994
+  ],
+  "p_boot": 0.0001,
+  "n": [
+   4,
+   2
+  ],
+  "mean": [
+   0.19050000000000003,
+   0.07700000000000001
+  ],
+  "p_welch": 0.09468544492848839,
+  "hedges_g": 6.744454682590529,
+  "p_perm": 0.06666666666666667,
+  "p_perm_min": 0.06666666666666667,
+  "n_programs": 100
+ },
+ {
+  "section": null,
+  "label": "reward: self-supervised $-$ solver perception",
+  "key": "triples_audited",
+  "runs": [
+   [
+    "cur_rl_sslpercept_nomdl_s0",
+    "cur_rl_sslpercept_nomdl_s1",
+    "cur_rl_sslpercept_nomdl_s2",
+    "cur_rl_sslpercept_nomdl_s3",
+    "cur_rl_sslpercept_nomdl_s4",
+    "cur_rl_sslpercept_nomdl_s5",
+    "cur_rl_sslpercept_nomdl_s6",
+    "cur_rl_sslpercept_nomdl_s7"
+   ],
+   [
+    "cur_rl_percept_nomdl_s0",
+    "cur_rl_percept_nomdl_s1",
+    "cur_rl_percept_nomdl_s2",
+    "cur_rl_percept_nomdl_s3",
+    "cur_rl_percept_nomdl_s4",
+    "cur_rl_percept_nomdl_s5"
+   ]
+  ],
+  "diff": 0.04770833333333335,
+  "ci": [
+   0.016583333333333367,
+   0.0849166666666667
+  ],
+  "p_boot": 0.001,
+  "n": [
+   8,
+   6
+  ],
+  "mean": [
+   0.15787500000000002,
+   0.11016666666666665
+  ],
+  "p_welch": 0.002049419407047609,
+  "hedges_g": 2.6145665562875777,
+  "p_perm": 0.000666000666000666,
+  "p_perm_min": 0.000333000333000333,
+  "n_programs": 100
+ },
+ {
+  "section": "Exploratory: order of experience",
+  "label": "reward: staged $-$ reversed",
+  "key": "triples_audited",
+  "runs": [
+   [
+    "cur_rl_sslpercept_nomdl_s0",
+    "cur_rl_sslpercept_nomdl_s1",
+    "cur_rl_sslpercept_nomdl_s2",
+    "cur_rl_sslpercept_nomdl_s3",
+    "cur_rl_sslpercept_nomdl_s4",
+    "cur_rl_sslpercept_nomdl_s5",
+    "cur_rl_sslpercept_nomdl_s6",
+    "cur_rl_sslpercept_nomdl_s7"
+   ],
+   [
+    "rev_rl_sslpercept_nomdl_s0",
+    "rev_rl_sslpercept_nomdl_s1",
+    "rev_rl_sslpercept_nomdl_s2"
+   ]
+  ],
+  "diff": 0.12587500000000001,
+  "ci": [
+   0.08025,
+   0.1736270833333333
+  ],
+  "p_boot": 0.0001,
+  "n": [
+   8,
+   3
+  ],
+  "mean": [
+   0.15787500000000002,
+   0.032
+  ],
+  "p_welch": 0.0006608639885471066,
+  "hedges_g": 9.291064793446381,
+  "p_perm": 0.006060606060606061,
+  "p_perm_min": 0.006060606060606061,
+  "n_programs": 100
+ },
+ {
+  "section": null,
+  "label": "gradient: staged $-$ joint",
+  "key": "triples_audited",
+  "runs": [
+   [
+    "cur_gumbel_sslpercept_nomdl_s0",
+    "cur_gumbel_sslpercept_nomdl_s1",
+    "cur_gumbel_sslpercept_nomdl_s2",
+    "cur_gumbel_sslpercept_nomdl_s3"
+   ],
+   [
+    "joint_gumbel_sslpercept_nomdl_s0",
+    "joint_gumbel_sslpercept_nomdl_s1",
+    "joint_gumbel_sslpercept_nomdl_s2"
+   ]
+  ],
+  "diff": -0.0028333333333333266,
+  "ci": [
+   -0.018166666666666664,
+   0.014000000000000012
+  ],
+  "p_boot": 0.7024,
+  "n": [
+   4,
+   3
+  ],
+  "mean": [
+   0.19050000000000003,
+   0.19333333333333336
+  ],
+  "p_welch": 0.7050354320501703,
+  "hedges_g": -0.30318089119769215,
+  "p_perm": 0.6571428571428571,
+  "p_perm_min": 0.02857142857142857,
+  "n_programs": 100
+ },
+ {
+  "section": null,
+  "label": "gradient: staged $-$ reversed",
+  "key": "triples_audited",
+  "runs": [
+   [
+    "cur_gumbel_sslpercept_nomdl_s0",
+    "cur_gumbel_sslpercept_nomdl_s1",
+    "cur_gumbel_sslpercept_nomdl_s2",
+    "cur_gumbel_sslpercept_nomdl_s3"
+   ],
+   [
+    "rev_gumbel_sslpercept_nomdl_s0",
+    "rev_gumbel_sslpercept_nomdl_s1"
+   ]
+  ],
+  "diff": 0.0069999999999999785,
+  "ci": [
+   -0.006499999999999978,
+   0.021999999999999992
+  ],
+  "p_boot": 0.3334,
+  "n": [
+   4,
+   2
+  ],
+  "mean": [
+   0.19050000000000003,
+   0.18350000000000002
+  ],
+  "p_welch": 0.07620473470807232,
+  "hedges_g": 1.2406212573926378,
+  "p_perm": 0.2,
+  "p_perm_min": 0.06666666666666667,
+  "n_programs": 100
+ },
+ {
+  "section": "Exploratory: information term and changed-cell reward (reward channel)",
+  "label": "joint + information term (weight 0.1 only) $-$ joint",
+  "key": "triples_audited",
+  "runs": [
+   [
+    "joint_rl_sslpercept_div_s0",
+    "joint_rl_sslpercept_div_s1",
+    "joint_rl_sslpercept_div_s2",
+    "joint_rl_sslpercept_div_s3",
+    "joint_rl_sslpercept_div_s4",
+    "joint_rl_sslpercept_div_s5"
+   ],
+   [
+    "joint_rl_sslpercept_nomdl_s0",
+    "joint_rl_sslpercept_nomdl_s1",
+    "joint_rl_sslpercept_nomdl_s2",
+    "joint_rl_sslpercept_nomdl_s3",
+    "joint_rl_sslpercept_nomdl_s4",
+    "joint_rl_sslpercept_nomdl_s5"
+   ]
+  ],
+  "diff": 0.12500000000000003,
+  "ci": [
+   0.08182916666666666,
+   0.17383333333333334
+  ],
+  "p_boot": 0.0001,
+  "n": [
+   6,
+   6
+  ],
+  "mean": [
+   0.148,
+   0.023000000000000003
+  ],
+  "p_welch": 2.1365305226168455e-08,
+  "hedges_g": 21.72818011023201,
+  "p_perm": 0.0021645021645021645,
+  "p_perm_min": 0.0021645021645021645,
+  "n_programs": 100
+ },
+ {
+  "section": null,
+  "label": "joint + information term $-$ staged",
+  "key": "triples_audited",
+  "runs": [
+   [
+    "joint_rl_sslpercept_div3_s0",
+    "joint_rl_sslpercept_div3_s1",
+    "joint_rl_sslpercept_div_s0",
+    "joint_rl_sslpercept_div_s1",
+    "joint_rl_sslpercept_div_s2",
+    "joint_rl_sslpercept_div_s3",
+    "joint_rl_sslpercept_div_s4",
+    "joint_rl_sslpercept_div_s5"
+   ],
+   [
+    "cur_rl_sslpercept_nomdl_s0",
+    "cur_rl_sslpercept_nomdl_s1",
+    "cur_rl_sslpercept_nomdl_s2",
+    "cur_rl_sslpercept_nomdl_s3",
+    "cur_rl_sslpercept_nomdl_s4",
+    "cur_rl_sslpercept_nomdl_s5",
+    "cur_rl_sslpercept_nomdl_s6",
+    "cur_rl_sslpercept_nomdl_s7"
+   ]
+  ],
+  "diff": -0.008000000000000007,
+  "ci": [
+   -0.0295,
+   0.011749999999999983
+  ],
+  "p_boot": 0.4432,
+  "n": [
+   8,
+   8
+  ],
+  "mean": [
+   0.14987499999999998,
+   0.15787500000000002
+  ],
+  "p_welch": 0.14342856102782917,
+  "hedges_g": -0.7376963535388209,
+  "p_perm": 0.14902874902874902,
+  "p_perm_min": 0.0001554001554001554,
+  "n_programs": 100
+ },
+ {
+  "section": null,
+  "label": "joint, changed-cell reward $-$ joint",
+  "key": "triples_audited",
+  "runs": [
+   [
+    "joint_rl_sslpercept_chg_s0",
+    "joint_rl_sslpercept_chg_s1"
+   ],
+   [
+    "joint_rl_sslpercept_nomdl_s0",
+    "joint_rl_sslpercept_nomdl_s1",
+    "joint_rl_sslpercept_nomdl_s2",
+    "joint_rl_sslpercept_nomdl_s3",
+    "joint_rl_sslpercept_nomdl_s4",
+    "joint_rl_sslpercept_nomdl_s5"
+   ]
+  ],
+  "diff": -0.0034999999999999996,
+  "ci": [
+   -0.020000000000000004,
+   0.014166666666666675
+  ],
+  "p_boot": 0.6648,
+  "n": [
+   2,
+   6
+  ],
+  "mean": [
+   0.0195,
+   0.023000000000000003
+  ],
+  "p_welch": 0.20017064120546332,
+  "hedges_g": -1.4481811565287852,
+  "p_perm": 0.14285714285714285,
+  "p_perm_min": 0.03571428571428571,
+  "n_programs": 100
+ },
+ {
+  "section": null,
+  "label": "joint + information term $-$ joint, changed-cell reward",
+  "key": "triples_audited",
+  "runs": [
+   [
+    "joint_rl_sslpercept_div3_s0",
+    "joint_rl_sslpercept_div3_s1",
+    "joint_rl_sslpercept_div_s0",
+    "joint_rl_sslpercept_div_s1",
+    "joint_rl_sslpercept_div_s2",
+    "joint_rl_sslpercept_div_s3",
+    "joint_rl_sslpercept_div_s4",
+    "joint_rl_sslpercept_div_s5"
+   ],
+   [
+    "joint_rl_sslpercept_chg_s0",
+    "joint_rl_sslpercept_chg_s1"
+   ]
+  ],
+  "diff": 0.13037500000000002,
+  "ci": [
+   0.09025000000000001,
+   0.17325
+  ],
+  "p_boot": 0.0001,
+  "n": [
+   8,
+   2
+  ],
+  "mean": [
+   0.14987499999999998,
+   0.0195
+  ],
+  "p_welch": 5.081094255135775e-10,
+  "hedges_g": 14.99502115283812,
+  "p_perm": 0.022222222222222223,
+  "p_perm_min": 0.022222222222222223,
+  "n_programs": 100
+ },
+ {
+  "section": null,
+  "label": "staged, changed-cell reward $-$ staged",
+  "key": "triples_audited",
+  "runs": [
+   [
+    "cur_rl_sslpercept_chg_s0",
+    "cur_rl_sslpercept_chg_s1"
+   ],
+   [
+    "cur_rl_sslpercept_nomdl_s0",
+    "cur_rl_sslpercept_nomdl_s1",
+    "cur_rl_sslpercept_nomdl_s2",
+    "cur_rl_sslpercept_nomdl_s3",
+    "cur_rl_sslpercept_nomdl_s4",
+    "cur_rl_sslpercept_nomdl_s5",
+    "cur_rl_sslpercept_nomdl_s6",
+    "cur_rl_sslpercept_nomdl_s7"
+   ]
+  ],
+  "diff": -0.12537500000000001,
+  "ci": [
+   -0.173125,
+   -0.08149687500000002
+  ],
+  "p_boot": 0.0001,
+  "n": [
+   2,
+   8
+  ],
+  "mean": [
+   0.0325,
+   0.15787500000000002
+  ],
+  "p_welch": 0.03486201243717912,
+  "hedges_g": -9.068882169464992,
+  "p_perm": 0.022222222222222223,
+  "p_perm_min": 0.022222222222222223,
+  "n_programs": 100
+ },
+ {
+  "section": "Exploratory: other libraries (reward channel)",
+  "label": "A, random 17: staged $-$ joint",
+  "key": "triples_audited",
+  "runs": [
+   [
+    "A17r_cur_rl_s0",
+    "A17r_cur_rl_s1"
+   ],
+   [
+    "A17r_joint_rl_s0",
+    "A17r_joint_rl_s1"
+   ]
+  ],
+  "diff": 0.016470588235294112,
+  "ci": [
+   -0.0005882352941176533,
+   0.038235294117647076
+  ],
+  "p_boot": 0.0644,
+  "n": [
+   2,
+   2
+  ],
+  "mean": [
+   0.10588235294117648,
+   0.08941176470588236
+  ],
+  "p_welch": 0.16553940632238875,
+  "hedges_g": 1.371988681140073,
+  "p_perm": 0.3333333333333333,
+  "p_perm_min": 0.3333333333333333,
+  "n_programs": 85
+ },
+ {
+  "section": null,
+  "label": "A without confusable operations: staged $-$ joint",
+  "key": "triples_audited",
+  "runs": [
+   [
+    "Aclean_cur_rl_s0",
+    "Aclean_cur_rl_s1"
+   ],
+   [
+    "Aclean_joint_rl_s0",
+    "Aclean_joint_rl_s1"
+   ]
+  ],
+  "diff": 0.05562500000000001,
+  "ci": [
+   0.02375000000000002,
+   0.09250000000000001
+  ],
+  "p_boot": 0.0001,
+  "n": [
+   2,
+   2
+  ],
+  "mean": [
+   0.08687500000000001,
+   0.03125
+  ],
+  "p_welch": 0.03401278594561016,
+  "hedges_g": 5.163760496965265,
+  "p_perm": 0.3333333333333333,
+  "p_perm_min": 0.3333333333333333,
+  "n_programs": 80
+ },
+ {
+  "section": null,
+  "label": "A, first 24: staged $-$ joint",
+  "key": "triples_audited",
+  "runs": [
+   [
+    "A24_cur_rl_s0",
+    "A24_cur_rl_s1"
+   ],
+   [
+    "A24_joint_rl_s0",
+    "A24_joint_rl_s1"
+   ]
+  ],
+  "diff": 0.02562499999999998,
+  "ci": [
+   -0.014374999999999992,
+   0.08125000000000002
+  ],
+  "p_boot": 0.334,
+  "n": [
+   2,
+   2
+  ],
+  "mean": [
+   0.0825,
+   0.056875
+  ],
+  "p_welch": 0.5321852832531064,
+  "hedges_g": 0.49012031711049897,
+  "p_perm": 0.6666666666666666,
+  "p_perm_min": 0.3333333333333333,
+  "n_programs": 80
+ },
+ {
+  "section": null,
+  "label": "A, first 17: staged $-$ joint",
+  "key": "triples_audited",
+  "runs": [
+   [
+    "A17_cur_rl_s0",
+    "A17_cur_rl_s1"
+   ],
+   [
+    "A17_joint_rl_s0",
+    "A17_joint_rl_s1"
+   ]
+  ],
+  "diff": 0.05510204081632653,
+  "ci": [
+   -0.002040816326530609,
+   0.12857142857142856
+  ],
+  "p_boot": 0.0688,
+  "n": [
+   2,
+   2
+  ],
+  "mean": [
+   0.07857142857142857,
+   0.023469387755102045
+  ],
+  "p_welch": 0.38228433943252266,
+  "hedges_g": 0.83367240730709,
+  "p_perm": 0.3333333333333333,
+  "p_perm_min": 0.3333333333333333,
+  "n_programs": 49
+ },
+ {
+  "section": null,
+  "label": "B: staged $-$ joint",
+  "key": "triples_audited",
+  "runs": [
+   [
+    "libB_rl_percept_s0",
+    "libB_rl_percept_s1"
+   ],
+   [
+    "libB_joint_rl_percept_s0",
+    "libB_joint_rl_percept_s1"
+   ]
+  ],
+  "diff": -0.005325443786982242,
+  "ci": [
+   -0.011538461538461553,
+   0.00029585798816568476
+  ],
+  "p_boot": 0.0762,
+  "n": [
+   2,
+   2
+  ],
+  "mean": [
+   0.06686390532544378,
+   0.07218934911242603
+  ],
+  "p_welch": 0.0917103389659539,
+  "hedges_g": -2.2999556339997853,
+  "p_perm": 0.3333333333333333,
+  "p_perm_min": 0.3333333333333333,
+  "n_programs": 169
+ },
+ {
+  "section": null,
+  "label": "B: joint + information term $-$ joint",
+  "key": "triples_audited",
+  "runs": [
+   [
+    "libB_joint_rl_div_s0",
+    "libB_joint_rl_div_s1"
+   ],
+   [
+    "libB_joint_rl_percept_s0",
+    "libB_joint_rl_percept_s1"
+   ]
+  ],
+  "diff": 0.0005917159763313695,
+  "ci": [
+   -0.004733727810650894,
+   0.005917159763313612
+  ],
+  "p_boot": 0.8618,
+  "n": [
+   2,
+   2
+  ],
+  "mean": [
+   0.0727810650887574,
+   0.07218934911242603
+  ],
+  "p_welch": 0.4999999999999963,
+  "hedges_g": 0.5714285714285782,
+  "p_perm": 1.0,
+  "p_perm_min": 0.3333333333333333,
+  "n_programs": 169
+ },
+ {
+  "section": null,
+  "label": "B with near-duplicates: staged $-$ joint",
+  "key": "triples_audited",
+  "runs": [
+   [
+    "Bdup_cur_rl_s0",
+    "Bdup_cur_rl_s1"
+   ],
+   [
+    "Bdup_joint_rl_s0",
+    "Bdup_joint_rl_s1"
+   ]
+  ],
+  "diff": -0.003089887640449443,
+  "ci": [
+   -0.007584269662921361,
+   0.0
+  ],
+  "p_boot": 0.074,
+  "n": [
+   2,
+   2
+  ],
+  "mean": [
+   0.07331460674157303,
+   0.07640449438202249
+  ],
+  "p_welch": 0.24034736037980547,
+  "hedges_g": -1.167227839970049,
+  "p_perm": 0.3333333333333333,
+  "p_perm_min": 0.3333333333333333,
+  "n_programs": 178
+ },
+ {
+  "section": "Exploratory: collapse diagnostic, distinct messages per held-out rule (run level)",
+  "label": "staged $-$ joint",
+  "key": "diagnostic",
+  "n": [
+   8,
+   6
+  ],
+  "mean": [
+   0.33254716981132076,
+   0.08726415094339623
+  ],
+  "p_welch": 2.030240527080426e-06,
+  "hedges_g": 5.085705039301891,
+  "p_perm": 0.000333000333000333,
+  "p_perm_min": 0.000333000333000333,
+  "diff": 0.24528301886792453,
+  "ci": [
+   0.1964025350650853,
+   0.29416350267076374
+  ]
+ },
+ {
+  "section": null,
+  "label": "reversed $-$ joint",
+  "key": "diagnostic",
+  "n": [
+   3,
+   6
+  ],
+  "mean": [
+   0.11792452830188678,
+   0.08726415094339623
+  ],
+  "p_welch": 0.24351550234550484,
+  "hedges_g": 1.2258706790837122,
+  "p_perm": 0.09523809523809523,
+  "p_perm_min": 0.011904761904761904,
+  "diff": 0.030660377358490545,
+  "ci": [
+   -0.04172113218501945,
+   0.10304188690200054
+  ]
+ },
+ {
+  "section": null,
+  "label": "joint + information term $-$ joint",
+  "key": "diagnostic",
+  "n": [
+   7,
+   6
+  ],
+  "mean": [
+   0.29110512129380056,
+   0.08726415094339623
+  ],
+  "p_welch": 6.319693191299996e-06,
+  "hedges_g": 5.299536246234109,
+  "p_perm": 0.0005827505827505828,
+  "p_perm_min": 0.0005827505827505828,
+  "diff": 0.20384097035040433,
+  "ci": [
+   0.16047603538339314,
+   0.24720590531741551
+  ]
+ },
+ {
+  "section": null,
+  "label": "joint, changed-cell reward $-$ joint",
+  "key": "diagnostic",
+  "n": [
+   2,
+   6
+  ],
+  "mean": [
+   0.11084905660377359,
+   0.08726415094339623
+  ],
+  "p_welch": 0.09187124563939743,
+  "hedges_g": 1.3525456887788152,
+  "p_perm": 0.14285714285714285,
+  "p_perm_min": 0.03571428571428571,
+  "diff": 0.023584905660377353,
+  "ci": [
+   -0.0070878024433417945,
+   0.054257613764096504
+  ]
+ },
+ {
+  "section": "Exploratory: decoding the rule family from the message, 239 families",
+  "label": "gradient $-$ reward, nearest neighbour",
+  "key": "decoding",
+  "paired": false,
+  "n_programs": 239,
+  "diff": 0.3335869151768734,
+  "ci": [
+   0.30207208063902624,
+   0.36593761886648907
+  ],
+  "p_boot": 0.0001,
+  "n": [
+   2,
+   2
+  ],
+  "mean": [
+   0.42453404336249523,
+   0.09094712818562191
+  ],
+  "p_welch": 0.0024129618109143243,
+  "hedges_g": 109.6458818194619,
+  "p_perm": 0.3333333333333333,
+  "p_perm_min": 0.3333333333333333
+ },
+ {
+  "section": null,
+  "label": "gradient: nearest neighbour $-$ exact lookup",
+  "key": "decoding",
+  "paired": true,
+  "n_programs": 239,
+  "diff": 0.2054963864587296,
+  "ci": [
+   0.17637599847850893,
+   0.2338921643210346
+  ],
+  "p_boot": 0.0001,
+  "n": [
+   2,
+   2
+  ],
+  "mean": [
+   0.4245340433624953,
+   0.21903765690376567
+  ],
+  "p_welch": 0.02361567991475792
+ },
+ {
+  "section": null,
+  "label": "reward: nearest neighbour $-$ exact lookup",
+  "key": "decoding",
+  "paired": true,
+  "n_programs": 239,
+  "diff": 0.0014834537847090157,
+  "ci": [
+   -0.019208824648155196,
+   0.020160707493343463
+  ],
+  "p_boot": 0.8476,
+  "n": [
+   2,
+   2
+  ],
+  "mean": [
+   0.09094712818562191,
+   0.0894636744009129
+  ],
+  "p_welch": 0.8157912136058538
+ },
+ {
+  "section": null,
+  "label": "reward: length 16 $-$ baseline, nearest",
+  "key": "decoding",
+  "paired": false,
+  "n_programs": 239,
+  "diff": 0.0024914416127805317,
+  "ci": [
+   -0.018219855458349185,
+   0.02329830734119438
+  ],
+  "p_boot": 0.82,
+  "n": [
+   2,
+   2
+  ],
+  "mean": [
+   0.09343856979840243,
+   0.09094712818562191
+  ],
+  "p_welch": 0.701868397049658,
+  "hedges_g": 0.28847379311776294,
+  "p_perm": 1.0,
+  "p_perm_min": 0.3333333333333333
+ },
+ {
+  "section": null,
+  "label": "reward: vocabulary 128 $-$ baseline, nearest",
+  "key": "decoding",
+  "paired": false,
+  "n_programs": 239,
+  "diff": -0.031076454925827307,
+  "ci": [
+   -0.06544313427158614,
+   0.003880753138075308
+  ],
+  "p_boot": 0.0976,
+  "n": [
+   2,
+   2
+  ],
+  "mean": [
+   0.059870673259794595,
+   0.09094712818562191
+  ],
+  "p_welch": 0.3787671096716622,
+  "hedges_g": -0.8441379717341633,
+  "p_perm": 0.3333333333333333,
+  "p_perm_min": 0.3333333333333333
+ },
+ {
+  "section": null,
+  "label": "reward: information term 0.1 $-$ baseline, nearest",
+  "key": "decoding",
+  "paired": false,
+  "n_programs": 239,
+  "diff": -0.0012552301255230047,
+  "ci": [
+   -0.024117535184480787,
+   0.020540604792696853
+  ],
+  "p_boot": 0.9042,
+  "n": [
+   2,
+   2
+  ],
+  "mean": [
+   0.0896918980600989,
+   0.09094712818562191
+  ],
+  "p_welch": 0.8440854141861365,
+  "hedges_g": -0.14259549951874034,
+  "p_perm": 1.0,
+  "p_perm_min": 0.3333333333333333
+ },
+ {
+  "section": null,
+  "label": "reward: information term 0.3 $-$ baseline, nearest",
+  "key": "decoding",
+  "paired": false,
+  "n_programs": 239,
+  "diff": 0.04473183720045644,
+  "ci": [
+   0.020197318372004554,
+   0.06953309243058195
+  ],
+  "p_boot": 0.0006,
+  "n": [
+   1,
+   2
+  ],
+  "mean": [
+   0.13567896538607835,
+   0.09094712818562191
+  ]
+ },
+ {
+  "section": "Exploratory: human iterated learning (chain level)",
+  "label": "final generation, distinct signals per meaning: pressure $-$ none",
+  "key": "kirby",
+  "n": [
+   4,
+   4
+  ],
+  "mean": [
+   0.5925925925925926,
+   0.1388888888888889
+  ],
+  "p_welch": 0.013148067818525535,
+  "hedges_g": 2.940279339806552,
+  "p_perm": 0.02857142857142857,
+  "p_perm_min": 0.02857142857142857,
+  "diff": 0.45370370370370366,
+  "ci": [
+   0.17022556178082443,
+   0.7371818456265828
+  ]
+ }
+]

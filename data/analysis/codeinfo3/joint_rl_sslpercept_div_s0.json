@@ -1,0 +1,44 @@
+{
+ "ckpt": "/qst0/home1/homedirs/caponec/r049_scale_20260826/emlang_runs/joint_rl_sslpercept_div_s0/latest.pt",
+ "arm": "rl",
+ "step": 32000,
+ "singles": {
+  "n_rules": 30,
+  "n_episodes": 600,
+  "distinct_msgs": 33,
+  "names": 22,
+  "names_per_rule": 0.7333333333333333,
+  "largest_group": 5,
+  "purity": 0.8833333333333334,
+  "decode_lookup": 0.7166666666666667,
+  "decode_nearest": 0.6733333333333333,
+  "decode_chance": 0.03333333333333333,
+  "decode_null_p95": 0.055166666666666656
+ },
+ "novel_pairs": {
+  "n_rules": 104,
+  "n_episodes": 1040,
+  "distinct_msgs": 97,
+  "names": 34,
+  "names_per_rule": 0.3269230769230769,
+  "largest_group": 9,
+  "purity": 0.8240384615384617,
+  "decode_lookup": 0.25961538461538464,
+  "decode_nearest": 0.23461538461538461,
+  "decode_chance": 0.009615384615384616,
+  "decode_null_p95": 0.01730769230769231
+ },
+ "triples_audited": {
+  "n_rules": 100,
+  "n_episodes": 1000,
+  "distinct_msgs": 93,
+  "names": 31,
+  "names_per_rule": 0.31,
+  "largest_group": 17,
+  "purity": 0.8280000000000001,
+  "decode_lookup": 0.264,
+  "decode_nearest": 0.239,
+  "decode_chance": 0.01,
+  "decode_null_p95": 0.02
+ }
+}

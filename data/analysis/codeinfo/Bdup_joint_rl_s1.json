@@ -1,0 +1,31 @@
+{
+ "ckpt": "/qst0/home1/homedirs/caponec/r049_scale_20260826/emlang_runs/Bdup_joint_rl_s1/latest.pt",
+ "arm": "rl",
+ "step": 32000,
+ "singles": {
+  "n_rules": 23,
+  "n_episodes": 460,
+  "distinct_msgs": 74,
+  "names": 12,
+  "names_per_rule": 0.5217391304347826,
+  "largest_group": 7,
+  "purity": 0.567391304347826,
+  "decode_lookup": 0.3652173913043478,
+  "decode_nearest": 0.3804347826086957,
+  "decode_chance": 0.043478260869565216,
+  "decode_null_p95": 0.06521739130434782
+ },
+ "novel_pairs": {
+  "n_rules": 101,
+  "n_episodes": 1010,
+  "distinct_msgs": 202,
+  "names": 38,
+  "names_per_rule": 0.37623762376237624,
+  "largest_group": 47,
+  "purity": 0.606930693069307,
+  "decode_lookup": 0.09207920792079208,
+  "decode_nearest": 0.08811881188118811,
+  "decode_chance": 0.009900990099009901,
+  "decode_null_p95": 0.016930693069306925
+ }
+}

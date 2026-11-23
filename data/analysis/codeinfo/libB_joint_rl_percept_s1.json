@@ -1,0 +1,31 @@
+{
+ "ckpt": "/qst0/home1/homedirs/caponec/r049_scale_20260826/emlang_runs/libB_joint_rl_percept_s1/latest.pt",
+ "arm": "rl",
+ "step": 32000,
+ "singles": {
+  "n_rules": 17,
+  "n_episodes": 340,
+  "distinct_msgs": 70,
+  "names": 10,
+  "names_per_rule": 0.5882352941176471,
+  "largest_group": 6,
+  "purity": 0.5823529411764706,
+  "decode_lookup": 0.3735294117647059,
+  "decode_nearest": 0.4676470588235294,
+  "decode_chance": 0.058823529411764705,
+  "decode_null_p95": 0.09470588235294115
+ },
+ "novel_pairs": {
+  "n_rules": 64,
+  "n_episodes": 640,
+  "distinct_msgs": 164,
+  "names": 21,
+  "names_per_rule": 0.328125,
+  "largest_group": 35,
+  "purity": 0.646875,
+  "decode_lookup": 0.121875,
+  "decode_nearest": 0.171875,
+  "decode_chance": 0.015625,
+  "decode_null_p95": 0.026718749999999993
+ }
+}

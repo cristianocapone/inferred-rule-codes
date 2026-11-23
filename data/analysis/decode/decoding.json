@@ -1,0 +1,222 @@
+{
+ "scale120_gumbel_percept_s0": {
+  "n_rules": 120,
+  "n_episodes": 1200,
+  "chance": 0.008333333333333333,
+  "lookup": 0.30333333333333334,
+  "nearest": 0.5825,
+  "null_mean": 0.008391666666666665,
+  "null_p95": 0.015000000000000001,
+  "nearest_over_chance": 69.9
+ },
+ "scale120_rl_percept_s0": {
+  "n_rules": 120,
+  "n_episodes": 1200,
+  "chance": 0.008333333333333333,
+  "lookup": 0.10916666666666666,
+  "nearest": 0.10166666666666667,
+  "null_mean": 0.008275000000000001,
+  "null_p95": 0.014166666666666668,
+  "nearest_over_chance": 12.200000000000001
+ },
+ "scale120_rl_percept_s1": {
+  "n_rules": 120,
+  "n_episodes": 1200,
+  "chance": 0.008333333333333333,
+  "lookup": 0.17833333333333334,
+  "nearest": 0.17083333333333334,
+  "null_mean": 0.007916666666666666,
+  "null_p95": 0.012541666666666652,
+  "nearest_over_chance": 20.5
+ },
+ "scale240_gumbel_percept_s0": {
+  "n_rules": 239,
+  "n_episodes": 2400,
+  "chance": 0.0041841004184100415,
+  "lookup": 0.22834424208753623,
+  "nearest": 0.4257990590114412,
+  "null_mean": 0.004314528030000521,
+  "null_p95": 0.007088838347887984,
+  "nearest_over_chance": 101.76597510373445
+ },
+ "scale240_gumbel_percept_s1": {
+  "n_rules": 239,
+  "n_episodes": 2400,
+  "chance": 0.0041841004184100415,
+  "lookup": 0.20917377037795795,
+  "nearest": 0.42253511345683087,
+  "null_mean": 0.004141582319137484,
+  "null_p95": 0.00666678240941683,
+  "nearest_over_chance": 100.98589211618258
+ },
+ "scale240_rl_L16_s0": {
+  "n_rules": 239,
+  "n_episodes": 2400,
+  "chance": 0.0041841004184100415,
+  "lookup": 0.057922880605566066,
+  "nearest": 0.08832097779475337,
+  "null_mean": 0.0042973923158388175,
+  "null_p95": 0.007068525495234292,
+  "nearest_over_chance": 21.108713692946054
+ },
+ "scale240_rl_L16_s1": {
+  "n_rules": 239,
+  "n_episodes": 2400,
+  "chance": 0.0041841004184100415,
+  "lookup": 0.08044063264987239,
+  "nearest": 0.09835240195142277,
+  "null_mean": 0.004181279188874807,
+  "null_p95": 0.006660011458532266,
+  "nearest_over_chance": 23.50622406639004
+ },
+ "scale240_rl_V128_s0": {
+  "n_rules": 239,
+  "n_episodes": 2400,
+  "chance": 0.0041841004184100415,
+  "lookup": 0.044157016614871786,
+  "nearest": 0.03878018715602702,
+  "null_mean": 0.0041325891074497825,
+  "null_p95": 0.00666678240941683,
+  "nearest_over_chance": 9.268464730290457
+ },
+ "scale240_rl_V128_s1": {
+  "n_rules": 239,
+  "n_episodes": 2400,
+  "chance": 0.0041841004184100415,
+  "lookup": 0.07708640775013456,
+  "nearest": 0.08084515356169378,
+  "null_mean": 0.004244231670688727,
+  "null_p95": 0.00666678240941683,
+  "nearest_over_chance": 19.321991701244812
+ },
+ "scale240_rl_div3_s0": {
+  "n_rules": 239,
+  "n_episodes": 2400,
+  "chance": 0.0041841004184100415,
+  "lookup": 0.15582214969009878,
+  "nearest": 0.1358287470268581,
+  "null_mean": 0.004228372020347575,
+  "null_p95": 0.006256011389086616,
+  "nearest_over_chance": 32.463070539419085
+ },
+ "scale240_rl_div_s0": {
+  "n_rules": 239,
+  "n_episodes": 2400,
+  "chance": 0.0041841004184100415,
+  "lookup": 0.11956978419764232,
+  "nearest": 0.08460389937325301,
+  "null_mean": 0.004185498012118266,
+  "null_p95": 0.006245073699196167,
+  "nearest_over_chance": 20.22033195020747
+ },
+ "scale240_rl_div_s1": {
+  "n_rules": 239,
+  "n_episodes": 2400,
+  "chance": 0.0041841004184100415,
+  "lookup": 0.1112536675983958,
+  "nearest": 0.0945658778798243,
+  "null_mean": 0.004119055886386916,
+  "null_p95": 0.006663657355162416,
+  "nearest_over_chance": 22.601244813278008
+ },
+ "scale240_rl_percept_s0": {
+  "n_rules": 239,
+  "n_episodes": 2400,
+  "chance": 0.0041841004184100415,
+  "lookup": 0.09500859389919963,
+  "nearest": 0.09125679265265021,
+  "null_mean": 0.004208423757356899,
+  "null_p95": 0.006663830969287661,
+  "nearest_over_chance": 21.8103734439834
+ },
+ "scale240_rl_percept_s1": {
+  "n_rules": 239,
+  "n_episodes": 2400,
+  "chance": 0.0041841004184100415,
+  "lookup": 0.08459001024323339,
+  "nearest": 0.09041997256896822,
+  "null_mean": 0.004212468966475112,
+  "null_p95": 0.006262261497595445,
+  "nearest_over_chance": 21.610373443983406
+ },
+ "scale30_gumbel_percept_s0": {
+  "n_rules": 30,
+  "n_episodes": 320,
+  "chance": 0.03333333333333333,
+  "lookup": 0.5807843137254902,
+  "nearest": 0.6937254901960784,
+  "null_mean": 0.032630392156862746,
+  "null_p95": 0.05392156862745098,
+  "nearest_over_chance": 20.811764705882354
+ },
+ "scale30_gumbel_percept_s1": {
+  "n_rules": 30,
+  "n_episodes": 320,
+  "chance": 0.03333333333333333,
+  "lookup": 0.6237254901960785,
+  "nearest": 0.7572549019607844,
+  "null_mean": 0.033467647058823526,
+  "null_p95": 0.05568627450980393,
+  "nearest_over_chance": 22.71764705882353
+ },
+ "scale30_rl_percept_s0": {
+  "n_rules": 30,
+  "n_episodes": 320,
+  "chance": 0.03333333333333333,
+  "lookup": 0.28215686274509805,
+  "nearest": 0.2619607843137255,
+  "null_mean": 0.03503627450980393,
+  "null_p95": 0.0590392156862745,
+  "nearest_over_chance": 7.858823529411765
+ },
+ "scale30_rl_percept_s1": {
+  "n_rules": 30,
+  "n_episodes": 320,
+  "chance": 0.03333333333333333,
+  "lookup": 0.3523529411764706,
+  "nearest": 0.35411764705882354,
+  "null_mean": 0.03386470588235294,
+  "null_p95": 0.05274509803921569,
+  "nearest_over_chance": 10.623529411764705
+ },
+ "scale319_rl_div_s0": {
+  "n_rules": 319,
+  "n_episodes": 3190,
+  "chance": 0.003134796238244514,
+  "lookup": 0.08527271040557496,
+  "nearest": 0.06704785954407802,
+  "null_mean": 0.0031131817367048963,
+  "null_p95": 0.004725890192551404,
+  "nearest_over_chance": 21.38826719456089
+ },
+ "scale60_gumbel_percept_s0": {
+  "n_rules": 60,
+  "n_episodes": 600,
+  "chance": 0.016666666666666666,
+  "lookup": 0.39666666666666667,
+  "nearest": 0.6299999999999999,
+  "null_mean": 0.016158333333333334,
+  "null_p95": 0.026666666666666665,
+  "nearest_over_chance": 37.8
+ },
+ "scale60_rl_percept_s0": {
+  "n_rules": 60,
+  "n_episodes": 600,
+  "chance": 0.016666666666666666,
+  "lookup": 0.15,
+  "nearest": 0.15833333333333333,
+  "null_mean": 0.015375000000000002,
+  "null_p95": 0.025,
+  "nearest_over_chance": 9.5
+ },
+ "scale60_rl_percept_s1": {
+  "n_rules": 60,
+  "n_episodes": 600,
+  "chance": 0.016666666666666666,
+  "lookup": 0.19,
+  "nearest": 0.21500000000000002,
+  "null_mean": 0.016708333333333335,
+  "null_p95": 0.026666666666666665,
+  "nearest_over_chance": 12.900000000000002
+ }
+}

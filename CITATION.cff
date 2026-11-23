@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite the manuscript when using this code or its experimental results."
+title: "Non-linguistic communication of abstract rules emerges from reward"
+type: software
+authors:
+  - family-names: Capone
+    given-names: Cristiano
+    affiliation: "Quantitative Health Models and Bioinspired Technologies Lab, Istituto Superiore di Sanità"
+license:
+  - MIT
+  - CC-BY-4.0
+repository-code: "https://github.com/cristianocapone/inferred-rule-codes"
+keywords:
+  - emergent communication
+  - abstract rules
+  - non-linguistic communication
+  - reinforcement learning
+  - symbolic communication

@@ -1,0 +1,11982 @@
+{
+ "tag": "A17",
+ "split": "len3",
+ "library": "A",
+ "n_prims": 17,
+ "prim_seed": null,
+ "drop_prims": "",
+ "n_heldout": 300,
+ "n_random_grids": 2000,
+ "min_compared": 300,
+ "parameter_colours": {},
+ "novel_direct": [
+  [
+   0,
+   4,
+   16
+  ],
+  [
+   0,
+   7,
+   14
+  ],
+  [
+   0,
+   10,
+   11
+  ],
+  [
+   0,
+   11,
+   6
+  ],
+  [
+   0,
+   15,
+   13
+  ],
+  [
+   0,
+   16,
+   12
+  ],
+  [
+   1,
+   12,
+   8
+  ],
+  [
+   1,
+   14,
+   13
+  ],
+  [
+   1,
+   16,
+   2
+  ],
+  [
+   2,
+   0,
+   15
+  ],
+  [
+   2,
+   7,
+   13
+  ],
+  [
+   2,
+   10,
+   16
+  ],
+  [
+   3,
+   7,
+   13
+  ],
+  [
+   3,
+   9,
+   12
+  ],
+  [
+   3,
+   9,
+   13
+  ],
+  [
+   3,
+   10,
+   13
+  ],
+  [
+   3,
+   12,
+   6
+  ],
+  [
+   3,
+   12,
+   14
+  ],
+  [
+   4,
+   7,
+   14
+  ],
+  [
+   4,
+   8,
+   11
+  ],
+  [
+   4,
+   9,
+   16
+  ],
+  [
+   4,
+   10,
+   15
+  ],
+  [
+   4,
+   12,
+   10
+  ],
+  [
+   4,
+   16,
+   7
+  ],
+  [
+   5,
+   6,
+   12
+  ],
+  [
+   6,
+   6,
+   15
+  ],
+  [
+   6,
+   7,
+   9
+  ],
+  [
+   6,
+   8,
+   15
+  ],
+  [
+   6,
+   9,
+   3
+  ],
+  [
+   6,
+   12,
+   8
+  ],
+  [
+   6,
+   12,
+   9
+  ],
+  [
+   6,
+   15,
+   6
+  ],
+  [
+   7,
+   0,
+   15
+  ],
+  [
+   7,
+   1,
+   14
+  ],
+  [
+   7,
+   4,
+   13
+  ],
+  [
+   7,
+   4,
+   15
+  ],
+  [
+   7,
+   9,
+   3
+  ],
+  [
+   7,
+   9,
+   9
+  ],
+  [
+   7,
+   9,
+   12
+  ],
+  [
+   7,
+   12,
+   11
+  ],
+  [
+   7,
+   14,
+   8
+  ],
+  [
+   8,
+   4,
+   9
+  ],
+  [
+   8,
+   7,
+   13
+  ],
+  [
+   8,
+   15,
+   10
+  ],
+  [
+   8,
+   16,
+   6
+  ],
+  [
+   8,
+   16,
+   11
+  ],
+  [
+   8,
+   16,
+   16
+  ],
+  [
+   9,
+   1,
+   7
+  ],
+  [
+   9,
+   3,
+   12
+  ],
+  [
+   9,
+   6,
+   12
+  ],
+  [
+   9,
+   12,
+   15
+  ],
+  [
+   9,
+   15,
+   4
+  ],
+  [
+   9,
+   16,
+   5
+  ],
+  [
+   9,
+   16,
+   11
+  ],
+  [
+   10,
+   2,
+   11
+  ],
+  [
+   10,
+   4,
+   12
+  ],
+  [
+   10,
+   12,
+   6
+  ],
+  [
+   10,
+   15,
+   7
+  ],
+  [
+   10,
+   16,
+   3
+  ],
+  [
+   10,
+   16,
+   6
+  ],
+  [
+   11,
+   8,
+   6
+  ],
+  [
+   11,
+   10,
+   16
+  ],
+  [
+   11,
+   12,
+   7
+  ],
+  [
+   11,
+   15,
+   2
+  ],
+  [
+   11,
+   16,
+   6
+  ],
+  [
+   12,
+   1,
+   8
+  ],
+  [
+   12,
+   2,
+   14
+  ],
+  [
+   12,
+   3,
+   8
+  ],
+  [
+   12,
+   3,
+   10
+  ],
+  [
+   12,
+   5,
+   8
+  ],
+  [
+   12,
+   6,
+   14
+  ],
+  [
+   12,
+   8,
+   15
+  ],
+  [
+   12,
+   11,
+   9
+  ],
+  [
+   12,
+   15,
+   14
+  ],
+  [
+   12,
+   16,
+   3
+  ],
+  [
+   13,
+   0,
+   7
+  ],
+  [
+   13,
+   2,
+   10
+  ],
+  [
+   13,
+   3,
+   9
+  ],
+  [
+   13,
+   3,
+   14
+  ],
+  [
+   13,
+   4,
+   7
+  ],
+  [
+   13,
+   8,
+   15
+  ],
+  [
+   13,
+   12,
+   10
+  ],
+  [
+   13,
+   15,
+   12
+  ],
+  [
+   14,
+   2,
+   15
+  ],
+  [
+   14,
+   5,
+   8
+  ],
+  [
+   14,
+   6,
+   10
+  ],
+  [
+   14,
+   6,
+   16
+  ],
+  [
+   14,
+   9,
+   1
+  ],
+  [
+   14,
+   10,
+   12
+  ],
+  [
+   14,
+   12,
+   3
+  ],
+  [
+   15,
+   0,
+   4
+  ],
+  [
+   15,
+   0,
+   13
+  ],
+  [
+   15,
+   3,
+   7
+  ],
+  [
+   15,
+   5,
+   13
+  ],
+  [
+   15,
+   6,
+   2
+  ],
+  [
+   15,
+   7,
+   2
+  ],
+  [
+   15,
+   9,
+   3
+  ],
+  [
+   15,
+   9,
+   6
+  ],
+  [
+   15,
+   9,
+   10
+  ],
+  [
+   15,
+   9,
+   12
+  ],
+  [
+   15,
+   10,
+   3
+  ],
+  [
+   15,
+   10,
+   9
+  ],
+  [
+   15,
+   11,
+   4
+  ],
+  [
+   15,
+   11,
+   12
+  ],
+  [
+   15,
+   12,
+   3
+  ],
+  [
+   15,
+   13,
+   5
+  ],
+  [
+   15,
+   13,
+   12
+  ],
+  [
+   15,
+   14,
+   4
+  ],
+  [
+   15,
+   14,
+   10
+  ],
+  [
+   15,
+   14,
+   13
+  ],
+  [
+   15,
+   14,
+   16
+  ],
+  [
+   15,
+   16,
+   11
+  ],
+  [
+   15,
+   16,
+   13
+  ],
+  [
+   16,
+   0,
+   13
+  ],
+  [
+   16,
+   2,
+   7
+  ],
+  [
+   16,
+   3,
+   6
+  ],
+  [
+   16,
+   6,
+   2
+  ],
+  [
+   16,
+   7,
+   4
+  ],
+  [
+   16,
+   8,
+   16
+  ],
+  [
+   16,
+   9,
+   1
+  ],
+  [
+   16,
+   10,
+   5
+  ],
+  [
+   16,
+   10,
+   16
+  ],
+  [
+   16,
+   14,
+   9
+  ],
+  [
+   16,
+   14,
+   10
+  ],
+  [
+   16,
+   15,
+   8
+  ],
+  [
+   16,
+   15,
+   14
+  ],
+  [
+   16,
+   16,
+   3
+  ],
+  [
+   16,
+   16,
+   12
+  ]
+ ],
+ "novel_dihedral": [
+  [
+   0,
+   16,
+   12
+  ],
+  [
+   3,
+   9,
+   12
+  ],
+  [
+   3,
+   9,
+   13
+  ],
+  [
+   4,
+   7,
+   14
+  ],
+  [
+   4,
+   9,
+   16
+  ],
+  [
+   6,
+   15,
+   6
+  ],
+  [
+   8,
+   15,
+   10
+  ],
+  [
+   8,
+   16,
+   6
+  ],
+  [
+   8,
+   16,
+   11
+  ],
+  [
+   8,
+   16,
+   16
+  ],
+  [
+   9,
+   3,
+   12
+  ],
+  [
+   9,
+   16,
+   11
+  ],
+  [
+   10,
+   15,
+   7
+  ],
+  [
+   10,
+   16,
+   3
+  ],
+  [
+   10,
+   16,
+   6
+  ],
+  [
+   11,
+   10,
+   16
+  ],
+  [
+   11,
+   15,
+   2
+  ],
+  [
+   11,
+   16,
+   6
+  ],
+  [
+   12,
+   3,
+   10
+  ],
+  [
+   12,
+   5,
+   8
+  ],
+  [
+   12,
+   15,
+   14
+  ],
+  [
+   12,
+   16,
+   3
+  ],
+  [
+   13,
+   8,
+   15
+  ],
+  [
+   13,
+   12,
+   10
+  ],
+  [
+   14,
+   5,
+   8
+  ],
+  [
+   14,
+   6,
+   16
+  ],
+  [
+   14,
+   10,
+   12
+  ],
+  [
+   15,
+   9,
+   6
+  ],
+  [
+   15,
+   9,
+   10
+  ],
+  [
+   15,
+   9,
+   12
+  ],
+  [
+   15,
+   10,
+   3
+  ],
+  [
+   15,
+   10,
+   9
+  ],
+  [
+   15,
+   11,
+   12
+  ],
+  [
+   15,
+   12,
+   3
+  ],
+  [
+   15,
+   13,
+   12
+  ],
+  [
+   15,
+   14,
+   10
+  ],
+  [
+   15,
+   14,
+   13
+  ],
+  [
+   15,
+   14,
+   16
+  ],
+  [
+   15,
+   16,
+   11
+  ],
+  [
+   15,
+   16,
+   13
+  ],
+  [
+   16,
+   3,
+   6
+  ],
+  [
+   16,
+   6,
+   2
+  ],
+  [
+   16,
+   8,
+   16
+  ],
+  [
+   16,
+   9,
+   1
+  ],
+  [
+   16,
+   10,
+   16
+  ],
+  [
+   16,
+   14,
+   10
+  ],
+  [
+   16,
+   15,
+   8
+  ],
+  [
+   16,
+   15,
+   14
+  ],
+  [
+   16,
+   16,
+   12
+  ]
+ ],
+ "novel_group": [
+  [
+   0,
+   16,
+   12
+  ],
+  [
+   3,
+   9,
+   12
+  ],
+  [
+   3,
+   9,
+   13
+  ],
+  [
+   4,
+   7,
+   14
+  ],
+  [
+   4,
+   9,
+   16
+  ],
+  [
+   6,
+   15,
+   6
+  ],
+  [
+   8,
+   15,
+   10
+  ],
+  [
+   8,
+   16,
+   6
+  ],
+  [
+   8,
+   16,
+   11
+  ],
+  [
+   8,
+   16,
+   16
+  ],
+  [
+   9,
+   3,
+   12
+  ],
+  [
+   9,
+   16,
+   11
+  ],
+  [
+   10,
+   15,
+   7
+  ],
+  [
+   10,
+   16,
+   3
+  ],
+  [
+   10,
+   16,
+   6
+  ],
+  [
+   11,
+   10,
+   16
+  ],
+  [
+   11,
+   15,
+   2
+  ],
+  [
+   11,
+   16,
+   6
+  ],
+  [
+   12,
+   3,
+   10
+  ],
+  [
+   12,
+   5,
+   8
+  ],
+  [
+   12,
+   15,
+   14
+  ],
+  [
+   12,
+   16,
+   3
+  ],
+  [
+   13,
+   8,
+   15
+  ],
+  [
+   13,
+   12,
+   10
+  ],
+  [
+   14,
+   5,
+   8
+  ],
+  [
+   14,
+   6,
+   16
+  ],
+  [
+   14,
+   10,
+   12
+  ],
+  [
+   15,
+   9,
+   6
+  ],
+  [
+   15,
+   9,
+   10
+  ],
+  [
+   15,
+   9,
+   12
+  ],
+  [
+   15,
+   10,
+   3
+  ],
+  [
+   15,
+   10,
+   9
+  ],
+  [
+   15,
+   11,
+   12
+  ],
+  [
+   15,
+   12,
+   3
+  ],
+  [
+   15,
+   13,
+   12
+  ],
+  [
+   15,
+   14,
+   10
+  ],
+  [
+   15,
+   14,
+   13
+  ],
+  [
+   15,
+   14,
+   16
+  ],
+  [
+   15,
+   16,
+   11
+  ],
+  [
+   15,
+   16,
+   13
+  ],
+  [
+   16,
+   3,
+   6
+  ],
+  [
+   16,
+   6,
+   2
+  ],
+  [
+   16,
+   8,
+   16
+  ],
+  [
+   16,
+   9,
+   1
+  ],
+  [
+   16,
+   10,
+   16
+  ],
+  [
+   16,
+   14,
+   10
+  ],
+  [
+   16,
+   15,
+   8
+  ],
+  [
+   16,
+   15,
+   14
+  ],
+  [
+   16,
+   16,
+   12
+  ]
+ ],
+ "rows": [
+  {
+   "prog": [
+    0,
+    1,
+    8
+   ],
+   "names": [
+    "flipH",
+    "flipV",
+    "gravity_left"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "gravity_right",
+      "rot180"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    0,
+    3,
+    6
+   ],
+   "names": [
+    "flipH",
+    "rot180",
+    "gravity_down"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "gravity_up",
+      "flipV"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    0,
+    3,
+    12
+   ],
+   "names": [
+    "flipH",
+    "rot180",
+    "crop"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "crop",
+      "flipV"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    0,
+    3,
+    14
+   ],
+   "names": [
+    "flipH",
+    "rot180",
+    "mirrorV"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "flipV",
+      "mirrorV"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    0,
+    4,
+    16
+   ],
+   "names": [
+    "flipH",
+    "rot270",
+    "shift+1+0"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "shift+1+0",
+      "transpose"
+     ],
+     "t": 3,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    0,
+    5,
+    12
+   ],
+   "names": [
+    "flipH",
+    "transpose",
+    "crop"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "rot90",
+      "crop"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    0,
+    7,
+    14
+   ],
+   "names": [
+    "flipH",
+    "gravity_up",
+    "mirrorV"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "rot180",
+      "gravity_left",
+      "mirrorH"
+     ],
+     "t": 1,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    0,
+    8,
+    0
+   ],
+   "names": [
+    "flipH",
+    "gravity_left",
+    "flipH"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "gravity_right"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    0,
+    8,
+    1
+   ],
+   "names": [
+    "flipH",
+    "gravity_left",
+    "flipV"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "gravity_right",
+      "rot180"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    0,
+    9,
+    9
+   ],
+   "names": [
+    "flipH",
+    "gravity_right",
+    "gravity_right"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "gravity_left",
+      "flipH"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    0,
+    10,
+    3
+   ],
+   "names": [
+    "flipH",
+    "majority",
+    "rot180"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "flipV",
+      "majority"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    0,
+    10,
+    11
+   ],
+   "names": [
+    "flipH",
+    "majority",
+    "upscale2"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "flipV",
+      "majority",
+      "upscale2"
+     ],
+     "t": 1,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    0,
+    10,
+    15
+   ],
+   "names": [
+    "flipH",
+    "majority",
+    "outline"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "flipH",
+      "outline",
+      "majority"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    0,
+    11,
+    6
+   ],
+   "names": [
+    "flipH",
+    "upscale2",
+    "gravity_down"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "flipH",
+      "gravity_up",
+      "upscale2"
+     ],
+     "t": 2,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    0,
+    14,
+    8
+   ],
+   "names": [
+    "flipH",
+    "mirrorV",
+    "gravity_left"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "mirrorV",
+      "flipH",
+      "gravity_left"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    0,
+    14,
+    15
+   ],
+   "names": [
+    "flipH",
+    "mirrorV",
+    "outline"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "mirrorV",
+      "outline",
+      "flipH"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    0,
+    15,
+    1
+   ],
+   "names": [
+    "flipH",
+    "outline",
+    "flipV"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "outline",
+      "rot180"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    0,
+    15,
+    6
+   ],
+   "names": [
+    "flipH",
+    "outline",
+    "gravity_down"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "outline",
+      "gravity_down",
+      "flipH"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    0,
+    15,
+    13
+   ],
+   "names": [
+    "flipH",
+    "outline",
+    "mirrorH"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "outline",
+      "mirrorV"
+     ],
+     "t": 3,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    0,
+    16,
+    12
+   ],
+   "names": [
+    "flipH",
+    "shift+1+0",
+    "crop"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    1,
+    0,
+    5
+   ],
+   "names": [
+    "flipV",
+    "flipH",
+    "transpose"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "rot270",
+      "flipV"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    1,
+    0,
+    12
+   ],
+   "names": [
+    "flipV",
+    "flipH",
+    "crop"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "flipH",
+      "crop",
+      "flipV"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    1,
+    1,
+    9
+   ],
+   "names": [
+    "flipV",
+    "flipV",
+    "gravity_right"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "gravity_right"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    1,
+    1,
+    11
+   ],
+   "names": [
+    "flipV",
+    "flipV",
+    "upscale2"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "upscale2"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    1,
+    1,
+    12
+   ],
+   "names": [
+    "flipV",
+    "flipV",
+    "crop"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "crop"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    1,
+    2,
+    4
+   ],
+   "names": [
+    "flipV",
+    "rot90",
+    "rot270"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "flipV"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    1,
+    3,
+    4
+   ],
+   "names": [
+    "flipV",
+    "rot180",
+    "rot270"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "rot270",
+      "flipV"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    1,
+    3,
+    5
+   ],
+   "names": [
+    "flipV",
+    "rot180",
+    "transpose"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "rot90"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    1,
+    5,
+    12
+   ],
+   "names": [
+    "flipV",
+    "transpose",
+    "crop"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "crop",
+      "rot270"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    1,
+    7,
+    5
+   ],
+   "names": [
+    "flipV",
+    "gravity_up",
+    "transpose"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "gravity_down",
+      "rot270"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    1,
+    8,
+    9
+   ],
+   "names": [
+    "flipV",
+    "gravity_left",
+    "gravity_right"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "flipV",
+      "gravity_right"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    1,
+    8,
+    13
+   ],
+   "names": [
+    "flipV",
+    "gravity_left",
+    "mirrorH"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "gravity_left",
+      "mirrorH",
+      "flipV"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    1,
+    9,
+    12
+   ],
+   "names": [
+    "flipV",
+    "gravity_right",
+    "crop"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "gravity_right",
+      "crop",
+      "flipV"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    1,
+    11,
+    9
+   ],
+   "names": [
+    "flipV",
+    "upscale2",
+    "gravity_right"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "flipV",
+      "gravity_right",
+      "upscale2"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    1,
+    12,
+    8
+   ],
+   "names": [
+    "flipV",
+    "crop",
+    "gravity_left"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "flipH",
+      "crop",
+      "gravity_up"
+     ],
+     "t": 1,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    1,
+    13,
+    6
+   ],
+   "names": [
+    "flipV",
+    "mirrorH",
+    "gravity_down"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "gravity_up",
+      "mirrorH",
+      "rot180"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    1,
+    13,
+    7
+   ],
+   "names": [
+    "flipV",
+    "mirrorH",
+    "gravity_up"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "gravity_down",
+      "mirrorH",
+      "flipV"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    1,
+    14,
+    8
+   ],
+   "names": [
+    "flipV",
+    "mirrorV",
+    "gravity_left"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "flipV",
+      "gravity_left",
+      "mirrorV"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    1,
+    14,
+    13
+   ],
+   "names": [
+    "flipV",
+    "mirrorV",
+    "mirrorH"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "mirrorV",
+      "mirrorH"
+     ],
+     "t": 1,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    1,
+    16,
+    2
+   ],
+   "names": [
+    "flipV",
+    "shift+1+0",
+    "rot90"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "shift+1+0",
+      "transpose"
+     ],
+     "t": 5,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    2,
+    0,
+    15
+   ],
+   "names": [
+    "rot90",
+    "flipH",
+    "outline"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "transpose",
+      "outline"
+     ],
+     "t": 1,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    2,
+    5,
+    11
+   ],
+   "names": [
+    "rot90",
+    "transpose",
+    "upscale2"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "flipH",
+      "upscale2"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    2,
+    5,
+    13
+   ],
+   "names": [
+    "rot90",
+    "transpose",
+    "mirrorH"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "flipH",
+      "mirrorH"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    2,
+    6,
+    1
+   ],
+   "names": [
+    "rot90",
+    "gravity_down",
+    "flipV"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "gravity_left",
+      "transpose"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    2,
+    7,
+    13
+   ],
+   "names": [
+    "rot90",
+    "gravity_up",
+    "mirrorH"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "rot90",
+      "gravity_right",
+      "mirrorV"
+     ],
+     "t": 1,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    2,
+    9,
+    0
+   ],
+   "names": [
+    "rot90",
+    "gravity_right",
+    "flipH"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "gravity_down",
+      "rot180",
+      "transpose"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    2,
+    10,
+    16
+   ],
+   "names": [
+    "rot90",
+    "majority",
+    "shift+1+0"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "majority",
+      "shift+1+0",
+      "rot90"
+     ],
+     "t": 3,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    2,
+    14,
+    0
+   ],
+   "names": [
+    "rot90",
+    "mirrorV",
+    "flipH"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "flipV",
+      "rot90",
+      "mirrorV"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    2,
+    15,
+    13
+   ],
+   "names": [
+    "rot90",
+    "outline",
+    "mirrorH"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "outline",
+      "rot90",
+      "mirrorH"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    3,
+    0,
+    3
+   ],
+   "names": [
+    "rot180",
+    "flipH",
+    "rot180"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "flipH"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    3,
+    1,
+    1
+   ],
+   "names": [
+    "rot180",
+    "flipV",
+    "flipV"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "rot180"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    3,
+    2,
+    12
+   ],
+   "names": [
+    "rot180",
+    "rot90",
+    "crop"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "crop",
+      "rot270"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    3,
+    2,
+    13
+   ],
+   "names": [
+    "rot180",
+    "rot90",
+    "mirrorH"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "rot270",
+      "mirrorH"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    3,
+    2,
+    14
+   ],
+   "names": [
+    "rot180",
+    "rot90",
+    "mirrorV"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "mirrorH",
+      "rot270"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    3,
+    3,
+    10
+   ],
+   "names": [
+    "rot180",
+    "rot180",
+    "majority"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "majority"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    3,
+    3,
+    12
+   ],
+   "names": [
+    "rot180",
+    "rot180",
+    "crop"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "crop"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    3,
+    4,
+    5
+   ],
+   "names": [
+    "rot180",
+    "rot270",
+    "transpose"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "flipH"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    3,
+    4,
+    6
+   ],
+   "names": [
+    "rot180",
+    "rot270",
+    "gravity_down"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "rot270",
+      "rot180",
+      "gravity_down"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    3,
+    4,
+    9
+   ],
+   "names": [
+    "rot180",
+    "rot270",
+    "gravity_right"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "gravity_down",
+      "rot90"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    3,
+    6,
+    2
+   ],
+   "names": [
+    "rot180",
+    "gravity_down",
+    "rot90"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "rot270",
+      "gravity_right"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    3,
+    6,
+    3
+   ],
+   "names": [
+    "rot180",
+    "gravity_down",
+    "rot180"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "gravity_up"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    3,
+    7,
+    13
+   ],
+   "names": [
+    "rot180",
+    "gravity_up",
+    "mirrorH"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "rot180",
+      "gravity_down",
+      "mirrorH"
+     ],
+     "t": 5,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    3,
+    9,
+    2
+   ],
+   "names": [
+    "rot180",
+    "gravity_right",
+    "rot90"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "rot270",
+      "gravity_up"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    3,
+    9,
+    4
+   ],
+   "names": [
+    "rot180",
+    "gravity_right",
+    "rot270"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "rot270",
+      "rot180",
+      "gravity_down"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    3,
+    9,
+    12
+   ],
+   "names": [
+    "rot180",
+    "gravity_right",
+    "crop"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    3,
+    9,
+    13
+   ],
+   "names": [
+    "rot180",
+    "gravity_right",
+    "mirrorH"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    3,
+    10,
+    13
+   ],
+   "names": [
+    "rot180",
+    "majority",
+    "mirrorH"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "majority",
+      "rot180",
+      "mirrorV"
+     ],
+     "t": 1,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    3,
+    12,
+    6
+   ],
+   "names": [
+    "rot180",
+    "crop",
+    "gravity_down"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "crop",
+      "gravity_down",
+      "rot180"
+     ],
+     "t": 2,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    3,
+    12,
+    14
+   ],
+   "names": [
+    "rot180",
+    "crop",
+    "mirrorV"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "crop",
+      "mirrorH",
+      "rot180"
+     ],
+     "t": 1,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    3,
+    14,
+    2
+   ],
+   "names": [
+    "rot180",
+    "mirrorV",
+    "rot90"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "rot270",
+      "mirrorH"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    3,
+    14,
+    4
+   ],
+   "names": [
+    "rot180",
+    "mirrorV",
+    "rot270"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "rot270",
+      "flipV",
+      "mirrorH"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    4,
+    0,
+    1
+   ],
+   "names": [
+    "rot270",
+    "flipH",
+    "flipV"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "rot90"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    4,
+    0,
+    6
+   ],
+   "names": [
+    "rot270",
+    "flipH",
+    "gravity_down"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "transpose",
+      "gravity_down"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    4,
+    0,
+    8
+   ],
+   "names": [
+    "rot270",
+    "flipH",
+    "gravity_left"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "transpose",
+      "gravity_left"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    4,
+    1,
+    14
+   ],
+   "names": [
+    "rot270",
+    "flipV",
+    "mirrorV"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "flipV",
+      "rot90",
+      "mirrorV"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    4,
+    3,
+    0
+   ],
+   "names": [
+    "rot270",
+    "rot180",
+    "flipH"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "rot270",
+      "flipV"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    4,
+    3,
+    2
+   ],
+   "names": [
+    "rot270",
+    "rot180",
+    "rot90"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "rot180"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    4,
+    3,
+    8
+   ],
+   "names": [
+    "rot270",
+    "rot180",
+    "gravity_left"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "gravity_up",
+      "gravity_up",
+      "rot90"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    4,
+    5,
+    0
+   ],
+   "names": [
+    "rot270",
+    "transpose",
+    "flipH"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "rot180"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    4,
+    5,
+    11
+   ],
+   "names": [
+    "rot270",
+    "transpose",
+    "upscale2"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "upscale2",
+      "flipV"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    4,
+    7,
+    14
+   ],
+   "names": [
+    "rot270",
+    "gravity_up",
+    "mirrorV"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    4,
+    8,
+    11
+   ],
+   "names": [
+    "rot270",
+    "gravity_left",
+    "upscale2"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "rot90",
+      "gravity_right",
+      "upscale2"
+     ],
+     "t": 4,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    4,
+    9,
+    16
+   ],
+   "names": [
+    "rot270",
+    "gravity_right",
+    "shift+1+0"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    4,
+    10,
+    15
+   ],
+   "names": [
+    "rot270",
+    "majority",
+    "outline"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "rot90",
+      "outline",
+      "majority"
+     ],
+     "t": 4,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    4,
+    11,
+    10
+   ],
+   "names": [
+    "rot270",
+    "upscale2",
+    "majority"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "majority",
+      "upscale2",
+      "rot270"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    4,
+    12,
+    10
+   ],
+   "names": [
+    "rot270",
+    "crop",
+    "majority"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "crop",
+      "majority",
+      "rot90"
+     ],
+     "t": 4,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    4,
+    14,
+    3
+   ],
+   "names": [
+    "rot270",
+    "mirrorV",
+    "rot180"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "mirrorH",
+      "rot90"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    4,
+    15,
+    4
+   ],
+   "names": [
+    "rot270",
+    "outline",
+    "rot270"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "outline",
+      "rot180"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    4,
+    16,
+    7
+   ],
+   "names": [
+    "rot270",
+    "shift+1+0",
+    "gravity_up"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "shift+1+0",
+      "gravity_up",
+      "rot90"
+     ],
+     "t": 6,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    5,
+    0,
+    11
+   ],
+   "names": [
+    "transpose",
+    "flipH",
+    "upscale2"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "rot270",
+      "upscale2"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    5,
+    2,
+    9
+   ],
+   "names": [
+    "transpose",
+    "rot90",
+    "gravity_right"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "flipV",
+      "gravity_right"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    5,
+    2,
+    12
+   ],
+   "names": [
+    "transpose",
+    "rot90",
+    "crop"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "crop",
+      "flipV"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    5,
+    3,
+    0
+   ],
+   "names": [
+    "transpose",
+    "rot180",
+    "flipH"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "rot90"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    5,
+    3,
+    3
+   ],
+   "names": [
+    "transpose",
+    "rot180",
+    "rot180"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "transpose"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    5,
+    3,
+    6
+   ],
+   "names": [
+    "transpose",
+    "rot180",
+    "gravity_down"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "rot270",
+      "gravity_up",
+      "flipV"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    5,
+    4,
+    5
+   ],
+   "names": [
+    "transpose",
+    "rot270",
+    "transpose"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "rot90"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    5,
+    5,
+    7
+   ],
+   "names": [
+    "transpose",
+    "transpose",
+    "gravity_up"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "gravity_up"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    5,
+    5,
+    13
+   ],
+   "names": [
+    "transpose",
+    "transpose",
+    "mirrorH"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "mirrorH"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    5,
+    6,
+    0
+   ],
+   "names": [
+    "transpose",
+    "gravity_down",
+    "flipH"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "gravity_right",
+      "rot270"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    5,
+    6,
+    12
+   ],
+   "names": [
+    "transpose",
+    "gravity_down",
+    "crop"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "transpose",
+      "gravity_up",
+      "crop"
+     ],
+     "t": 2,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    5,
+    9,
+    8
+   ],
+   "names": [
+    "transpose",
+    "gravity_right",
+    "gravity_left"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "transpose",
+      "gravity_left"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    5,
+    10,
+    5
+   ],
+   "names": [
+    "transpose",
+    "majority",
+    "transpose"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "majority"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    5,
+    12,
+    1
+   ],
+   "names": [
+    "transpose",
+    "crop",
+    "flipV"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "rot90",
+      "crop"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    5,
+    13,
+    4
+   ],
+   "names": [
+    "transpose",
+    "mirrorH",
+    "rot270"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "mirrorV",
+      "rot180"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    5,
+    13,
+    7
+   ],
+   "names": [
+    "transpose",
+    "mirrorH",
+    "gravity_up"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "gravity_left",
+      "transpose",
+      "mirrorH"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    5,
+    14,
+    0
+   ],
+   "names": [
+    "transpose",
+    "mirrorV",
+    "flipH"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "mirrorH",
+      "rot270"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    5,
+    14,
+    16
+   ],
+   "names": [
+    "transpose",
+    "mirrorV",
+    "shift+1+0"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "mirrorH",
+      "rot90",
+      "shift+1+0"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    5,
+    15,
+    8
+   ],
+   "names": [
+    "transpose",
+    "outline",
+    "gravity_left"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "outline",
+      "transpose",
+      "gravity_left"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    6,
+    0,
+    5
+   ],
+   "names": [
+    "gravity_down",
+    "flipH",
+    "transpose"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "gravity_down",
+      "rot90"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    6,
+    6,
+    13
+   ],
+   "names": [
+    "gravity_down",
+    "gravity_down",
+    "mirrorH"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "mirrorH",
+      "gravity_down"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    6,
+    6,
+    15
+   ],
+   "names": [
+    "gravity_down",
+    "gravity_down",
+    "outline"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "gravity_left",
+      "outline"
+     ],
+     "t": 1,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    6,
+    7,
+    2
+   ],
+   "names": [
+    "gravity_down",
+    "gravity_up",
+    "rot90"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "gravity_up",
+      "gravity_up",
+      "rot90"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    6,
+    7,
+    9
+   ],
+   "names": [
+    "gravity_down",
+    "gravity_up",
+    "gravity_right"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "gravity_left",
+      "gravity_down"
+     ],
+     "t": 6,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    6,
+    8,
+    15
+   ],
+   "names": [
+    "gravity_down",
+    "gravity_left",
+    "outline"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "gravity_down",
+      "gravity_right",
+      "outline"
+     ],
+     "t": 4,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    6,
+    9,
+    3
+   ],
+   "names": [
+    "gravity_down",
+    "gravity_right",
+    "rot180"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "gravity_down",
+      "gravity_left",
+      "rot180"
+     ],
+     "t": 4,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    6,
+    12,
+    0
+   ],
+   "names": [
+    "gravity_down",
+    "crop",
+    "flipH"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "flipH",
+      "gravity_down",
+      "crop"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    6,
+    12,
+    8
+   ],
+   "names": [
+    "gravity_down",
+    "crop",
+    "gravity_left"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "gravity_up",
+      "crop",
+      "gravity_left"
+     ],
+     "t": 5,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    6,
+    12,
+    9
+   ],
+   "names": [
+    "gravity_down",
+    "crop",
+    "gravity_right"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "gravity_up",
+      "crop",
+      "gravity_left"
+     ],
+     "t": 2,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    6,
+    15,
+    6
+   ],
+   "names": [
+    "gravity_down",
+    "outline",
+    "gravity_down"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    7,
+    0,
+    15
+   ],
+   "names": [
+    "gravity_up",
+    "flipH",
+    "outline"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "flipV",
+      "gravity_left",
+      "outline"
+     ],
+     "t": 3,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    7,
+    1,
+    4
+   ],
+   "names": [
+    "gravity_up",
+    "flipV",
+    "rot270"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "transpose",
+      "gravity_left"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    7,
+    1,
+    14
+   ],
+   "names": [
+    "gravity_up",
+    "flipV",
+    "mirrorV"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "gravity_down",
+      "mirrorV"
+     ],
+     "t": 2,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    7,
+    3,
+    4
+   ],
+   "names": [
+    "gravity_up",
+    "rot180",
+    "rot270"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "gravity_up",
+      "gravity_up",
+      "rot90"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    7,
+    3,
+    13
+   ],
+   "names": [
+    "gravity_up",
+    "rot180",
+    "mirrorH"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "rot180",
+      "gravity_down",
+      "mirrorH"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    7,
+    4,
+    4
+   ],
+   "names": [
+    "gravity_up",
+    "rot270",
+    "rot270"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "rot180",
+      "gravity_down"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    7,
+    4,
+    8
+   ],
+   "names": [
+    "gravity_up",
+    "rot270",
+    "gravity_left"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "gravity_down",
+      "rot270"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    7,
+    4,
+    13
+   ],
+   "names": [
+    "gravity_up",
+    "rot270",
+    "mirrorH"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "transpose",
+      "gravity_down",
+      "mirrorV"
+     ],
+     "t": 7,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    7,
+    4,
+    15
+   ],
+   "names": [
+    "gravity_up",
+    "rot270",
+    "outline"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "rot90",
+      "gravity_left",
+      "outline"
+     ],
+     "t": 4,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    7,
+    6,
+    0
+   ],
+   "names": [
+    "gravity_up",
+    "gravity_down",
+    "flipH"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "flipH",
+      "gravity_down"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    7,
+    6,
+    4
+   ],
+   "names": [
+    "gravity_up",
+    "gravity_down",
+    "rot270"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "gravity_down",
+      "rot270"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    7,
+    6,
+    9
+   ],
+   "names": [
+    "gravity_up",
+    "gravity_down",
+    "gravity_right"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "gravity_down",
+      "gravity_right"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    7,
+    7,
+    10
+   ],
+   "names": [
+    "gravity_up",
+    "gravity_up",
+    "majority"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "majority",
+      "gravity_up"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    7,
+    7,
+    16
+   ],
+   "names": [
+    "gravity_up",
+    "gravity_up",
+    "shift+1+0"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "gravity_up",
+      "shift+1+0"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    7,
+    8,
+    2
+   ],
+   "names": [
+    "gravity_up",
+    "gravity_left",
+    "rot90"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "gravity_up",
+      "rot90",
+      "gravity_down"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    7,
+    9,
+    3
+   ],
+   "names": [
+    "gravity_up",
+    "gravity_right",
+    "rot180"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "gravity_down",
+      "gravity_left",
+      "rot180"
+     ],
+     "t": 2,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    7,
+    9,
+    9
+   ],
+   "names": [
+    "gravity_up",
+    "gravity_right",
+    "gravity_right"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "gravity_left",
+      "gravity_down"
+     ],
+     "t": 6,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    7,
+    9,
+    12
+   ],
+   "names": [
+    "gravity_up",
+    "gravity_right",
+    "crop"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "gravity_down",
+      "gravity_right",
+      "crop"
+     ],
+     "t": 5,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    7,
+    12,
+    11
+   ],
+   "names": [
+    "gravity_up",
+    "crop",
+    "upscale2"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "gravity_left",
+      "crop",
+      "upscale2"
+     ],
+     "t": 3,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    7,
+    14,
+    8
+   ],
+   "names": [
+    "gravity_up",
+    "mirrorV",
+    "gravity_left"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "gravity_left",
+      "mirrorH",
+      "gravity_down"
+     ],
+     "t": 3,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    7,
+    15,
+    2
+   ],
+   "names": [
+    "gravity_up",
+    "outline",
+    "rot90"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "rot90",
+      "gravity_left",
+      "outline"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    8,
+    1,
+    0
+   ],
+   "names": [
+    "gravity_left",
+    "flipV",
+    "flipH"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "rot180",
+      "gravity_right"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    8,
+    2,
+    10
+   ],
+   "names": [
+    "gravity_left",
+    "rot90",
+    "majority"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "gravity_right",
+      "majority",
+      "transpose"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    8,
+    4,
+    9
+   ],
+   "names": [
+    "gravity_left",
+    "rot270",
+    "gravity_right"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "rot90",
+      "gravity_up",
+      "gravity_left"
+     ],
+     "t": 4,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    8,
+    7,
+    13
+   ],
+   "names": [
+    "gravity_left",
+    "gravity_up",
+    "mirrorH"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "gravity_left",
+      "mirrorH",
+      "gravity_down"
+     ],
+     "t": 5,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    8,
+    9,
+    6
+   ],
+   "names": [
+    "gravity_left",
+    "gravity_right",
+    "gravity_down"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "gravity_right",
+      "gravity_down"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    8,
+    11,
+    4
+   ],
+   "names": [
+    "gravity_left",
+    "upscale2",
+    "rot270"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "gravity_left",
+      "rot270",
+      "upscale2"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    8,
+    12,
+    10
+   ],
+   "names": [
+    "gravity_left",
+    "crop",
+    "majority"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "gravity_left",
+      "majority",
+      "crop"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    8,
+    14,
+    8
+   ],
+   "names": [
+    "gravity_left",
+    "mirrorV",
+    "gravity_left"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "mirrorV",
+      "gravity_left"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    8,
+    15,
+    10
+   ],
+   "names": [
+    "gravity_left",
+    "outline",
+    "majority"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    8,
+    16,
+    6
+   ],
+   "names": [
+    "gravity_left",
+    "shift+1+0",
+    "gravity_down"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    8,
+    16,
+    11
+   ],
+   "names": [
+    "gravity_left",
+    "shift+1+0",
+    "upscale2"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    8,
+    16,
+    16
+   ],
+   "names": [
+    "gravity_left",
+    "shift+1+0",
+    "shift+1+0"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    9,
+    0,
+    4
+   ],
+   "names": [
+    "gravity_right",
+    "flipH",
+    "rot270"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "flipH",
+      "rot270",
+      "gravity_up"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    9,
+    1,
+    5
+   ],
+   "names": [
+    "gravity_right",
+    "flipV",
+    "transpose"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "gravity_right",
+      "rot270"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    9,
+    1,
+    7
+   ],
+   "names": [
+    "gravity_right",
+    "flipV",
+    "gravity_up"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "flipH",
+      "gravity_up",
+      "gravity_left"
+     ],
+     "t": 3,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    9,
+    3,
+    2
+   ],
+   "names": [
+    "gravity_right",
+    "rot180",
+    "rot90"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "gravity_right",
+      "rot270"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    9,
+    3,
+    9
+   ],
+   "names": [
+    "gravity_right",
+    "rot180",
+    "gravity_right"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "rot180",
+      "gravity_right"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    9,
+    3,
+    12
+   ],
+   "names": [
+    "gravity_right",
+    "rot180",
+    "crop"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    9,
+    6,
+    12
+   ],
+   "names": [
+    "gravity_right",
+    "gravity_down",
+    "crop"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "gravity_down",
+      "gravity_right",
+      "crop"
+     ],
+     "t": 6,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    9,
+    9,
+    1
+   ],
+   "names": [
+    "gravity_right",
+    "gravity_right",
+    "flipV"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "flipV",
+      "gravity_right"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    9,
+    10,
+    16
+   ],
+   "names": [
+    "gravity_right",
+    "majority",
+    "shift+1+0"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "majority",
+      "gravity_right",
+      "shift+1+0"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    9,
+    12,
+    15
+   ],
+   "names": [
+    "gravity_right",
+    "crop",
+    "outline"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "gravity_up",
+      "crop",
+      "outline"
+     ],
+     "t": 3,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    9,
+    14,
+    3
+   ],
+   "names": [
+    "gravity_right",
+    "mirrorV",
+    "rot180"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "mirrorV",
+      "flipH",
+      "gravity_left"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    9,
+    15,
+    4
+   ],
+   "names": [
+    "gravity_right",
+    "outline",
+    "rot270"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "rot90",
+      "gravity_left",
+      "outline"
+     ],
+     "t": 7,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    9,
+    16,
+    5
+   ],
+   "names": [
+    "gravity_right",
+    "shift+1+0",
+    "transpose"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "gravity_down",
+      "transpose",
+      "shift+1+0"
+     ],
+     "t": 6,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    9,
+    16,
+    11
+   ],
+   "names": [
+    "gravity_right",
+    "shift+1+0",
+    "upscale2"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    10,
+    0,
+    0
+   ],
+   "names": [
+    "majority",
+    "flipH",
+    "flipH"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "majority"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    10,
+    2,
+    0
+   ],
+   "names": [
+    "majority",
+    "rot90",
+    "flipH"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "rot270",
+      "majority",
+      "flipV"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    10,
+    2,
+    11
+   ],
+   "names": [
+    "majority",
+    "rot90",
+    "upscale2"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "majority",
+      "upscale2",
+      "rot270"
+     ],
+     "t": 4,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    10,
+    2,
+    13
+   ],
+   "names": [
+    "majority",
+    "rot90",
+    "mirrorH"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "mirrorV",
+      "majority",
+      "rot90"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    10,
+    2,
+    15
+   ],
+   "names": [
+    "majority",
+    "rot90",
+    "outline"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "rot90",
+      "outline",
+      "majority"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    10,
+    4,
+    8
+   ],
+   "names": [
+    "majority",
+    "rot270",
+    "gravity_left"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "gravity_up",
+      "transpose",
+      "majority"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    10,
+    4,
+    12
+   ],
+   "names": [
+    "majority",
+    "rot270",
+    "crop"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "crop",
+      "majority",
+      "rot90"
+     ],
+     "t": 4,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    10,
+    6,
+    11
+   ],
+   "names": [
+    "majority",
+    "gravity_down",
+    "upscale2"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "upscale2",
+      "majority",
+      "gravity_down"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    10,
+    7,
+    0
+   ],
+   "names": [
+    "majority",
+    "gravity_up",
+    "flipH"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "rot180",
+      "gravity_up",
+      "majority"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    10,
+    7,
+    15
+   ],
+   "names": [
+    "majority",
+    "gravity_up",
+    "outline"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "gravity_up",
+      "majority",
+      "outline"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    10,
+    9,
+    6
+   ],
+   "names": [
+    "majority",
+    "gravity_right",
+    "gravity_down"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "gravity_right",
+      "gravity_down",
+      "majority"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    10,
+    10,
+    5
+   ],
+   "names": [
+    "majority",
+    "majority",
+    "transpose"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "majority",
+      "transpose"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    10,
+    10,
+    9
+   ],
+   "names": [
+    "majority",
+    "majority",
+    "gravity_right"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "gravity_right",
+      "majority"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    10,
+    10,
+    12
+   ],
+   "names": [
+    "majority",
+    "majority",
+    "crop"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "crop",
+      "majority"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    10,
+    12,
+    6
+   ],
+   "names": [
+    "majority",
+    "crop",
+    "gravity_down"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "crop",
+      "majority",
+      "gravity_left"
+     ],
+     "t": 1,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    10,
+    14,
+    3
+   ],
+   "names": [
+    "majority",
+    "mirrorV",
+    "rot180"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "mirrorV",
+      "majority",
+      "flipH"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    10,
+    15,
+    7
+   ],
+   "names": [
+    "majority",
+    "outline",
+    "gravity_up"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    10,
+    16,
+    3
+   ],
+   "names": [
+    "majority",
+    "shift+1+0",
+    "rot180"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    10,
+    16,
+    6
+   ],
+   "names": [
+    "majority",
+    "shift+1+0",
+    "gravity_down"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    11,
+    1,
+    7
+   ],
+   "names": [
+    "upscale2",
+    "flipV",
+    "gravity_up"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "upscale2",
+      "gravity_down",
+      "flipV"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    11,
+    4,
+    4
+   ],
+   "names": [
+    "upscale2",
+    "rot270",
+    "rot270"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "upscale2",
+      "rot180"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    11,
+    4,
+    5
+   ],
+   "names": [
+    "upscale2",
+    "rot270",
+    "transpose"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "upscale2",
+      "flipV"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    11,
+    5,
+    7
+   ],
+   "names": [
+    "upscale2",
+    "transpose",
+    "gravity_up"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "transpose",
+      "gravity_up",
+      "upscale2"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    11,
+    8,
+    0
+   ],
+   "names": [
+    "upscale2",
+    "gravity_left",
+    "flipH"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "gravity_left",
+      "flipH",
+      "upscale2"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    11,
+    8,
+    6
+   ],
+   "names": [
+    "upscale2",
+    "gravity_left",
+    "gravity_down"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "gravity_down",
+      "gravity_right",
+      "upscale2"
+     ],
+     "t": 3,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    11,
+    8,
+    9
+   ],
+   "names": [
+    "upscale2",
+    "gravity_left",
+    "gravity_right"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "gravity_left",
+      "upscale2",
+      "gravity_right"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    11,
+    10,
+    16
+   ],
+   "names": [
+    "upscale2",
+    "majority",
+    "shift+1+0"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    11,
+    12,
+    7
+   ],
+   "names": [
+    "upscale2",
+    "crop",
+    "gravity_up"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "crop",
+      "upscale2",
+      "gravity_left"
+     ],
+     "t": 3,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    11,
+    12,
+    15
+   ],
+   "names": [
+    "upscale2",
+    "crop",
+    "outline"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "upscale2",
+      "outline",
+      "crop"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    11,
+    15,
+    2
+   ],
+   "names": [
+    "upscale2",
+    "outline",
+    "rot90"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    11,
+    16,
+    6
+   ],
+   "names": [
+    "upscale2",
+    "shift+1+0",
+    "gravity_down"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    12,
+    0,
+    0
+   ],
+   "names": [
+    "crop",
+    "flipH",
+    "flipH"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "crop"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    12,
+    0,
+    5
+   ],
+   "names": [
+    "crop",
+    "flipH",
+    "transpose"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "rot90",
+      "crop"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    12,
+    0,
+    10
+   ],
+   "names": [
+    "crop",
+    "flipH",
+    "majority"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "flipH",
+      "crop",
+      "majority"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    12,
+    1,
+    8
+   ],
+   "names": [
+    "crop",
+    "flipV",
+    "gravity_left"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "flipH",
+      "crop",
+      "gravity_up"
+     ],
+     "t": 1,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    12,
+    1,
+    11
+   ],
+   "names": [
+    "crop",
+    "flipV",
+    "upscale2"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "flipV",
+      "upscale2",
+      "crop"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    12,
+    2,
+    5
+   ],
+   "names": [
+    "crop",
+    "rot90",
+    "transpose"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "flipH",
+      "crop"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    12,
+    2,
+    14
+   ],
+   "names": [
+    "crop",
+    "rot90",
+    "mirrorV"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "rot90",
+      "crop",
+      "mirrorH"
+     ],
+     "t": 3,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    12,
+    3,
+    8
+   ],
+   "names": [
+    "crop",
+    "rot180",
+    "gravity_left"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "crop",
+      "gravity_down",
+      "rot180"
+     ],
+     "t": 1,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    12,
+    3,
+    10
+   ],
+   "names": [
+    "crop",
+    "rot180",
+    "majority"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    12,
+    5,
+    2
+   ],
+   "names": [
+    "crop",
+    "transpose",
+    "rot90"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "crop",
+      "flipV"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    12,
+    5,
+    8
+   ],
+   "names": [
+    "crop",
+    "transpose",
+    "gravity_left"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    12,
+    6,
+    14
+   ],
+   "names": [
+    "crop",
+    "gravity_down",
+    "mirrorV"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "crop",
+      "gravity_right",
+      "mirrorH"
+     ],
+     "t": 3,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    12,
+    7,
+    1
+   ],
+   "names": [
+    "crop",
+    "gravity_up",
+    "flipV"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "flipV",
+      "crop",
+      "gravity_down"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    12,
+    8,
+    15
+   ],
+   "names": [
+    "crop",
+    "gravity_left",
+    "outline"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "crop",
+      "gravity_down",
+      "outline"
+     ],
+     "t": 3,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    12,
+    9,
+    10
+   ],
+   "names": [
+    "crop",
+    "gravity_right",
+    "majority"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "crop",
+      "majority",
+      "gravity_right"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    12,
+    11,
+    1
+   ],
+   "names": [
+    "crop",
+    "upscale2",
+    "flipV"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "flipV",
+      "upscale2",
+      "crop"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    12,
+    11,
+    2
+   ],
+   "names": [
+    "crop",
+    "upscale2",
+    "rot90"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "rot90",
+      "crop",
+      "upscale2"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    12,
+    11,
+    4
+   ],
+   "names": [
+    "crop",
+    "upscale2",
+    "rot270"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "crop",
+      "rot270",
+      "upscale2"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    12,
+    11,
+    9
+   ],
+   "names": [
+    "crop",
+    "upscale2",
+    "gravity_right"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "crop",
+      "upscale2",
+      "gravity_left"
+     ],
+     "t": 2,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    12,
+    12,
+    7
+   ],
+   "names": [
+    "crop",
+    "crop",
+    "gravity_up"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "crop",
+      "gravity_up"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    12,
+    12,
+    9
+   ],
+   "names": [
+    "crop",
+    "crop",
+    "gravity_right"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "crop",
+      "gravity_right"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    12,
+    14,
+    4
+   ],
+   "names": [
+    "crop",
+    "mirrorV",
+    "rot270"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "crop",
+      "transpose",
+      "mirrorH"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    12,
+    15,
+    14
+   ],
+   "names": [
+    "crop",
+    "outline",
+    "mirrorV"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    12,
+    16,
+    3
+   ],
+   "names": [
+    "crop",
+    "shift+1+0",
+    "rot180"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    13,
+    0,
+    7
+   ],
+   "names": [
+    "mirrorH",
+    "flipH",
+    "gravity_up"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "mirrorV",
+      "gravity_left"
+     ],
+     "t": 6,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    13,
+    2,
+    10
+   ],
+   "names": [
+    "mirrorH",
+    "rot90",
+    "majority"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "mirrorH",
+      "majority",
+      "rot270"
+     ],
+     "t": 5,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    13,
+    3,
+    9
+   ],
+   "names": [
+    "mirrorH",
+    "rot180",
+    "gravity_right"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "mirrorV",
+      "gravity_down",
+      "flipH"
+     ],
+     "t": 1,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    13,
+    3,
+    14
+   ],
+   "names": [
+    "mirrorH",
+    "rot180",
+    "mirrorV"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "mirrorV",
+      "mirrorH"
+     ],
+     "t": 1,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    13,
+    4,
+    7
+   ],
+   "names": [
+    "mirrorH",
+    "rot270",
+    "gravity_up"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "mirrorH",
+      "rot90",
+      "gravity_down"
+     ],
+     "t": 5,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    13,
+    7,
+    3
+   ],
+   "names": [
+    "mirrorH",
+    "gravity_up",
+    "rot180"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "gravity_up",
+      "mirrorH",
+      "rot180"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    13,
+    8,
+    15
+   ],
+   "names": [
+    "mirrorH",
+    "gravity_left",
+    "outline"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    13,
+    10,
+    6
+   ],
+   "names": [
+    "mirrorH",
+    "majority",
+    "gravity_down"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "gravity_down",
+      "majority",
+      "mirrorH"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    13,
+    12,
+    10
+   ],
+   "names": [
+    "mirrorH",
+    "crop",
+    "majority"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    13,
+    12,
+    12
+   ],
+   "names": [
+    "mirrorH",
+    "crop",
+    "crop"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "mirrorH",
+      "crop"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    13,
+    15,
+    12
+   ],
+   "names": [
+    "mirrorH",
+    "outline",
+    "crop"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "mirrorV",
+      "crop",
+      "outline"
+     ],
+     "t": 1,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    13,
+    16,
+    12
+   ],
+   "names": [
+    "mirrorH",
+    "shift+1+0",
+    "crop"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "shift+1+0",
+      "mirrorH",
+      "crop"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    14,
+    1,
+    1
+   ],
+   "names": [
+    "mirrorV",
+    "flipV",
+    "flipV"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "mirrorV"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    14,
+    2,
+    1
+   ],
+   "names": [
+    "mirrorV",
+    "rot90",
+    "flipV"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "mirrorV",
+      "rot270"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    14,
+    2,
+    15
+   ],
+   "names": [
+    "mirrorV",
+    "rot90",
+    "outline"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "mirrorH",
+      "outline",
+      "transpose"
+     ],
+     "t": 3,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    14,
+    3,
+    5
+   ],
+   "names": [
+    "mirrorV",
+    "rot180",
+    "transpose"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "rot90",
+      "mirrorH"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    14,
+    4,
+    3
+   ],
+   "names": [
+    "mirrorV",
+    "rot270",
+    "rot180"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "rot90",
+      "mirrorH"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    14,
+    4,
+    6
+   ],
+   "names": [
+    "mirrorV",
+    "rot270",
+    "gravity_down"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "gravity_right",
+      "mirrorV",
+      "rot270"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    14,
+    5,
+    4
+   ],
+   "names": [
+    "mirrorV",
+    "transpose",
+    "rot270"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "mirrorV",
+      "rot180"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    14,
+    5,
+    8
+   ],
+   "names": [
+    "mirrorV",
+    "transpose",
+    "gravity_left"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    14,
+    5,
+    9
+   ],
+   "names": [
+    "mirrorV",
+    "transpose",
+    "gravity_right"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "mirrorV",
+      "rot270",
+      "gravity_right"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    14,
+    6,
+    10
+   ],
+   "names": [
+    "mirrorV",
+    "gravity_down",
+    "majority"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "majority",
+      "mirrorH",
+      "gravity_left"
+     ],
+     "t": 1,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    14,
+    6,
+    16
+   ],
+   "names": [
+    "mirrorV",
+    "gravity_down",
+    "shift+1+0"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    14,
+    9,
+    1
+   ],
+   "names": [
+    "mirrorV",
+    "gravity_right",
+    "flipV"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "mirrorV",
+      "gravity_left"
+     ],
+     "t": 4,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    14,
+    10,
+    4
+   ],
+   "names": [
+    "mirrorV",
+    "majority",
+    "rot270"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "mirrorV",
+      "transpose",
+      "majority"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    14,
+    10,
+    12
+   ],
+   "names": [
+    "mirrorV",
+    "majority",
+    "crop"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    14,
+    12,
+    1
+   ],
+   "names": [
+    "mirrorV",
+    "crop",
+    "flipV"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "mirrorV",
+      "flipV",
+      "crop"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    14,
+    12,
+    3
+   ],
+   "names": [
+    "mirrorV",
+    "crop",
+    "rot180"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "rot180",
+      "mirrorH",
+      "crop"
+     ],
+     "t": 1,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    14,
+    13,
+    1
+   ],
+   "names": [
+    "mirrorV",
+    "mirrorH",
+    "flipV"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "mirrorV",
+      "mirrorH"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    14,
+    15,
+    12
+   ],
+   "names": [
+    "mirrorV",
+    "outline",
+    "crop"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "mirrorV",
+      "crop",
+      "outline"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    15,
+    0,
+    4
+   ],
+   "names": [
+    "outline",
+    "flipH",
+    "rot270"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "transpose",
+      "outline"
+     ],
+     "t": 1,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    15,
+    0,
+    13
+   ],
+   "names": [
+    "outline",
+    "flipH",
+    "mirrorH"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "outline",
+      "mirrorV"
+     ],
+     "t": 3,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    15,
+    2,
+    1
+   ],
+   "names": [
+    "outline",
+    "rot90",
+    "flipV"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "transpose",
+      "outline"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    15,
+    3,
+    7
+   ],
+   "names": [
+    "outline",
+    "rot180",
+    "gravity_up"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "rot180",
+      "outline",
+      "gravity_down"
+     ],
+     "t": 2,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    15,
+    5,
+    13
+   ],
+   "names": [
+    "outline",
+    "transpose",
+    "mirrorH"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "rot270",
+      "outline",
+      "mirrorV"
+     ],
+     "t": 3,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    15,
+    6,
+    2
+   ],
+   "names": [
+    "outline",
+    "gravity_down",
+    "rot90"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "outline",
+      "rot90",
+      "gravity_down"
+     ],
+     "t": 1,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    15,
+    7,
+    2
+   ],
+   "names": [
+    "outline",
+    "gravity_up",
+    "rot90"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "outline",
+      "rot90",
+      "gravity_down"
+     ],
+     "t": 3,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    15,
+    8,
+    4
+   ],
+   "names": [
+    "outline",
+    "gravity_left",
+    "rot270"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "outline",
+      "rot270",
+      "gravity_up"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    15,
+    9,
+    3
+   ],
+   "names": [
+    "outline",
+    "gravity_right",
+    "rot180"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "rot180",
+      "outline",
+      "gravity_down"
+     ],
+     "t": 3,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    15,
+    9,
+    6
+   ],
+   "names": [
+    "outline",
+    "gravity_right",
+    "gravity_down"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    15,
+    9,
+    10
+   ],
+   "names": [
+    "outline",
+    "gravity_right",
+    "majority"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    15,
+    9,
+    12
+   ],
+   "names": [
+    "outline",
+    "gravity_right",
+    "crop"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    15,
+    10,
+    2
+   ],
+   "names": [
+    "outline",
+    "majority",
+    "rot90"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "rot90",
+      "outline",
+      "majority"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    15,
+    10,
+    3
+   ],
+   "names": [
+    "outline",
+    "majority",
+    "rot180"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    15,
+    10,
+    9
+   ],
+   "names": [
+    "outline",
+    "majority",
+    "gravity_right"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    15,
+    10,
+    11
+   ],
+   "names": [
+    "outline",
+    "majority",
+    "upscale2"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "outline",
+      "upscale2",
+      "majority"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    15,
+    11,
+    4
+   ],
+   "names": [
+    "outline",
+    "upscale2",
+    "rot270"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "outline",
+      "rot90",
+      "upscale2"
+     ],
+     "t": 4,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    15,
+    11,
+    12
+   ],
+   "names": [
+    "outline",
+    "upscale2",
+    "crop"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    15,
+    12,
+    3
+   ],
+   "names": [
+    "outline",
+    "crop",
+    "rot180"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    15,
+    12,
+    5
+   ],
+   "names": [
+    "outline",
+    "crop",
+    "transpose"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "transpose",
+      "crop",
+      "outline"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    15,
+    13,
+    5
+   ],
+   "names": [
+    "outline",
+    "mirrorH",
+    "transpose"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "rot270",
+      "outline",
+      "mirrorV"
+     ],
+     "t": 5,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    15,
+    13,
+    12
+   ],
+   "names": [
+    "outline",
+    "mirrorH",
+    "crop"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    15,
+    14,
+    0
+   ],
+   "names": [
+    "outline",
+    "mirrorV",
+    "flipH"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "outline",
+      "flipH",
+      "mirrorV"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    15,
+    14,
+    4
+   ],
+   "names": [
+    "outline",
+    "mirrorV",
+    "rot270"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "rot270",
+      "outline",
+      "mirrorV"
+     ],
+     "t": 3,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    15,
+    14,
+    10
+   ],
+   "names": [
+    "outline",
+    "mirrorV",
+    "majority"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    15,
+    14,
+    13
+   ],
+   "names": [
+    "outline",
+    "mirrorV",
+    "mirrorH"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    15,
+    14,
+    16
+   ],
+   "names": [
+    "outline",
+    "mirrorV",
+    "shift+1+0"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    15,
+    16,
+    11
+   ],
+   "names": [
+    "outline",
+    "shift+1+0",
+    "upscale2"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    15,
+    16,
+    13
+   ],
+   "names": [
+    "outline",
+    "shift+1+0",
+    "mirrorH"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    16,
+    0,
+    13
+   ],
+   "names": [
+    "shift+1+0",
+    "flipH",
+    "mirrorH"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "mirrorH",
+      "shift+1+0"
+     ],
+     "t": 4,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    16,
+    1,
+    13
+   ],
+   "names": [
+    "shift+1+0",
+    "flipV",
+    "mirrorH"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "mirrorH",
+      "shift+1+0",
+      "flipV"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    16,
+    2,
+    5
+   ],
+   "names": [
+    "shift+1+0",
+    "rot90",
+    "transpose"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "flipH",
+      "shift+1+0"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    16,
+    2,
+    7
+   ],
+   "names": [
+    "shift+1+0",
+    "rot90",
+    "gravity_up"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "gravity_left",
+      "shift+1+0",
+      "rot270"
+     ],
+     "t": 4,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    16,
+    3,
+    6
+   ],
+   "names": [
+    "shift+1+0",
+    "rot180",
+    "gravity_down"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    16,
+    4,
+    2
+   ],
+   "names": [
+    "shift+1+0",
+    "rot270",
+    "rot90"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "shift+1+0"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    16,
+    6,
+    2
+   ],
+   "names": [
+    "shift+1+0",
+    "gravity_down",
+    "rot90"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    16,
+    7,
+    4
+   ],
+   "names": [
+    "shift+1+0",
+    "gravity_up",
+    "rot270"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "shift+1+0",
+      "gravity_up",
+      "rot90"
+     ],
+     "t": 4,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    16,
+    8,
+    9
+   ],
+   "names": [
+    "shift+1+0",
+    "gravity_left",
+    "gravity_right"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "shift+1+0",
+      "gravity_right"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    16,
+    8,
+    16
+   ],
+   "names": [
+    "shift+1+0",
+    "gravity_left",
+    "shift+1+0"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    16,
+    9,
+    1
+   ],
+   "names": [
+    "shift+1+0",
+    "gravity_right",
+    "flipV"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    16,
+    10,
+    5
+   ],
+   "names": [
+    "shift+1+0",
+    "majority",
+    "transpose"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "transpose",
+      "shift+1+0",
+      "majority"
+     ],
+     "t": 6,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    16,
+    10,
+    16
+   ],
+   "names": [
+    "shift+1+0",
+    "majority",
+    "shift+1+0"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    16,
+    11,
+    0
+   ],
+   "names": [
+    "shift+1+0",
+    "upscale2",
+    "flipH"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "shift+1+0",
+      "flipH",
+      "upscale2"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    16,
+    14,
+    9
+   ],
+   "names": [
+    "shift+1+0",
+    "mirrorV",
+    "gravity_right"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "gravity_left",
+      "shift+1+0",
+      "mirrorV"
+     ],
+     "t": 4,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    16,
+    14,
+    10
+   ],
+   "names": [
+    "shift+1+0",
+    "mirrorV",
+    "majority"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    16,
+    15,
+    8
+   ],
+   "names": [
+    "shift+1+0",
+    "outline",
+    "gravity_left"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    16,
+    15,
+    14
+   ],
+   "names": [
+    "shift+1+0",
+    "outline",
+    "mirrorV"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    16,
+    16,
+    3
+   ],
+   "names": [
+    "shift+1+0",
+    "shift+1+0",
+    "rot180"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "rot180",
+      "shift+1+0",
+      "shift+1+0"
+     ],
+     "t": 2,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": null
+  },
+  {
+   "prog": [
+    16,
+    16,
+    12
+   ],
+   "names": [
+    "shift+1+0",
+    "shift+1+0",
+    "crop"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": null
+  }
+ ]
+}

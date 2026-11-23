@@ -1,0 +1,44 @@
+{
+ "ckpt": "/qst0/home1/homedirs/caponec/r049_scale_20260826/emlang_runs/cur_rl_percept_nomdl_s1/latest.pt",
+ "arm": "rl",
+ "step": 32000,
+ "singles": {
+  "n_rules": 30,
+  "n_episodes": 600,
+  "distinct_msgs": 32,
+  "names": 13,
+  "names_per_rule": 0.43333333333333335,
+  "largest_group": 9,
+  "purity": 0.92,
+  "decode_lookup": 0.4116666666666666,
+  "decode_nearest": 0.4,
+  "decode_chance": 0.03333333333333333,
+  "decode_null_p95": 0.06
+ },
+ "novel_pairs": {
+  "n_rules": 104,
+  "n_episodes": 1040,
+  "distinct_msgs": 147,
+  "names": 31,
+  "names_per_rule": 0.2980769230769231,
+  "largest_group": 27,
+  "purity": 0.7778846153846153,
+  "decode_lookup": 0.18461538461538463,
+  "decode_nearest": 0.18365384615384617,
+  "decode_chance": 0.009615384615384616,
+  "decode_null_p95": 0.01730769230769231
+ },
+ "triples_audited": {
+  "n_rules": 100,
+  "n_episodes": 1000,
+  "distinct_msgs": 171,
+  "names": 36,
+  "names_per_rule": 0.36,
+  "largest_group": 28,
+  "purity": 0.758,
+  "decode_lookup": 0.187,
+  "decode_nearest": 0.20800000000000002,
+  "decode_chance": 0.01,
+  "decode_null_p95": 0.015099999999999995
+ }
+}

@@ -1,0 +1,15 @@
+\begin{tabular}{lcccccc}\toprule
+ & \multicolumn{3}{c}{new triples (\%)} & \multicolumn{3}{c}{single operations (\%)} \\ \cmidrule(lr){2-4}\cmidrule(lr){5-7}
+sender (library A) & original & fresh & blind & original & fresh & blind \\ \midrule
+reward, staged & 13.6 / 13.6 & 11.5 / 11.0 & 0.4 / -- & 58.0 / 54.0 & 46.7 / 42.7 & 0.0 / -- \\
+reward, joint + information term & 12.6 / 13.5 & 11.7 / 11.9 & 0.5 / -- & 50.7 / 50.7 & 44.0 / 44.7 & 0.0 / -- \\
+reward, joint & 0.7 / 1.0 & 1.2 / 0.9 & 0.4 / -- & 2.0 / 2.7 & 3.3 / 2.0 & 0.0 / -- \\
+reward, joint, changed-cell reward & 1.8 / 1.2 & 2.3 / 3.2 & 0.5 / -- & 5.3 / 4.7 & 8.0 / 10.7 & 0.0 / -- \\
+reward, staged, changed-cell reward & 2.9 & 4.2 & -- & 7.3 & 11.3 & -- \\
+reward, joint, slower exploration & 2.8 & 2.8 & -- & 9.3 & 10.0 & -- \\
+reward, joint, changed-cell + stability 1.0 (soft policy) & 5.4 & 6.7 & 0.5 & 16.0 & 31.3 & 0.0 \\
+reward, joint + stability 1.0 (soft policy) & 7.8 & 10.6 & -- & 30.0 & 40.7 & -- \\
+gradient, staged & 17.9 / 17.1 & 15.1 / 14.9 & -- / -- & 77.3 / 77.3 & 67.3 / 66.0 & -- / -- \\
+continuous, staged & 18.1 & 15.7 & -- & 62.0 & 58.0 & -- \\
+\bottomrule
+\end{tabular}

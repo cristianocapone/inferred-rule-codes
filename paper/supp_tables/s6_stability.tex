@@ -1,0 +1,11 @@
+\begin{tabular}{lccc}\toprule
+arm (library A, two seeds) & name turnover after 16\,000 steps & purity & exact, held-out pairs \\ \midrule
+staged & 0.31 / 0.24 & 0.81 / 0.78 & 0.307 / 0.302 \\
+joint + information term & 0.06 / 0.09 & 0.91 / 0.87 & 0.274 / 0.292 \\
+joint, changed-cell reward & 0.13 / 0.15 & 0.83 / 0.82 & 0.024 / 0.024 \\
+\quad + stability pressure 0.1 & 0.07 / 0.13 & 0.86 / 0.80 & 0.047 / 0.028 \\
+\quad + stability pressure 1.0 & 0.24 / 0.25 & 0.60 / 0.60 & 0.080 / 0.080 \\
+joint, plain reward & 0.05 / 0.02 & 0.97 / 0.98 & 0.000 / 0.014 \\
+\quad + stability pressure 1.0 & 0.29 / 0.27 & 0.56 / 0.58 & 0.123 / 0.146 \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,135 @@
+{
+  "source_snapshot": "2026-09-22",
+  "isolated_environment": "3.11.15 (main, Mar  3 2026, 00:52:57) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "all_pipeline_succeeded": true,
+  "input_files_verified": 441,
+  "generated_tables_matched": 9,
+  "statistical_json_outputs_matched": 4,
+  "png_comparison": [
+    {
+      "name": "fig1_paradigm.png",
+      "identical_png": true
+    },
+    {
+      "name": "fig2_emergence.png",
+      "identical_png": true
+    },
+    {
+      "name": "fig3_two_codes.png",
+      "identical_png": true
+    },
+    {
+      "name": "fig4_collapse.png",
+      "identical_png": true
+    },
+    {
+      "name": "fig5_human.png",
+      "identical_png": true
+    }
+  ],
+  "build_steps": [
+    {
+      "step": "info_competence",
+      "seconds": 7.83
+    },
+    {
+      "step": "coadapt_table",
+      "seconds": 0.05
+    },
+    {
+      "step": "llm_generality",
+      "seconds": 12.08
+    },
+    {
+      "step": "stats",
+      "seconds": 10.01
+    },
+    {
+      "step": "make_supp_tables",
+      "seconds": 0.3
+    },
+    {
+      "step": "make_fig1",
+      "seconds": 2.61
+    },
+    {
+      "step": "make_fig2",
+      "seconds": 1.34
+    },
+    {
+      "step": "make_fig3",
+      "seconds": 1.94
+    },
+    {
+      "step": "make_fig4",
+      "seconds": 2.52
+    },
+    {
+      "step": "make_fig_kirby",
+      "seconds": 0.99
+    },
+    {
+      "step": "make_nc",
+      "seconds": 0.03
+    },
+    {
+      "step": "main_nc-latex1",
+      "seconds": 0.99
+    },
+    {
+      "step": "main_nc-bibtex",
+      "seconds": 0.15
+    },
+    {
+      "step": "main_nc-latex2",
+      "seconds": 0.97
+    },
+    {
+      "step": "main_nc-latex3",
+      "seconds": 0.9
+    },
+    {
+      "step": "main_nature-latex1",
+      "seconds": 0.69
+    },
+    {
+      "step": "main_nature-bibtex",
+      "seconds": 0.11
+    },
+    {
+      "step": "main_nature-latex2",
+      "seconds": 0.63
+    },
+    {
+      "step": "main_nature-latex3",
+      "seconds": 0.76
+    },
+    {
+      "step": "supplement-latex1",
+      "seconds": 0.69
+    },
+    {
+      "step": "supplement-bibtex",
+      "seconds": 0.13
+    },
+    {
+      "step": "supplement-latex2",
+      "seconds": 0.65
+    },
+    {
+      "step": "supplement-latex3",
+      "seconds": 0.56
+    }
+  ],
+  "pdf_layout_checked": [
+    "Nature Communications: figure 3 and 4 pages",
+    "Nature: figure 4 page",
+    "Supplement: final Qwen table page"
+  ],
+  "notes": [
+    "CPU-only rebuild from a standalone directory with a newly installed virtual environment.",
+    "Original scientific numerical outputs matched exactly.",
+    "GPU training was not repeated."
+  ],
+  "note": "Re-validated after the 22 September revision (fourth review): correlation analysis filtered with the corrected audit, English-oracle executors re-evaluated with the pilot's own procedure, colour-map cap removed from the audit, main text condensed to about 3 500 words; all tables and statistics match reference/."
+}

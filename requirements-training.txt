@@ -1,0 +1,7 @@
+# Optional: experiment training, not required to reproduce figures or tables.
+-r requirements.txt
+torch>=2.2
+# For the pretrained-model pilot only:
+transformers>=4.45
+peft>=0.13
+safetensors>=0.4

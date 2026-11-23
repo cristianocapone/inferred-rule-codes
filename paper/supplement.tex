@@ -1,0 +1,417 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=2.4cm]{geometry}
+\usepackage{booktabs,graphicx,amsmath,natbib,xcolor}
+\usepackage[hidelinks]{hyperref}
+\renewcommand{\thetable}{S\arabic{table}}
+\renewcommand{\thefigure}{S\arabic{figure}}
+\renewcommand{\thesection}{S\arabic{section}}
+\title{Supplementary Information\\[3pt]\large Non-linguistic communication of abstract rules emerges from reward}
+\author{Cristiano Capone\\ \small Quantitative Health Models and Bioinspired Technologies Lab, Istituto Superiore di Sanit\`a, Rome, Italy}
+\date{}
+\begin{document}
+\maketitle
+
+\section{Which held-out programs are new}\label{s:novelty}
+A held-out program tests composition only if the transformation it computes is absent from what training presents.
+Three routes make it present. Algebra: the geometric operations compose into one another (a vertical reflection
+followed by a horizontal one \emph{is} the rotation by 180 degrees, on every grid), and a colour operation commutes
+with a spatial one, so a held-out pair can equal a training single or a trained pair in the other order. Training
+triples: a held-out pair can equal a trained triple whose last operation is redundant (drawing a border of colour 1
+and then applying gravity to the left equals the trained triple that adds a crop). Augmentation: every training
+episode is transformed by one of the eight dihedral transforms $T$ and a permutation $s$ of the colours, applied to
+demonstrations and query alike, so a training program $P$ is trained as $sTPT^{-1}s^{-1}$. A held-out program equal
+to such a conjugate has been trained although it appears in no list of training programs: shifting up and then
+applying gravity downwards, for instance, is a rotated copy of the trained pair that shifts right and applies
+gravity to the left, and drawing a border of colour 7 and then swapping colours 4 and 8 is a recoloured copy of
+the trained pair that swaps colours 9 and 7 and then draws a border of colour 1 (the two steps commute).
+
+We compared every held-out program with every training program (single operations, trained pairs, trained
+self-compositions and trained triples) under all eight dihedral transforms and every colour permutation (script
+\texttt{audit\_group.py}). The colours an operation names were found by testing its commutation with all colour
+transpositions. The colours a program names are not always the colours that matter: in \emph{gravity left}, then
+\emph{recolour 9 to 3}, then \emph{recolour 9 to 1}, the last step is idle, because the first leaves no 9, so this
+held-out triple computes a trained pair even though it names one colour more. Colour permutations are therefore
+enumerated as the injective maps from the colours the training program names into the colours either program
+names, all of them, the identity first, and nothing is rejected because the two programs name different colours. Equality was
+tested on 19 grids built to separate operations (all cells distinct; all nine colours; non-square shapes) and on
+2\,000 fresh random grids. Operations that break ties by colour index or by position (majority fill; in library B
+keeping the most or least common colour, ranking colours, marking the densest row or column, sorting rows or
+columns) make a conjugate differ from the original only where such a step meets a tie; grids on which either
+program meets a tie were left out, and a match required at least 300 tie-free grids, so equality here is equality
+up to tie-breaking. Candidates are screened only by output shape and by which cells are empty, neither of which a
+colour permutation changes, and only on grids without a tie. Matches are verified on these batteries, not proved. Table~\ref{tab:novelty} gives, for every
+library, the held-out programs that no training program computes directly, nor through a dihedral transform, nor
+through the full augmentation group; the last are called new.
+
+\begin{table}[h]\centering\small\resizebox{\textwidth}{!}{\input{supp_tables/s1_novelty}}
+\caption{Held-out programs not computed by any training program directly (not direct), nor through a dihedral
+transform (not dihedral), nor through any dihedral transform combined with a colour permutation (new), per
+library and split. Training programs include trained triples.}\label{tab:novelty}
+\end{table}
+
+The audit changes what the held-out pairs can test. In the main library 6 of the 212 held-out pairs are new,
+and every one of them occurs as consecutive operations of a training triple; in the libraries built from it, 0 to
+6. Held-out triples keep a substantial set of new programs in every library: 100 of 300 in the main library, 49 to 85 in its
+subsets, and 169 to 178 in library B, with or without near-duplicate operations. The manuscript therefore tests generalisation on new triples, evaluated
+with ten episodes per triple, and reports held-out pairs as combinations absent from the list of training programs
+but, with those six exceptions, covered by augmentation. Every checkpoint was evaluated on its library's new
+triples and new pairs (twenty episodes per pair; Table~\ref{tab:novelresults}). The contrasts the manuscript
+rests on are all preserved on new triples (Section~S8). On the six new pairs of the main library accuracy is
+low for every channel, too few programs to carry a conclusion. The
+held-out self-compositions (an operation applied twice) are not reported: three of their five programs equal a
+training single.
+
+\begin{table}[h]\centering\small\resizebox{\textwidth}{!}{\input{supp_tables/s1_results}}
+\caption{Exact match (\%) on all held-out programs and on the new ones, mean $\pm$ s.e.m. over runs (a single
+value where there is one run). For the smaller libraries, staged / joint.}\label{tab:novelresults}
+\end{table}
+
+\section{Decoding the rule from the message}\label{s:decoding}
+A common summary of how much a code says about its referents is the normalised mutual information between rule
+family and message, estimated from the joint distribution in the sample. That estimate is 1 whenever messages are
+nearly all distinct, because each message then identifies its rule \emph{in the sample} whatever the real
+relationship: independent random messages assigned to 239 families $\times$ 10 episodes reach it. We therefore
+decode on held-out episodes instead. The episodes of each family are split in two halves; a decoder
+fitted on one half is scored on the other, and the halves are swapped. Exact lookup succeeds only if the
+same message recurs for the family; nearest neighbour in Hamming distance succeeds if the family's messages
+occupy a consistent region of message space. On independent random messages nearest-neighbour decoding
+gives 0.003 against a chance level of 0.004.
+
+\begin{table}[h]\centering\small\input{supp_tables/s2_decoding}
+\caption{Decoding of the rule family from the message on held-out episodes, ten episodes per family; the
+null is the 95th percentile over 200 permutations of the family labels in each fitted half, scored with the same
+two-fold average as the data, the larger of
+the two channels.}\label{tab:decoding}
+\end{table}
+
+The gradient code decodes four to five times better than the reward code at every size, and far above the
+null. For the reward code exact lookup and nearest neighbour agree: it uses fixed labels. For the gradient
+code nearest neighbour is roughly twice lookup at 60 families and beyond: the same family rarely receives the
+identical message but its messages cluster, which is why its purity falls with the number of families while
+its decodability stays high.
+
+\begin{table}[h]\centering\small\input{supp_tables/s2_decomposition}
+\caption{What changes the decodability of a reward-trained code at 239 families.}\label{tab:decomposition}
+\end{table}
+
+Longer messages add distinct messages and no decodable information, and a larger vocabulary lowers it.
+The information term does not change it at weight 0.1 and raises it modestly at 0.3, from one seed. The
+in-sample mutual information would have suggested that the term relieves naming saturation at weight 0.1;
+decoding on held-out episodes shows that it does not.
+
+\section{No evidence of serial execution}
+The executor applies the eight symbols one after another, so its state after the first symbols of a
+two-operation rule could come to resemble the intermediate grid. We decoded the executor's state after every
+symbol on held-out pairs and took the best-matching state against the true intermediate grid (union cell
+accuracy): 0.695 $\pm$ 0.009 for the continuous channel, 0.703 $\pm$ 0.006 for gradient and 0.737 $\pm$ 0.010
+for reward (4, 4 and 5 runs). Copying the input matches the intermediate grid at 0.670 and the final output at
+0.647. The best state therefore exceeds both references by 3--9 points; we did not test whether the maximum over
+seven states of a control executor would give the same margin, and no state approaches the intermediate grid. We read this as no
+evidence of serial execution, not as evidence against it.
+
+\section{Message swaps}
+Applying to a query of $A\!\circ\!B$ the message the sender produced for $A\!\circ\!C$ (a donor sharing
+the first operation) gives the executor an output that matches the true intermediate grid of
+$A\!\circ\!B$ at 0.70 cell accuracy in both discrete channels, against 0.65 with the query's own
+message and 0.67 for the input itself. The donor message therefore carries the shared first operation
+to a small but consistent degree, without the executor's state ever representing it as a separate
+step (Section~S3).
+
+
+\section{Name stability, and the accounts the measurements did not support}\label{s:falsified}
+Six accounts of the curriculum effect, or of which libraries collapse, were tested; none was supported by the
+measurements, each within the range of the manipulation we could run. They are listed so that they are not
+re-run. The section ends with the measure that does account for competence.
+(1)~Credit assignment: giving each symbol its own credit from the gain in the executor's state leaves joint
+training where it was.
+(2)~The number of operations: two sets of seventeen behave oppositely.
+(3)~Perceptual confusability: removing the seven operations the frozen perception confuses leaves library A
+collapsing, adding six near-duplicates to library B does not collapse it, and in the self-supervised
+perception library A has only three confusable operations and collapses completely.
+(4)~The value of the message to the executor, and the partial credit one operation earns when answered with
+another's output: neither orders the libraries.
+(5)~A race between the sender's policy sharpening and the executor's learning: the sender's entropy does
+crash within 800 steps in the collapsing libraries and not in the others, but keeping it exploring longer adds
+little information to the code and little accuracy (Table~\ref{tab:infocomp}), and forcing library B's sender to
+sharpen early does not collapse it.
+(6)~Name stability (Table~\ref{tab:stability}): the hypothesis that a useful code needs names that stay fixed
+long enough for the executor to learn them. We logged the modal message of every single operation every 500
+steps. The most competent code, from staged experience, has the highest turnover of any arm, at a purity
+comparable to the changed-cell code that fails, whose turnover lies between the two competent arms. A pressure
+towards the sender's own recent average (the Kullback--Leibler divergence to an exponential moving average of
+its parameters) did not stabilise names: at weight 0.1 it changed nothing, at weight 1.0 it softened the policy
+and raised the measured turnover. Applied to plain joint reward at weight 1.0, the same pressure lifts accuracy on
+held-out pairs from 0.000--0.014 to 0.12--0.15 by slowing the sender's early commitment; it is a third, weaker
+remedy for collapse, not a stabiliser of names.
+
+\begin{table}[h]\centering\small\input{supp_tables/s6_stability}
+\caption{Name turnover (fraction of the thirty single operations whose modal message changed between
+evaluations 500 steps apart, averaged after step 16\,000), purity and accuracy, two seeds per arm.}\label{tab:stability}
+\end{table}
+
+\paragraph{Information in the code and competence.} Counted as distinct messages per operation, a reward paying only
+for changed cells gives the most differentiated code of any joint run (1.07--1.13 messages per operation) while
+solving almost nothing, which would suggest that a differentiated code can be useless. The count is misleading: it
+includes variation of the message within an operation. Counted as names (distinct modal messages) the changed-cell
+code has 13--16 for thirty operations, one of them shared by 15--17 operations, and its messages identify a new
+triple in 10--11\% of episodes, against 8--10\% for the collapsed code and 24--35\% for the staged one.
+Table~\ref{tab:infocomp} gives, for every condition on library A, accuracy on the new triples, how often the most
+probable message identifies the triple and the operation on held-out episodes (nearest-neighbour decoding; chance
+1.0\% and 3.3\%), and the number of names. Over the 50 reward-trained runs accuracy rises with triple identification
+(Spearman $\rho = 0.92$, 95\% bootstrap interval 0.84--0.96) and with operation identification ($\rho = 0.80$,
+0.67--0.88); including the six runs trained with a pressure towards the sender's recent policy, $\rho = 0.89$
+(0.80--0.94) and 0.73 (0.62--0.81). That pressure keeps the policy soft (purity 0.53--0.60 at weight 1.0), so the
+executor is trained on noisy samples, and the most probable message, which is what the decoder reads, overstates
+what the executor saw. Within one condition the relation rests on few runs: over the six staged runs with the solver's
+perception $\rho = 0.83$, and inside the four libraries built from library A the run whose message identifies
+triples more often is the more accurate in 19 of 24 pairs of runs. The relation is a correlation across
+manipulations, not a demonstration that missing information is the only cause of failure.
+
+\begin{table}[h]\centering\small\resizebox{\textwidth}{!}{\input{supp_tables/info_competence}}
+\caption{Competence and information in the code, library A, self-supervised perception unless stated: range
+over runs of exact match on the new triples, of how often the most probable message identifies the triple (ten
+episodes per triple) and the operation (twenty episodes per single operation) on held-out episodes, and of the
+number of names for the thirty single operations. Joint experience includes two runs of the
+same configuration from the stability experiment.}\label{tab:infocomp}
+\end{table}
+
+\paragraph{Co-adaptation.} The objective of a signalling game can fail through its information component, when the
+message does not identify the input, or through its co-adaptation component, when the listener has not adapted to
+the sender \cite{rita2022}. To separate the two we froze trained senders and trained a new executor for 8\,000
+steps on their most probable messages, and a second one on the same messages permuted across the episodes of each
+batch (Table~\ref{tab:coadapt}). The original executor was trained for 32\,000 steps, so a new executor that comes
+close to it is learning the code quickly. From staged and information-term codes a new executor reaches
+11--12\% of new triples, against 12.6--13.6\% for the original executors on the same episodes; from the collapsed,
+changed-cell and slower-exploration codes at most 3\%; from permuted messages 0.4--0.5\%. The gradient code's
+messages give 15\% and the continuous channel's 16\%. Where the policy was held soft by the stability pressure at
+weight 1.0, the new executor exceeds the original, clearly on single operations (31 and 41\% against 16 and 30\%,
+150 episodes each) and less on new triples (6.7 and 10.6\% against 5.4 and 7.8\%), as a partial failure of
+coupling predicts: the original executor learned from noisy samples of a code whose most probable messages are
+informative. Each of these two conditions rests on one sender, and a new executor also gains a couple of points on
+some uninformative codes (staged experience with changed-cell reward: 4.2\% against 2.9\%).
+
+\begin{table}[h]\centering\small\resizebox{\textwidth}{!}{\input{supp_tables/coadapt}}
+\caption{Co-adaptation test, library A, self-supervised perception: exact match of the executor trained with the
+sender (original), of a new executor trained for 8\,000 steps on the frozen sender's most probable messages
+(fresh), and of a new executor trained on those messages permuted across the episodes of each batch (blind), on
+the new triples (ten episodes per triple) and on 150 single-operation episodes; one value per sender, separated
+by slashes.}\label{tab:coadapt}
+\end{table}
+
+\section{Transfer to real ARC-1 rules}
+We trained the three channels on the 320 training rule families of RE-ARC (the procedural generators of
+the ARC-1 training tasks), at the easy end of each generator's difficulty range, canvas 16, and
+evaluated on 80 held-out families. Because 11\% of easy queries have output equal to input, we report
+exact match on non-trivial queries (output $\neq$ input), whose identity floor is zero, and count the
+held-out families with at least one such solve. Table~\ref{tab:rearc}. The discrete gradient code
+carries real rules at 90\% of the continuous channel's level; the reward code at a third. Only three
+of the eighty families are solved with an output that is not a single uniform colour. On the ARC-1
+evaluation set the exact match is 0.000 for every channel; at the generators' full difficulty the
+continuous channel reaches 0.016 on held-out families.
+
+\begin{table}[h]\centering\small
+\resizebox{\textwidth}{!}{\begin{tabular}{lccc}\toprule
+ & exact, non-trivial queries, held-out families & families with $\geq 1$ solve & distinct modal messages / 319 rules \\ \midrule
+continuous ($n=2$) & 0.070 / 0.070 & 9 / 80 & -- \\
+gradient, frozen perception ($n=2$) & 0.063 / 0.063 & 10 / 80 & 304 / 297 \\
+gradient, from scratch & 0.046 & 7 / 80 & 261 \\
+reward, frozen perception ($n=2$) & 0.021 / 0.025 & 5 / 80 & 63 / 64 \\
+full-difficulty control (continuous, canvas 30) & 0.016 & -- & -- \\ \bottomrule
+\end{tabular}}
+\caption{Transfer to held-out ARC-1 rule families (RE-ARC, easy difficulty, 20\,000 steps).}\label{tab:rearc}
+\end{table}
+
+\section{Comparison with human descriptions of the same rules}
+LARC \citep{acquaviva2022} contains natural-language descriptions of every ARC-1 training task, written
+by people who solved it, together with the success of other people who tried to solve a new instance
+from the description alone. Because RE-ARC and LARC index the same 400 tasks, two comparisons are
+possible.
+
+\textbf{Transmissibility.} For each rule, the size of the cluster of rules sharing its modal message
+in our code, against human build success, description length and describer confidence
+(Table~\ref{tab:larc1}). The gradient codes name nearly every rule uniquely, so cluster size has no
+variance. The reward code merges 341 of 399 rules into shared messages, and the rules it merges are
+the ones people transmit \emph{more} successfully, with shorter descriptions and higher confidence: the
+opposite of the hypothesis that the code merges what people find hard, and consistent with a generic
+message being partly right for simple transformations. The effects are small ($\rho \le 0.19$) and
+confounded by difficulty, since LARC's participants saw the original instances and our system the easy
+regenerated ones.
+
+\begin{table}[h]\centering\small
+\resizebox{\textwidth}{!}{\begin{tabular}{lcccc}\toprule
+code & rules uniquely named & $\rho$(cluster, build success) & $\rho$(cluster, description length) & $\rho$(cluster, confidence) \\ \midrule
+gradient, frozen perception & 372 / 399 & $-0.004$ ($p=.94$) & $-0.030$ ($p=.55$) & $+0.063$ ($p=.21$) \\
+reward, frozen perception & 58 / 399 & $+0.144$ ($p=.004$) & $-0.137$ ($p=.006$) & $+0.189$ ($p<.001$) \\
+gradient, from scratch & 299 / 399 & $-0.004$ ($p=.94$) & $-0.027$ ($p=.58$) & $+0.063$ ($p=.21$) \\ \bottomrule
+\end{tabular}}
+\caption{Rule-level correlation (Spearman) between the size of a rule's message cluster and human
+transmissibility measures from LARC ($n = 399$ rules).}\label{tab:larc1}
+\end{table}
+
+\textbf{Category alignment.} Whether two rules that share a message in our code are described more
+similarly by people than two rules that do not: Mantel correlations between the same-message (or
+Hamming-similarity) matrix of the code and the cosine similarity of the pooled descriptions (TF--IDF
+over 317 tasks with human builds) or of their concept-tag profiles (LARC's 17 annotated concepts, 76
+tasks), with 2\,000 label permutations, with and without residualisation on human build success and
+description length. Table~\ref{tab:larc2}. All correlations are below 0.06; the only nominally
+significant ones (Hamming similarity against text, $\rho = 0.04$--$0.06$) vanish with the giant
+cluster removed or are within the range expected from 317 tasks. The categories the reward code forms
+are not the categories people describe.
+
+\begin{table}[h]\centering\small
+\resizebox{\textwidth}{!}{\begin{tabular}{llcccc}\toprule
+code & human measure & same message & Hamming similarity & same message, giant cluster removed & $n$ \\ \midrule
+reward s0 & text & $+0.008$ & $+0.040$ ($p=.015$) & $-0.002$ & 317 \\
+reward s1 & text & $+0.011$ & $+0.036$ ($p=.037$) & $-0.015$ & 317 \\
+reward s0 & concept tags & $-0.023$ & $-0.001$ & $-0.108$ & 76 \\
+reward s1 & concept tags & $+0.022$ & $+0.034$ & $-0.063$ & 76 \\
+gradient s0 & text & $+0.014$ & $+0.056$ ($p<.001$) & $+0.008$ & 317 \\
+gradient s1 & text & $+0.014$ & $+0.049$ ($p<.001$) & $+0.010$ & 317 \\
+gradient s0 & concept tags & $+0.007$ & $+0.012$ & $+0.008$ & 76 \\
+gradient s1 & concept tags & $+0.013$ & $+0.061$ ($p=.041$) & $+0.012$ & 75 \\ \bottomrule
+\end{tabular}}
+\caption{Mantel correlations between the code's rule-similarity matrices and human description
+similarity. Partial correlations controlling for difficulty differ by $< 0.01$.}\label{tab:larc2}
+\end{table}
+
+
+\bibliographystyle{plainnat}
+\bibliography{refs}
+\section{Statistics for every contrast}\label{s:stats}
+Every contrast between conditions reported in the paper, with the number of runs in each condition. Accuracy
+contrasts use exact match on each library's new triples, ten episodes per triple. The first three contrasts are
+the primary ones; the others are exploratory, and a difference whose interval includes zero is not evidence of
+equality. The difference
+and its 95\% confidence interval come from a hierarchical bootstrap that resamples runs within each condition
+and, jointly for the conditions compared, the held-out programs (10\,000 resamples), with the two-sided bootstrap
+$p$-value. Welch's $t$-test and an exact permutation test on run means are given alongside, the latter with the
+smallest $p$-value its number of runs allows. Where a condition has a single run, the interval reflects
+variation over programs only. Decoding contrasts resample runs and rule families; the human contrast resamples
+nothing and uses chains as the unit. Differences in accuracy and decoding are in percentage points.
+
+\begin{table}[h]\centering\small\resizebox{\textwidth}{!}{\input{supp_tables/stats_contrasts}}
+\caption{Contrasts between conditions. Runs: number of runs in each condition; means in the same order.}\label{tab:stats}
+\end{table}
+
+\section{A pretrained model in the same game: a pilot}\label{s:llm}
+Everything above concerns a pair of small networks trained from scratch. To see whether the degenerate solution and
+its remedy depend on that architecture, we played the same game with a pretrained language model: two copies of
+Qwen2.5-0.5B-Instruct, sender and executor, each adapted by low-rank adapters (rank 16 on the attention and
+feed-forward projections, 8.8\,M trainable parameters of 503\,M). The sender reads the worked examples as text and
+writes eight symbols from a fixed alphabet of 32 tokens that carry no English meaning; the executor reads those
+symbols and the query grid and writes the output. Training follows the reward recipe of the main experiments (four
+sampled messages per episode, within-group standardised advantage, entropy floor, sender learning rate 0.3 times
+the executor's) for 5\,000 steps at batch 16.
+
+Two things differ from the main experiments and limit what the comparison can show. The reward is the accuracy of
+the output tokens under teacher forcing, where the main experiments reward the union cell accuracy of the executor's
+prediction (both are evaluated by exact match of the whole grid): a generative executor rarely produces a whole
+correct grid early in training, and teacher forcing changes both what the reward measures and what it is
+conditioned on. And these runs do not augment their episodes, so a held-out program is new to them when no training
+program computes it, without rotation, reflection or recolouring: 231 of the 300 held-out triples and 91 of the 212
+held-out pairs (Section~\ref{s:novelty}), three episodes each. Accuracy below is exact match on those programs; the
+code is described over all 300 held-out triples, from the messages stored during the evaluation.
+
+Table~\ref{tab:llm} reports every run, counted at each stage: started, finished (5\,000 steps), non-finite and
+averaged. These runs train in 16-bit floating point, and in four of the eight information-term runs the adapter
+parameters became non-finite late in training (steps 3\,850 to 4\,450). The game then restores its last snapshot with
+a fresh optimiser; in all four the run degenerated afterwards, its training accuracy falling to zero by step 5\,000.
+Each of these runs is therefore evaluated at its last saved snapshot before its first non-finite event (step 4\,000
+in three runs, 3\,500 in one; snapshots are saved every 500 steps), a rule fixed before the evaluations were run,
+and every other run at its final adapters. What is recovered is a checkpoint, not a stable training run: half of
+this arm failed late in training, and we cannot exclude that the instability interacts with the objective.
+
+With joint experience the code collapses in all four runs, exact match tracking the constant-message control almost
+exactly in every one (1.3--2.3\% against 1.2--2.3\%, one to nine names for 300 rules, decoding 0.1--0.2\%, at the
+permutation null). Staged experience collapses just as completely, in all four of its runs (1.0--1.9\% against
+1.0--2.0\%, one to three names, decoding 0.1--0.5\%): unlike the small networks, staged experience does not rescue
+this model. Its first stage is 1\,000 steps, too short to separate a real difference from a budget that never learns
+the single operations, so this comparison is weaker than the joint-versus-staged contrast of the main experiments;
+what four seeds each show is that neither order of experience helps here. Adding the same information term to the
+sender's objective gives an informative code in seven of the eight evaluated checkpoints: they reach 6.1 to 7.8\% of
+new triples against controls of 0.7
+to 1.4\%, with 29 to 42 names for 300 rules, modal-message purity 0.55 to 0.62, and the rule decoded at 2.3 to
+3.8\%, above both chance (0.3\%) and the permutation null (0.7\%). The eighth collapsed like a joint run (1.7\%
+against 1.9\%); over the eight, $6.3\pm0.7$\% against $1.3\pm0.1$\%. Where the code emerges it is informative but
+much coarser than in the small networks, where reward-trained codes are decoded at 7 to 35\%.
+
+For reference, an executor of the same model and adapter recipe was trained in a companion study to read the true
+rule written in English (``swap the colours 9 and 7, then move everything right'') instead of a sender's symbols.
+Evaluated with the procedure of this pilot, on the same programs and the same query episodes, it reaches 56 to
+62\% exact match on the 91 unseen pairs and 40 to 43\% on the 231 new triples (three seeds), where the seven
+informative emergent codes reach 8.4 to 9.9\% and 6.1 to 7.8\%.
+This says that the model can execute a rule when given an informative description of it. It does not locate the
+emergent system's remaining errors: that executor is given the rule that a sender has to infer, reads pretrained
+English rather than an invented code, and was trained in a different configuration.
+
+The pilot is small, and we report it as such. No statistical test is performed on these runs, and the
+constant-message control, not the other-episode control, is the reference here: episodes are grouped by program
+inside a batch, so a rotated message often belongs to the same rule. What the pilot shows is that the degenerate
+solution and the remedy for it appear in a pretrained model as well; it does not show that the effect sizes match.
+
+\begin{table}[h]\centering\small\resizebox{\textwidth}{!}{\input{supp_tables/llm_generality}}
+\caption{The same game played by a pretrained model (Qwen2.5-0.5B with low-rank adapters, 5\,000 steps). Runs are
+counted at each stage; a run whose 16-bit adapters became non-finite is evaluated at its last snapshot before the
+event, and averages use all eight. Accuracy is exact match on the 231
+held-out triples no training program computes, beside the same executor's accuracy when every message is replaced
+by a constant. Names are the distinct most frequent messages over the 300 held-out triples, purity the frequency of
+a rule's most frequent message, and the last column how often the rule is decoded from the message on held-out
+episodes (nearest neighbour; chance 0.3\%, permutation null 0.7\%). Mean $\pm$ s.e.m. over runs.}\label{tab:llm}
+\end{table}
+
+
+\section{Further detail on the collapse results}\label{s:detail}
+These paragraphs carry the detail behind four statements of the main text: the controls that add variety without
+information, the six other libraries, the order in which names are lost, and the human iterated-learning chains.
+
+\paragraph{Controls that add variety without information.} Counting distinct messages overstates how differentiated
+a code is, because a sender can vary its message between episodes while giving many rules the same name. We
+therefore measured, for every run, how often the message identifies its rule on held-out episodes, by
+nearest-neighbour decoding (Section~\ref{s:decoding}). Controls that make a code more
+varied without making it much more informative restore little. A reward that pays only for the cells the rule
+changes, and nothing for copying the input, raises the number of names for the thirty single operations from 6 or
+7 to 13 to 16, but half the operations still share one name. Its messages identify a new triple in 10 to 11\% of
+episodes, closer to the collapsed code's 8 to 10\% than to the staged code's 24 to 35\%, against 1\% by chance, and
+it solves 1.9\% of new triples. The same reward brings the staged arm down from 15.8\% to 3.2\% (two runs).
+Keeping the sender exploring for longer, by annealing its entropy floor from 2.5 to 0.3~nat over the first eight
+thousand steps, adds a little of both, 16 to 18\% and 4.2 to 4.5\%.
+
+\paragraph{Other libraries.} Whether joint experience collapses depends on the degenerate solution being attractive,
+and we could not predict what makes it attractive. We repeated the manipulation in six more libraries
+(Fig.~4e of the main text). Four are subsets of the original library: its first twenty-four operations, its first
+seventeen, a random seventeen mixing all its families, and the library without the seven operations its frozen
+perception confuses. The other two are a second library of seventeen operations sharing none with the first, and
+that second library with six near-duplicates added. Every subset of the first library collapses under joint experience except
+the random seventeen. The second library never collapses, with or without near-duplicates, and there staged
+experience, joint experience and the added term land within a point of one another, 6.7 to 7.3\% on its new
+triples, close to the real-valued channel for that library, 8.2\%. In two libraries the staged arm
+varies widely between its two runs, 4.1 and 11.6\% with the first seventeen operations and 5.4 and 11.1\% with
+the first twenty-four, against 2.3 and 5.7\% for joint experience and 12.7 and 17.2\% for the real-valued
+channel. The staged advantage there is positive but not resolved with two runs per arm (5.5 points, $-0.1$ to
+12.7, and 2.6 points, $-1.4$ to 8.0); in both libraries the more accurate staged run is also the one whose
+messages identify the triple more often. Each comparison uses that library's own new triples, 49 to 178 of 300.
+
+\paragraph{The order of collapse.} Collapse is ordered rather than uniform. Where it is partial, under staged experience or under joint
+experience with the added term, the operations that lose a name of their own are first the ones the perception
+confuses, the rotations and the transpose keeping a distinct name in 0 to 25\% of runs against 67 to 72\% for
+clearly separable operations, and then the colour-changing ones. Where collapse is total, only the three size
+operations keep a name. Perceptual confusability shapes which names go first, without deciding whether the code
+collapses.
+
+\paragraph{Human iterated learning.} In the iterated-learning experiment of Kirby, Cornish and Smith
+\cite{kirby2008}, a participant learns an artificial language for twenty-seven meanings and their output becomes
+the next participant's input. We re-analysed the published chains with the statistic of
+Fig.~4c of the main text. Under plain transmission the language collapses from twenty-seven distinct signals to
+between two and five within ten generations, 0.14 per meaning, one chain ending on a single word for twenty-five
+meanings. When the experimenters filtered homonyms out of each training set, a pressure for expressivity, the
+languages kept 0.59 signals per meaning and became compositional (difference at the tenth generation 0.45, 95\%
+confidence interval 0.17 to 0.74; exact permutation $p = 0.029$, the smallest attainable with four chains per
+condition; Fig.~5 of the main text). The human collapse is ordered too: without the pressure the languages lose
+colour first, the information a signal carries about it falling to 0.06 by the tenth generation, then shape at
+0.18, keeping motion at 0.66; with the pressure all three survive, at 0.63, 0.59 and 0.82. The pressures differ, a
+filter on the training set there and an information term or staged experience here, and so do the mechanisms, a
+learning bottleneck against exploration under reinforcement. What is shared is the abstract fact: a code shaped
+only by the pull towards compression degenerates, and a pressure for expressivity keeps it differentiated, in
+human learners and in our sender, measured the same way.
+
+\end{document}

@@ -1,0 +1,4948 @@
+{
+ "tag": "Bdup",
+ "split": "hold2",
+ "library": "Bdup",
+ "n_prims": 0,
+ "prim_seed": null,
+ "drop_prims": "",
+ "n_heldout": 126,
+ "n_random_grids": 2000,
+ "min_compared": 300,
+ "parameter_colours": {
+  "countRow2": [
+   2
+  ],
+  "markDensestRow8": [
+   8
+  ],
+  "markDensestCol9": [
+   9
+  ],
+  "fillRows4": [
+   4
+  ],
+  "fillCols6": [
+   6
+  ],
+  "corners5": [
+   5
+  ],
+  "diagonal1": [
+   1
+  ],
+  "rankRecolor32": [
+   2,
+   3
+  ],
+  "countRow3": [
+   3
+  ],
+  "fillRows5": [
+   5
+  ],
+  "fillCols7": [
+   7
+  ],
+  "corners6": [
+   6
+  ],
+  "diagonal2": [
+   2
+  ],
+  "markDensestRow9": [
+   9
+  ]
+ },
+ "novel_direct": [
+  [
+   1,
+   13
+  ],
+  [
+   4,
+   14
+  ],
+  [
+   5,
+   3
+  ],
+  [
+   13,
+   15
+  ],
+  [
+   0,
+   5
+  ],
+  [
+   18,
+   6
+  ],
+  [
+   11,
+   14
+  ],
+  [
+   4,
+   11
+  ],
+  [
+   21,
+   0
+  ],
+  [
+   17,
+   15
+  ],
+  [
+   8,
+   15
+  ],
+  [
+   13,
+   0
+  ],
+  [
+   4,
+   16
+  ],
+  [
+   16,
+   22
+  ],
+  [
+   3,
+   10
+  ],
+  [
+   1,
+   19
+  ],
+  [
+   0,
+   15
+  ],
+  [
+   21,
+   4
+  ],
+  [
+   21,
+   8
+  ],
+  [
+   20,
+   13
+  ],
+  [
+   3,
+   9
+  ],
+  [
+   12,
+   21
+  ],
+  [
+   8,
+   0
+  ],
+  [
+   8,
+   4
+  ],
+  [
+   3,
+   8
+  ],
+  [
+   7,
+   18
+  ],
+  [
+   15,
+   14
+  ],
+  [
+   19,
+   0
+  ],
+  [
+   18,
+   15
+  ],
+  [
+   0,
+   13
+  ],
+  [
+   7,
+   15
+  ],
+  [
+   21,
+   5
+  ],
+  [
+   22,
+   12
+  ],
+  [
+   16,
+   0
+  ],
+  [
+   6,
+   14
+  ],
+  [
+   7,
+   16
+  ],
+  [
+   8,
+   3
+  ],
+  [
+   0,
+   12
+  ],
+  [
+   22,
+   13
+  ],
+  [
+   1,
+   5
+  ],
+  [
+   9,
+   20
+  ],
+  [
+   14,
+   22
+  ],
+  [
+   13,
+   22
+  ],
+  [
+   11,
+   21
+  ],
+  [
+   15,
+   20
+  ],
+  [
+   8,
+   13
+  ],
+  [
+   8,
+   6
+  ],
+  [
+   6,
+   4
+  ],
+  [
+   13,
+   11
+  ],
+  [
+   16,
+   7
+  ],
+  [
+   10,
+   0
+  ],
+  [
+   22,
+   6
+  ],
+  [
+   21,
+   12
+  ],
+  [
+   4,
+   12
+  ],
+  [
+   6,
+   3
+  ],
+  [
+   13,
+   14
+  ],
+  [
+   16,
+   19
+  ],
+  [
+   7,
+   5
+  ],
+  [
+   15,
+   8
+  ],
+  [
+   15,
+   3
+  ],
+  [
+   18,
+   11
+  ],
+  [
+   6,
+   22
+  ],
+  [
+   14,
+   18
+  ],
+  [
+   14,
+   16
+  ],
+  [
+   12,
+   8
+  ],
+  [
+   4,
+   22
+  ]
+ ],
+ "novel_dihedral": [
+  [
+   1,
+   13
+  ],
+  [
+   4,
+   14
+  ],
+  [
+   5,
+   3
+  ],
+  [
+   13,
+   15
+  ],
+  [
+   18,
+   6
+  ],
+  [
+   4,
+   11
+  ],
+  [
+   21,
+   0
+  ],
+  [
+   17,
+   15
+  ],
+  [
+   8,
+   15
+  ],
+  [
+   13,
+   0
+  ],
+  [
+   4,
+   16
+  ],
+  [
+   3,
+   10
+  ],
+  [
+   1,
+   19
+  ],
+  [
+   0,
+   15
+  ],
+  [
+   21,
+   4
+  ],
+  [
+   20,
+   13
+  ],
+  [
+   3,
+   9
+  ],
+  [
+   12,
+   21
+  ],
+  [
+   7,
+   18
+  ],
+  [
+   15,
+   14
+  ],
+  [
+   19,
+   0
+  ],
+  [
+   18,
+   15
+  ],
+  [
+   0,
+   13
+  ],
+  [
+   7,
+   15
+  ],
+  [
+   21,
+   5
+  ],
+  [
+   22,
+   12
+  ],
+  [
+   16,
+   0
+  ],
+  [
+   0,
+   12
+  ],
+  [
+   22,
+   13
+  ],
+  [
+   9,
+   20
+  ],
+  [
+   13,
+   22
+  ],
+  [
+   15,
+   20
+  ],
+  [
+   8,
+   13
+  ],
+  [
+   8,
+   6
+  ],
+  [
+   13,
+   11
+  ],
+  [
+   10,
+   0
+  ],
+  [
+   21,
+   12
+  ],
+  [
+   4,
+   12
+  ],
+  [
+   6,
+   3
+  ],
+  [
+   13,
+   14
+  ],
+  [
+   16,
+   19
+  ],
+  [
+   7,
+   5
+  ],
+  [
+   15,
+   3
+  ],
+  [
+   18,
+   11
+  ],
+  [
+   14,
+   18
+  ],
+  [
+   14,
+   16
+  ],
+  [
+   12,
+   8
+  ],
+  [
+   4,
+   22
+  ]
+ ],
+ "novel_group": [
+  [
+   5,
+   3
+  ],
+  [
+   18,
+   6
+  ],
+  [
+   21,
+   0
+  ],
+  [
+   13,
+   0
+  ],
+  [
+   4,
+   16
+  ],
+  [
+   20,
+   13
+  ],
+  [
+   19,
+   0
+  ],
+  [
+   21,
+   5
+  ],
+  [
+   16,
+   0
+  ],
+  [
+   13,
+   22
+  ],
+  [
+   8,
+   6
+  ],
+  [
+   13,
+   11
+  ],
+  [
+   10,
+   0
+  ],
+  [
+   6,
+   3
+  ],
+  [
+   7,
+   5
+  ],
+  [
+   18,
+   11
+  ],
+  [
+   14,
+   18
+  ]
+ ],
+ "rows": [
+  {
+   "prog": [
+    1,
+    13
+   ],
+   "names": [
+    "keepRarest",
+    "fillCols6"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": true
+   },
+   "witnesses": {
+    "group": {
+     "program": [
+      "keepRarest",
+      "fillRows5"
+     ],
+     "t": 1,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6,
+      5,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    0,
+    22
+   ],
+   "names": [
+    "keepMostCommon",
+    "markDensestRow9"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "keepMostCommon",
+      "markDensestRow9",
+      "markDensestRow9"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    14,
+    19
+   ],
+   "names": [
+    "corners5",
+    "fillCols7"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "corners5",
+      "fillCols7",
+      "keepTouching"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    4,
+    14
+   ],
+   "names": [
+    "keepLonely",
+    "corners5"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": true
+   },
+   "witnesses": {
+    "group": {
+     "program": [
+      "keepLonely",
+      "corners6"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6,
+      5,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    5,
+    3
+   ],
+   "names": [
+    "sortRowsByCount",
+    "keepTouching"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    13,
+    15
+   ],
+   "names": [
+    "fillCols6",
+    "diagonal1"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": true
+   },
+   "witnesses": {
+    "group": {
+     "program": [
+      "fillRows5",
+      "diagonal2"
+     ],
+     "t": 6,
+     "colour_map": [
+      0,
+      2,
+      1,
+      3,
+      4,
+      6,
+      5,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    0,
+    5
+   ],
+   "names": [
+    "keepMostCommon",
+    "sortRowsByCount"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "keepMostCommon",
+      "sortColsByCount"
+     ],
+     "t": 3,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    9,
+    4
+   ],
+   "names": [
+    "countRow2",
+    "keepLonely"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "countRow2",
+      "keepLonely",
+      "keepMostCommon"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    18,
+    6
+   ],
+   "names": [
+    "fillRows5",
+    "sortColsByCount"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    14,
+    20
+   ],
+   "names": [
+    "corners5",
+    "corners6"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "corners6"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    17,
+    20
+   ],
+   "names": [
+    "countRow3",
+    "corners6"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "countRow3",
+      "keepTouching",
+      "corners6"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    8,
+    18
+   ],
+   "names": [
+    "symmetrise_v",
+    "fillRows5"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "symmetrise_v",
+      "fillRows5",
+      "fillRows4"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    15,
+    21
+   ],
+   "names": [
+    "diagonal1",
+    "diagonal2"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "diagonal2"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    11,
+    14
+   ],
+   "names": [
+    "markDensestCol9",
+    "corners5"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "markDensestRow9",
+      "corners5"
+     ],
+     "t": 1,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    4,
+    11
+   ],
+   "names": [
+    "keepLonely",
+    "markDensestCol9"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": true
+   },
+   "witnesses": {
+    "group": {
+     "program": [
+      "keepLonely",
+      "markDensestRow8"
+     ],
+     "t": 1,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      8
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    2,
+    11
+   ],
+   "names": [
+    "keepSymmetric",
+    "markDensestCol9"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "keepSymmetric",
+      "fillCols6",
+      "markDensestRow9"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": false
+  },
+  {
+   "prog": [
+    21,
+    0
+   ],
+   "names": [
+    "diagonal2",
+    "keepMostCommon"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    17,
+    15
+   ],
+   "names": [
+    "countRow3",
+    "diagonal1"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": true
+   },
+   "witnesses": {
+    "group": {
+     "program": [
+      "countRow2",
+      "diagonal1"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      3,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    8,
+    15
+   ],
+   "names": [
+    "symmetrise_v",
+    "diagonal1"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": true
+   },
+   "witnesses": {
+    "group": {
+     "program": [
+      "symmetrise_h",
+      "diagonal2"
+     ],
+     "t": 6,
+     "colour_map": [
+      0,
+      2,
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    13,
+    0
+   ],
+   "names": [
+    "fillCols6",
+    "keepMostCommon"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    4,
+    16
+   ],
+   "names": [
+    "keepLonely",
+    "rankRecolor32"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    16,
+    22
+   ],
+   "names": [
+    "rankRecolor32",
+    "markDensestRow9"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "rankRecolor32",
+      "markDensestCol9"
+     ],
+     "t": 1,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    20,
+    4
+   ],
+   "names": [
+    "corners6",
+    "keepLonely"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "corners6",
+      "corners6",
+      "keepLonely"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    5,
+    11
+   ],
+   "names": [
+    "sortRowsByCount",
+    "markDensestCol9"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "markDensestCol9",
+      "sortRowsByCount"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    0,
+    19
+   ],
+   "names": [
+    "keepMostCommon",
+    "fillCols7"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "keepMostCommon",
+      "fillCols7",
+      "fillCols7"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    3,
+    10
+   ],
+   "names": [
+    "keepTouching",
+    "markDensestRow8"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": true
+   },
+   "witnesses": {
+    "group": {
+     "program": [
+      "keepTouching",
+      "markDensestRow9"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      8
+     ]
+    }
+   },
+   "in_training_triple": false
+  },
+  {
+   "prog": [
+    21,
+    1
+   ],
+   "names": [
+    "diagonal2",
+    "keepRarest"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "diagonal2",
+      "keepRarest",
+      "keepMostCommon"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    1,
+    19
+   ],
+   "names": [
+    "keepRarest",
+    "fillCols7"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": true
+   },
+   "witnesses": {
+    "group": {
+     "program": [
+      "keepRarest",
+      "fillRows5"
+     ],
+     "t": 1,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      7,
+      5,
+      6,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    14,
+    7
+   ],
+   "names": [
+    "corners5",
+    "symmetrise_h"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "symmetrise_h",
+      "corners5"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    17,
+    2
+   ],
+   "names": [
+    "countRow3",
+    "keepSymmetric"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "countRow2",
+      "countRow3",
+      "keepSymmetric"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    22,
+    15
+   ],
+   "names": [
+    "markDensestRow9",
+    "diagonal1"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "markDensestRow9",
+      "diagonal1",
+      "diagonal1"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    21,
+    2
+   ],
+   "names": [
+    "diagonal2",
+    "keepSymmetric"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "diagonal1",
+      "diagonal2",
+      "keepSymmetric"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    0,
+    15
+   ],
+   "names": [
+    "keepMostCommon",
+    "diagonal1"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": true
+   },
+   "witnesses": {
+    "group": {
+     "program": [
+      "keepMostCommon",
+      "diagonal2"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      2,
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    21,
+    4
+   ],
+   "names": [
+    "diagonal2",
+    "keepLonely"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": true
+   },
+   "witnesses": {
+    "group": {
+     "program": [
+      "diagonal1",
+      "keepLonely"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      2,
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    21,
+    8
+   ],
+   "names": [
+    "diagonal2",
+    "symmetrise_v"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "diagonal2",
+      "symmetrise_h"
+     ],
+     "t": 6,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    18,
+    4
+   ],
+   "names": [
+    "fillRows5",
+    "keepLonely"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "fillCols6",
+      "keepLonely"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    9,
+    18
+   ],
+   "names": [
+    "countRow2",
+    "fillRows5"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "sortColsByCount",
+      "countRow2",
+      "fillRows5"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    20,
+    13
+   ],
+   "names": [
+    "corners6",
+    "fillCols6"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    3,
+    9
+   ],
+   "names": [
+    "keepTouching",
+    "countRow2"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": true
+   },
+   "witnesses": {
+    "group": {
+     "program": [
+      "keepTouching",
+      "countRow3"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      3,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    12,
+    21
+   ],
+   "names": [
+    "fillRows4",
+    "diagonal2"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": true
+   },
+   "witnesses": {
+    "group": {
+     "program": [
+      "fillRows5",
+      "diagonal2"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      4,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    4,
+    2
+   ],
+   "names": [
+    "keepLonely",
+    "keepSymmetric"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "keepSymmetric",
+      "fillCols6",
+      "markDensestRow9"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    8,
+    0
+   ],
+   "names": [
+    "symmetrise_v",
+    "keepMostCommon"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "symmetrise_h",
+      "keepMostCommon"
+     ],
+     "t": 1,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    8,
+    4
+   ],
+   "names": [
+    "symmetrise_v",
+    "keepLonely"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "symmetrise_h",
+      "keepLonely"
+     ],
+     "t": 1,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    7,
+    10
+   ],
+   "names": [
+    "symmetrise_h",
+    "markDensestRow8"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "symmetrise_h",
+      "markDensestRow9",
+      "markDensestRow8"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": false
+  },
+  {
+   "prog": [
+    3,
+    8
+   ],
+   "names": [
+    "keepTouching",
+    "symmetrise_v"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "keepTouching",
+      "symmetrise_h"
+     ],
+     "t": 1,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": false
+  },
+  {
+   "prog": [
+    16,
+    17
+   ],
+   "names": [
+    "rankRecolor32",
+    "countRow3"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "countRow3"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    7,
+    18
+   ],
+   "names": [
+    "symmetrise_h",
+    "fillRows5"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": true
+   },
+   "witnesses": {
+    "group": {
+     "program": [
+      "symmetrise_h",
+      "fillRows4"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      4,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    0,
+    7
+   ],
+   "names": [
+    "keepMostCommon",
+    "symmetrise_h"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "keepMostCommon",
+      "rankRecolor32",
+      "symmetrise_h"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": false
+  },
+  {
+   "prog": [
+    15,
+    14
+   ],
+   "names": [
+    "diagonal1",
+    "corners5"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": true
+   },
+   "witnesses": {
+    "group": {
+     "program": [
+      "diagonal2",
+      "corners5"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      2,
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    19,
+    0
+   ],
+   "names": [
+    "fillCols7",
+    "keepMostCommon"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    18,
+    15
+   ],
+   "names": [
+    "fillRows5",
+    "diagonal1"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": true
+   },
+   "witnesses": {
+    "group": {
+     "program": [
+      "fillRows5",
+      "diagonal2"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      2,
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    13,
+    19
+   ],
+   "names": [
+    "fillCols6",
+    "fillCols7"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "fillCols6"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    8,
+    20
+   ],
+   "names": [
+    "symmetrise_v",
+    "corners6"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "corners6",
+      "symmetrise_v"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": false
+  },
+  {
+   "prog": [
+    0,
+    13
+   ],
+   "names": [
+    "keepMostCommon",
+    "fillCols6"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": true
+   },
+   "witnesses": {
+    "group": {
+     "program": [
+      "keepMostCommon",
+      "fillRows5"
+     ],
+     "t": 1,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6,
+      5,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    10,
+    7
+   ],
+   "names": [
+    "markDensestRow8",
+    "symmetrise_h"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "markDensestRow9",
+      "markDensestRow8",
+      "symmetrise_h"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    7,
+    17
+   ],
+   "names": [
+    "symmetrise_h",
+    "countRow3"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "sortRowsByCount",
+      "symmetrise_h",
+      "countRow3"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    7,
+    15
+   ],
+   "names": [
+    "symmetrise_h",
+    "diagonal1"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": true
+   },
+   "witnesses": {
+    "group": {
+     "program": [
+      "symmetrise_h",
+      "diagonal2"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      2,
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    18,
+    17
+   ],
+   "names": [
+    "fillRows5",
+    "countRow3"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "markDensestRow8",
+      "countRow3"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    21,
+    5
+   ],
+   "names": [
+    "diagonal2",
+    "sortRowsByCount"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    10,
+    22
+   ],
+   "names": [
+    "markDensestRow8",
+    "markDensestRow9"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "markDensestRow9"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    22,
+    12
+   ],
+   "names": [
+    "markDensestRow9",
+    "fillRows4"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": true
+   },
+   "witnesses": {
+    "group": {
+     "program": [
+      "markDensestCol9",
+      "fillCols7"
+     ],
+     "t": 1,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      4,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    9,
+    1
+   ],
+   "names": [
+    "countRow2",
+    "keepRarest"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "countRow2"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    16,
+    0
+   ],
+   "names": [
+    "rankRecolor32",
+    "keepMostCommon"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": false
+  },
+  {
+   "prog": [
+    9,
+    7
+   ],
+   "names": [
+    "countRow2",
+    "symmetrise_h"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "countRow2",
+      "sortColsByCount",
+      "symmetrise_h"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    18,
+    12
+   ],
+   "names": [
+    "fillRows5",
+    "fillRows4"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "fillRows5"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    13,
+    2
+   ],
+   "names": [
+    "fillCols6",
+    "keepSymmetric"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "fillCols6",
+      "keepSymmetric",
+      "symmetrise_h"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    9,
+    16
+   ],
+   "names": [
+    "countRow2",
+    "rankRecolor32"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "countRow2"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    6,
+    14
+   ],
+   "names": [
+    "sortColsByCount",
+    "corners5"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "sortRowsByCount",
+      "corners5"
+     ],
+     "t": 1,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    9,
+    19
+   ],
+   "names": [
+    "countRow2",
+    "fillCols7"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "countRow2",
+      "sortColsByCount",
+      "fillCols7"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    0,
+    3
+   ],
+   "names": [
+    "keepMostCommon",
+    "keepTouching"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "keepMostCommon",
+      "rankRecolor32",
+      "keepTouching"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    7,
+    16
+   ],
+   "names": [
+    "symmetrise_h",
+    "rankRecolor32"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "symmetrise_v",
+      "rankRecolor32"
+     ],
+     "t": 1,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    17,
+    21
+   ],
+   "names": [
+    "countRow3",
+    "diagonal2"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "countRow2",
+      "countRow3",
+      "diagonal2"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    8,
+    3
+   ],
+   "names": [
+    "symmetrise_v",
+    "keepTouching"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "symmetrise_h",
+      "keepTouching"
+     ],
+     "t": 1,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    2,
+    6
+   ],
+   "names": [
+    "keepSymmetric",
+    "sortColsByCount"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "keepSymmetric",
+      "fillCols6",
+      "markDensestRow9"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    0,
+    12
+   ],
+   "names": [
+    "keepMostCommon",
+    "fillRows4"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": true
+   },
+   "witnesses": {
+    "group": {
+     "program": [
+      "keepMostCommon",
+      "fillRows5"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      4,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    22,
+    13
+   ],
+   "names": [
+    "markDensestRow9",
+    "fillCols6"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": true
+   },
+   "witnesses": {
+    "group": {
+     "program": [
+      "markDensestRow8",
+      "fillCols6"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      8
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    9,
+    10
+   ],
+   "names": [
+    "countRow2",
+    "markDensestRow8"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "countRow3",
+      "markDensestRow8"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    1,
+    5
+   ],
+   "names": [
+    "keepRarest",
+    "sortRowsByCount"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "keepRarest",
+      "sortColsByCount"
+     ],
+     "t": 3,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    6,
+    1
+   ],
+   "names": [
+    "sortColsByCount",
+    "keepRarest"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "sortColsByCount",
+      "sortColsByCount",
+      "keepRarest"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    17,
+    22
+   ],
+   "names": [
+    "countRow3",
+    "markDensestRow9"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "countRow2",
+      "markDensestRow9"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    9,
+    20
+   ],
+   "names": [
+    "countRow2",
+    "corners6"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": true
+   },
+   "witnesses": {
+    "group": {
+     "program": [
+      "countRow3",
+      "corners5"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      3,
+      2,
+      4,
+      6,
+      5,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": false
+  },
+  {
+   "prog": [
+    9,
+    6
+   ],
+   "names": [
+    "countRow2",
+    "sortColsByCount"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "countRow2"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    14,
+    22
+   ],
+   "names": [
+    "corners5",
+    "markDensestRow9"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "corners5",
+      "markDensestCol9"
+     ],
+     "t": 1,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    17,
+    4
+   ],
+   "names": [
+    "countRow3",
+    "keepLonely"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "countRow3",
+      "sortRowsByCount",
+      "keepLonely"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    13,
+    22
+   ],
+   "names": [
+    "fillCols6",
+    "markDensestRow9"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    21,
+    15
+   ],
+   "names": [
+    "diagonal2",
+    "diagonal1"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "diagonal1"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    13,
+    9
+   ],
+   "names": [
+    "fillCols6",
+    "countRow2"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "fillCols7",
+      "countRow2"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    11,
+    21
+   ],
+   "names": [
+    "markDensestCol9",
+    "diagonal2"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "markDensestRow9",
+      "diagonal2"
+     ],
+     "t": 6,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    15,
+    20
+   ],
+   "names": [
+    "diagonal1",
+    "corners6"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": true
+   },
+   "witnesses": {
+    "group": {
+     "program": [
+      "diagonal2",
+      "corners5"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      2,
+      1,
+      3,
+      4,
+      6,
+      5,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    14,
+    9
+   ],
+   "names": [
+    "corners5",
+    "countRow2"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "corners5",
+      "countRow2",
+      "countRow2"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    8,
+    13
+   ],
+   "names": [
+    "symmetrise_v",
+    "fillCols6"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": true
+   },
+   "witnesses": {
+    "group": {
+     "program": [
+      "symmetrise_h",
+      "fillRows4"
+     ],
+     "t": 1,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      6,
+      4,
+      5,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    8,
+    6
+   ],
+   "names": [
+    "symmetrise_v",
+    "sortColsByCount"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": false
+  },
+  {
+   "prog": [
+    2,
+    13
+   ],
+   "names": [
+    "keepSymmetric",
+    "fillCols6"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "keepSymmetric",
+      "fillCols6",
+      "fillCols7"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    6,
+    4
+   ],
+   "names": [
+    "sortColsByCount",
+    "keepLonely"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "sortRowsByCount",
+      "keepLonely"
+     ],
+     "t": 1,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    10,
+    19
+   ],
+   "names": [
+    "markDensestRow8",
+    "fillCols7"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "markDensestRow8",
+      "fillCols7",
+      "fillRows5"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    8,
+    17
+   ],
+   "names": [
+    "symmetrise_v",
+    "countRow3"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "symmetrise_v",
+      "countRow3",
+      "keepMostCommon"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    15,
+    9
+   ],
+   "names": [
+    "diagonal1",
+    "countRow2"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "diagonal2",
+      "countRow2"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    12,
+    17
+   ],
+   "names": [
+    "fillRows4",
+    "countRow3"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "markDensestRow8",
+      "countRow3"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    13,
+    6
+   ],
+   "names": [
+    "fillCols6",
+    "sortColsByCount"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "sortColsByCount",
+      "fillCols6"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    6,
+    16
+   ],
+   "names": [
+    "sortColsByCount",
+    "rankRecolor32"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "rankRecolor32",
+      "sortColsByCount"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    13,
+    11
+   ],
+   "names": [
+    "fillCols6",
+    "markDensestCol9"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    16,
+    7
+   ],
+   "names": [
+    "rankRecolor32",
+    "symmetrise_h"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "rankRecolor32",
+      "symmetrise_v"
+     ],
+     "t": 1,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    10,
+    0
+   ],
+   "names": [
+    "markDensestRow8",
+    "keepMostCommon"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    22,
+    6
+   ],
+   "names": [
+    "markDensestRow9",
+    "sortColsByCount"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "markDensestCol9",
+      "sortRowsByCount"
+     ],
+     "t": 1,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": false
+  },
+  {
+   "prog": [
+    4,
+    3
+   ],
+   "names": [
+    "keepLonely",
+    "keepTouching"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "fillCols6",
+      "keepLonely"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    21,
+    12
+   ],
+   "names": [
+    "diagonal2",
+    "fillRows4"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": true
+   },
+   "witnesses": {
+    "group": {
+     "program": [
+      "diagonal1",
+      "fillCols7"
+     ],
+     "t": 6,
+     "colour_map": [
+      0,
+      2,
+      1,
+      3,
+      5,
+      6,
+      7,
+      4,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    2,
+    4
+   ],
+   "names": [
+    "keepSymmetric",
+    "keepLonely"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "keepSymmetric",
+      "keepLonely",
+      "symmetrise_h"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    4,
+    12
+   ],
+   "names": [
+    "keepLonely",
+    "fillRows4"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": true
+   },
+   "witnesses": {
+    "group": {
+     "program": [
+      "keepLonely",
+      "fillCols7"
+     ],
+     "t": 1,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      4,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    6,
+    3
+   ],
+   "names": [
+    "sortColsByCount",
+    "keepTouching"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    13,
+    14
+   ],
+   "names": [
+    "fillCols6",
+    "corners5"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": true
+   },
+   "witnesses": {
+    "group": {
+     "program": [
+      "fillRows4",
+      "corners5"
+     ],
+     "t": 1,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      6,
+      5,
+      4,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    16,
+    19
+   ],
+   "names": [
+    "rankRecolor32",
+    "fillCols7"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": true
+   },
+   "witnesses": {
+    "group": {
+     "program": [
+      "rankRecolor32",
+      "fillRows4"
+     ],
+     "t": 1,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      7,
+      4,
+      5,
+      6,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    21,
+    18
+   ],
+   "names": [
+    "diagonal2",
+    "fillRows5"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "diagonal2",
+      "fillRows5",
+      "diagonal2"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    7,
+    5
+   ],
+   "names": [
+    "symmetrise_h",
+    "sortRowsByCount"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": false
+  },
+  {
+   "prog": [
+    15,
+    8
+   ],
+   "names": [
+    "diagonal1",
+    "symmetrise_v"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "diagonal1",
+      "symmetrise_h"
+     ],
+     "t": 6,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    15,
+    3
+   ],
+   "names": [
+    "diagonal1",
+    "keepTouching"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": true
+   },
+   "witnesses": {
+    "group": {
+     "program": [
+      "diagonal2",
+      "keepTouching"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      2,
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    18,
+    11
+   ],
+   "names": [
+    "fillRows5",
+    "markDensestCol9"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    6,
+    22
+   ],
+   "names": [
+    "sortColsByCount",
+    "markDensestRow9"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "dihedral": {
+     "program": [
+      "markDensestCol9",
+      "sortRowsByCount"
+     ],
+     "t": 1,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    14,
+    18
+   ],
+   "names": [
+    "corners5",
+    "fillRows5"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": false
+   },
+   "witnesses": {},
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    21,
+    17
+   ],
+   "names": [
+    "diagonal2",
+    "countRow3"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "diagonal1",
+      "countRow3"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    10,
+    9
+   ],
+   "names": [
+    "markDensestRow8",
+    "countRow2"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "fillRows4",
+      "countRow2"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    20,
+    17
+   ],
+   "names": [
+    "corners6",
+    "countRow3"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "corners5",
+      "countRow3"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    20,
+    9
+   ],
+   "names": [
+    "corners6",
+    "countRow2"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "corners5",
+      "countRow2",
+      "countRow2"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    2,
+    8
+   ],
+   "names": [
+    "keepSymmetric",
+    "symmetrise_v"
+   ],
+   "covered": {
+    "direct": true,
+    "dihedral": true,
+    "group": true
+   },
+   "witnesses": {
+    "direct": {
+     "program": [
+      "keepSymmetric",
+      "symmetrise_v",
+      "symmetrise_h"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    14,
+    16
+   ],
+   "names": [
+    "corners5",
+    "rankRecolor32"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": true
+   },
+   "witnesses": {
+    "group": {
+     "program": [
+      "corners6",
+      "rankRecolor32"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6,
+      5,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    12,
+    8
+   ],
+   "names": [
+    "fillRows4",
+    "symmetrise_v"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": true
+   },
+   "witnesses": {
+    "group": {
+     "program": [
+      "fillCols6",
+      "symmetrise_h"
+     ],
+     "t": 1,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      6,
+      4,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "in_training_triple": true
+  },
+  {
+   "prog": [
+    4,
+    22
+   ],
+   "names": [
+    "keepLonely",
+    "markDensestRow9"
+   ],
+   "covered": {
+    "direct": false,
+    "dihedral": false,
+    "group": true
+   },
+   "witnesses": {
+    "group": {
+     "program": [
+      "keepLonely",
+      "markDensestRow8"
+     ],
+     "t": 0,
+     "colour_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      8
+     ]
+    }
+   },
+   "in_training_triple": false
+  }
+ ],
+ "novel_group_strict": [
+  [
+   16,
+   0
+  ],
+  [
+   8,
+   6
+  ],
+  [
+   7,
+   5
+  ]
+ ]
+}

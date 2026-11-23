@@ -1,0 +1,422 @@
+[
+ {
+  "condition": "reward, staged",
+  "runs": [
+   "cur_rl_sslpercept_nomdl_s0",
+   "cur_rl_sslpercept_nomdl_s1"
+  ],
+  "original": [
+   {
+    "novel_pairs": 0.2916666666666667,
+    "trained_pairs": 0.27,
+    "singles": 0.58,
+    "pairs_audited": 0.05,
+    "triples_audited": 0.136
+   },
+   {
+    "novel_pairs": 0.2724358974358974,
+    "trained_pairs": 0.26,
+    "singles": 0.54,
+    "pairs_audited": 0.041666666666666664,
+    "triples_audited": 0.136
+   }
+  ],
+  "fresh": [
+   {
+    "step": 8000,
+    "sec": 0.0,
+    "novel_pairs": 0.2403846153846154,
+    "trained_pairs": 0.22,
+    "singles": 0.4666666666666667,
+    "pairs_audited": 0.016666666666666666,
+    "triples_audited": 0.115
+   },
+   {
+    "step": 8000,
+    "sec": 0.0,
+    "novel_pairs": 0.23397435897435898,
+    "trained_pairs": 0.165,
+    "singles": 0.4266666666666667,
+    "pairs_audited": 0.016666666666666666,
+    "triples_audited": 0.11
+   }
+  ],
+  "blind": [
+   {
+    "step": 8000,
+    "sec": 0.0,
+    "novel_pairs": 0.0,
+    "trained_pairs": 0.0,
+    "singles": 0.0,
+    "pairs_audited": 0.0,
+    "triples_audited": 0.004
+   },
+   null
+  ]
+ },
+ {
+  "condition": "reward, joint + information term",
+  "runs": [
+   "joint_rl_sslpercept_div_s0",
+   "joint_rl_sslpercept_div_s1"
+  ],
+  "original": [
+   {
+    "novel_pairs": 0.28205128205128205,
+    "trained_pairs": 0.235,
+    "singles": 0.5066666666666667,
+    "pairs_audited": 0.058333333333333334,
+    "triples_audited": 0.126
+   },
+   {
+    "novel_pairs": 0.30128205128205127,
+    "trained_pairs": 0.245,
+    "singles": 0.5066666666666667,
+    "pairs_audited": 0.06666666666666667,
+    "triples_audited": 0.135
+   }
+  ],
+  "fresh": [
+   {
+    "step": 8000,
+    "sec": 0.0,
+    "novel_pairs": 0.2564102564102564,
+    "trained_pairs": 0.22,
+    "singles": 0.44,
+    "pairs_audited": 0.025,
+    "triples_audited": 0.117
+   },
+   {
+    "step": 8000,
+    "sec": 0.0,
+    "novel_pairs": 0.25,
+    "trained_pairs": 0.22,
+    "singles": 0.44666666666666666,
+    "pairs_audited": 0.03333333333333333,
+    "triples_audited": 0.119
+   }
+  ],
+  "blind": [
+   {
+    "step": 8000,
+    "sec": 0.0,
+    "novel_pairs": 0.0,
+    "trained_pairs": 0.005,
+    "singles": 0.0,
+    "pairs_audited": 0.0,
+    "triples_audited": 0.005
+   },
+   null
+  ]
+ },
+ {
+  "condition": "reward, joint",
+  "runs": [
+   "joint_rl_sslpercept_nomdl_s0",
+   "joint_rl_sslpercept_nomdl_s1"
+  ],
+  "original": [
+   {
+    "novel_pairs": 0.009615384615384616,
+    "trained_pairs": 0.0,
+    "singles": 0.02,
+    "pairs_audited": 0.008333333333333333,
+    "triples_audited": 0.007
+   },
+   {
+    "novel_pairs": 0.016025641025641024,
+    "trained_pairs": 0.005,
+    "singles": 0.02666666666666667,
+    "pairs_audited": 0.008333333333333333,
+    "triples_audited": 0.01
+   }
+  ],
+  "fresh": [
+   {
+    "step": 8000,
+    "sec": 0.0,
+    "novel_pairs": 0.038461538461538464,
+    "trained_pairs": 0.0,
+    "singles": 0.03333333333333333,
+    "pairs_audited": 0.008333333333333333,
+    "triples_audited": 0.012
+   },
+   {
+    "step": 8000,
+    "sec": 0.0,
+    "novel_pairs": 0.019230769230769232,
+    "trained_pairs": 0.01,
+    "singles": 0.02,
+    "pairs_audited": 0.008333333333333333,
+    "triples_audited": 0.009
+   }
+  ],
+  "blind": [
+   {
+    "step": 8000,
+    "sec": 0.0,
+    "novel_pairs": 0.0,
+    "trained_pairs": 0.0,
+    "singles": 0.0,
+    "pairs_audited": 0.0,
+    "triples_audited": 0.004
+   },
+   null
+  ]
+ },
+ {
+  "condition": "reward, joint, changed-cell reward",
+  "runs": [
+   "joint_rl_sslpercept_chg_s0",
+   "joint_rl_sslpercept_chg_s1"
+  ],
+  "original": [
+   {
+    "novel_pairs": 0.00641025641025641,
+    "trained_pairs": 0.01,
+    "singles": 0.05333333333333334,
+    "pairs_audited": 0.008333333333333333,
+    "triples_audited": 0.018
+   },
+   {
+    "novel_pairs": 0.016025641025641024,
+    "trained_pairs": 0.025,
+    "singles": 0.04666666666666667,
+    "pairs_audited": 0.025,
+    "triples_audited": 0.012
+   }
+  ],
+  "fresh": [
+   {
+    "step": 8000,
+    "sec": 0.0,
+    "novel_pairs": 0.019230769230769232,
+    "trained_pairs": 0.01,
+    "singles": 0.08,
+    "pairs_audited": 0.0,
+    "triples_audited": 0.023
+   },
+   {
+    "step": 8000,
+    "sec": 0.0,
+    "novel_pairs": 0.038461538461538464,
+    "trained_pairs": 0.04,
+    "singles": 0.10666666666666667,
+    "pairs_audited": 0.016666666666666666,
+    "triples_audited": 0.032
+   }
+  ],
+  "blind": [
+   {
+    "step": 8000,
+    "sec": 0.0,
+    "novel_pairs": 0.0,
+    "trained_pairs": 0.0,
+    "singles": 0.0,
+    "pairs_audited": 0.0,
+    "triples_audited": 0.005
+   },
+   null
+  ]
+ },
+ {
+  "condition": "reward, staged, changed-cell reward",
+  "runs": [
+   "cur_rl_sslpercept_chg_s0"
+  ],
+  "original": [
+   {
+    "novel_pairs": 0.038461538461538464,
+    "trained_pairs": 0.04,
+    "singles": 0.07333333333333333,
+    "pairs_audited": 0.03333333333333333,
+    "triples_audited": 0.029
+   }
+  ],
+  "fresh": [
+   {
+    "step": 8000,
+    "sec": 0.0,
+    "novel_pairs": 0.08012820512820513,
+    "trained_pairs": 0.055,
+    "singles": 0.11333333333333333,
+    "pairs_audited": 0.0,
+    "triples_audited": 0.042
+   }
+  ],
+  "blind": [
+   null
+  ]
+ },
+ {
+  "condition": "reward, joint, slower exploration",
+  "runs": [
+   "joint_rl_sslpercept_slow_s0"
+  ],
+  "original": [
+   {
+    "novel_pairs": 0.07371794871794872,
+    "trained_pairs": 0.02,
+    "singles": 0.09333333333333334,
+    "pairs_audited": 0.041666666666666664,
+    "triples_audited": 0.028
+   }
+  ],
+  "fresh": [
+   {
+    "step": 8000,
+    "sec": 0.0,
+    "novel_pairs": 0.0641025641025641,
+    "trained_pairs": 0.025,
+    "singles": 0.1,
+    "pairs_audited": 0.03333333333333333,
+    "triples_audited": 0.028
+   }
+  ],
+  "blind": [
+   null
+  ]
+ },
+ {
+  "condition": "reward, joint, changed-cell + stability 1.0 (soft policy)",
+  "runs": [
+   "stab_joint_chg_stab_s0"
+  ],
+  "original": [
+   {
+    "novel_pairs": 0.09294871794871795,
+    "trained_pairs": 0.07,
+    "singles": 0.16,
+    "pairs_audited": 0.025,
+    "triples_audited": 0.054
+   }
+  ],
+  "fresh": [
+   {
+    "step": 8000,
+    "sec": 0.0,
+    "novel_pairs": 0.12179487179487179,
+    "trained_pairs": 0.115,
+    "singles": 0.31333333333333335,
+    "pairs_audited": 0.008333333333333333,
+    "triples_audited": 0.067
+   }
+  ],
+  "blind": [
+   {
+    "step": 8000,
+    "sec": 0.0,
+    "novel_pairs": 0.0,
+    "trained_pairs": 0.005,
+    "singles": 0.0,
+    "pairs_audited": 0.0,
+    "triples_audited": 0.005
+   }
+  ]
+ },
+ {
+  "condition": "reward, joint + stability 1.0 (soft policy)",
+  "runs": [
+   "stab_joint_stab_s0"
+  ],
+  "original": [
+   {
+    "novel_pairs": 0.15384615384615385,
+    "trained_pairs": 0.09,
+    "singles": 0.3,
+    "pairs_audited": 0.08333333333333333,
+    "triples_audited": 0.078
+   }
+  ],
+  "fresh": [
+   {
+    "step": 8000,
+    "sec": 0.0,
+    "novel_pairs": 0.21794871794871795,
+    "trained_pairs": 0.16,
+    "singles": 0.4066666666666667,
+    "pairs_audited": 0.03333333333333333,
+    "triples_audited": 0.106
+   }
+  ],
+  "blind": [
+   null
+  ]
+ },
+ {
+  "condition": "gradient, staged",
+  "runs": [
+   "cur_gumbel_sslpercept_nomdl_s0",
+   "cur_gumbel_sslpercept_nomdl_s1"
+  ],
+  "original": [
+   {
+    "novel_pairs": 0.34935897435897434,
+    "trained_pairs": 0.345,
+    "singles": 0.7733333333333333,
+    "pairs_audited": 0.058333333333333334,
+    "triples_audited": 0.179
+   },
+   {
+    "novel_pairs": 0.3525641025641026,
+    "trained_pairs": 0.345,
+    "singles": 0.7733333333333333,
+    "pairs_audited": 0.05,
+    "triples_audited": 0.171
+   }
+  ],
+  "fresh": [
+   {
+    "step": 8000,
+    "sec": 0.0,
+    "novel_pairs": 0.3076923076923077,
+    "trained_pairs": 0.32,
+    "singles": 0.6733333333333333,
+    "pairs_audited": 0.041666666666666664,
+    "triples_audited": 0.151
+   },
+   {
+    "step": 8000,
+    "sec": 0.0,
+    "novel_pairs": 0.3076923076923077,
+    "trained_pairs": 0.275,
+    "singles": 0.66,
+    "pairs_audited": 0.03333333333333333,
+    "triples_audited": 0.149
+   }
+  ],
+  "blind": [
+   null,
+   null
+  ]
+ },
+ {
+  "condition": "continuous, staged",
+  "runs": [
+   "cur_cont_s0"
+  ],
+  "original": [
+   {
+    "novel_pairs": 0.34294871794871795,
+    "trained_pairs": 0.36,
+    "singles": 0.62,
+    "pairs_audited": 0.075,
+    "triples_audited": 0.181
+   }
+  ],
+  "fresh": [
+   {
+    "step": 8000,
+    "sec": 0.0,
+    "novel_pairs": 0.3108974358974359,
+    "trained_pairs": 0.33,
+    "singles": 0.58,
+    "pairs_audited": 0.03333333333333333,
+    "triples_audited": 0.157
+   }
+  ],
+  "blind": [
+   null
+  ]
+ }
+]

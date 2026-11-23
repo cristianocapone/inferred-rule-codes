@@ -1,0 +1,25 @@
+{
+ "ckpt": "/qst0/home1/homedirs/caponec/r049_scale_20260826/emlang_runs/stab_joint_chg_stab_s0/latest.pt",
+ "arm": "rl",
+ "blind": false,
+ "steps": 8000,
+ "original": {
+  "novel_pairs": 0.09294871794871795,
+  "trained_pairs": 0.07,
+  "singles": 0.16,
+  "pairs_audited": 0.025,
+  "triples_audited": 0.054
+ },
+ "from_executor": "/qst0/home1/homedirs/caponec/r049_scale_20260826/emlang_runs/analysis/coadapt2/stab_joint_chg_stab_s0_fresh_executor.pt",
+ "curve": [
+  {
+   "step": 8000,
+   "sec": 0.0,
+   "novel_pairs": 0.12179487179487179,
+   "trained_pairs": 0.115,
+   "singles": 0.31333333333333335,
+   "pairs_audited": 0.008333333333333333,
+   "triples_audited": 0.067
+  }
+ ]
+}

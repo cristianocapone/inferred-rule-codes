@@ -1,0 +1,25 @@
+{
+ "ckpt": "/qst0/home1/homedirs/caponec/r049_scale_20260826/emlang_runs/cur_rl_sslpercept_nomdl_s1/latest.pt",
+ "arm": "rl",
+ "blind": false,
+ "steps": 8000,
+ "original": {
+  "novel_pairs": 0.2724358974358974,
+  "trained_pairs": 0.26,
+  "singles": 0.54,
+  "pairs_audited": 0.041666666666666664,
+  "triples_audited": 0.136
+ },
+ "from_executor": "/qst0/home1/homedirs/caponec/r049_scale_20260826/emlang_runs/analysis/coadapt2/cur_rl_sslpercept_nomdl_s1_fresh_executor.pt",
+ "curve": [
+  {
+   "step": 8000,
+   "sec": 0.0,
+   "novel_pairs": 0.23397435897435898,
+   "trained_pairs": 0.165,
+   "singles": 0.4266666666666667,
+   "pairs_audited": 0.016666666666666666,
+   "triples_audited": 0.11
+  }
+ ]
+}
